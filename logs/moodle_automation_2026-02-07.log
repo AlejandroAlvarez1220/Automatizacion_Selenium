@@ -1,0 +1,213 @@
+2026-02-07 18:09:49 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-07 18:09:53 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-07 18:09:53 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-02-07 18:09:53 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-07 18:09:56 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-07 18:09:58 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-02-07 18:09:58 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-07 18:10:09 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-02-07 18:10:09 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-07 18:10:37 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-02-07 18:10:37 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-02-07 18:10:46 [INFO    ] components.user     : Contraseña actualizada para: cralmunoz
+2026-02-07 18:11:16 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=616
+2026-02-07 18:11:18 [INFO    ] components.course   : Quizzes encontrados en curso 616: 2
+2026-02-07 18:11:18 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8881
+2026-02-07 18:11:20 [INFO    ] components.quiz     : No hay intentos de yoesel52@gmail.com (Nada que mostrar)
+2026-02-07 18:11:20 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8878
+2026-02-07 18:11:21 [INFO    ] components.quiz     : No hay intentos de yoesel52@gmail.com (Nada que mostrar)
+2026-02-07 18:11:21 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-02-07 18:11:23 [INFO    ] components.enrollment: Aplicando filtro por: yoesel52@gmail.com
+2026-02-07 18:11:27 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-07 18:11:27 [INFO    ] components.enrollment: Usuario yoesel52@gmail.com encontrado en lista de participantes
+2026-02-07 18:11:27 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-02-07 18:11:27 [INFO    ] components.enrollment: Actualizando matrícula (estado y fechas)...
+2026-02-07 18:11:27 [INFO    ] components.enrollment: Reactivando matrícula para yoesel52@gmail.com
+2026-02-07 18:11:31 [ERROR   ] components.enrollment: Error reactivando matrícula: Message: element click intercepted: Element <button type="button" class="btn btn-primary" data-action="save">...</button> is not clickable at point (1768, 549). Other element would receive the click: <div id="popup-smowl" class="popup-smowl-overlay" style="display: flex;">...</div>
+  (Session info: chrome=144.0.7559.110); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6cd8cf3d5
+	0x7ff6cd8cf430
+	0x7ff6cd6710bd
+	0x7ff6cd6d4885
+	0x7ff6cd6d1f9a
+	0x7ff6cd6cee25
+	0x7ff6cd6cdcc7
+	0x7ff6cd6beee6
+	0x7ff6cd6f589a
+	0x7ff6cd6be766
+	0x7ff6cd719d08
+	0x7ff6cd6bcb0c
+	0x7ff6cd6bda53
+	0x7ff6cdbab470
+	0x7ff6cdba586d
+	0x7ff6cdbc621a
+	0x7ff6cd8eb235
+	0x7ff6cd8f3a5c
+	0x7ff6cd8d8844
+	0x7ff6cd8d89f6
+	0x7ff6cd8beb87
+	0x7ffd7ca4e8d7
+	0x7ffd7d5cc53c
+
+2026-02-07 18:28:59 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-07 18:29:02 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-07 18:29:02 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-02-07 18:29:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-07 18:29:04 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-07 18:29:09 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-02-07 18:29:09 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-07 18:29:31 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-02-07 18:29:31 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-07 18:29:58 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-02-07 18:29:58 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-02-07 18:30:06 [INFO    ] components.user     : Contraseña actualizada para: cralmunoz
+2026-02-07 18:30:14 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=616
+2026-02-07 18:30:16 [INFO    ] components.course   : Quizzes encontrados en curso 616: 2
+2026-02-07 18:30:16 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8881
+2026-02-07 18:30:17 [INFO    ] components.quiz     : No hay intentos de yoesel52@gmail.com (Nada que mostrar)
+2026-02-07 18:30:17 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8878
+2026-02-07 18:30:18 [INFO    ] components.quiz     : No hay intentos de yoesel52@gmail.com (Nada que mostrar)
+2026-02-07 18:30:18 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-02-07 18:30:19 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-07 18:30:20 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-07 18:30:20 [INFO    ] components.enrollment: Aplicando filtro por: yoesel52@gmail.com
+2026-02-07 18:30:23 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-07 18:30:24 [INFO    ] components.enrollment: Usuario yoesel52@gmail.com encontrado en lista de participantes
+2026-02-07 18:30:24 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-02-07 18:30:24 [INFO    ] components.enrollment: Actualizando matrícula (estado y fechas)...
+2026-02-07 18:30:24 [INFO    ] components.enrollment: Reactivando matrícula para yoesel52@gmail.com
+2026-02-07 18:30:27 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-07 18:30:28 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-07 18:30:31 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-07 18:30:31 [INFO    ] components.enrollment: Usuario yoesel52@gmail.com encontrado en lista de participantes
+2026-02-07 18:30:32 [INFO    ] services.document_generator: Generando documento para: Cristian Alexander Muñoz Caro
+2026-02-07 18:30:32 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Cristian_Alexander_Muñoz_Caro_2026-02-07_18-30-32.docx
+2026-02-07 18:30:47 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-02-07 18:30:47 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-07 18:30:50 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-02-07 18:30:52 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-02-07 18:30:55 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-02-07 18:30:55 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-02-07 18:31:02 [INFO    ] components.user     : Contraseña actualizada para: cralmunoz
+2026-02-07 18:31:20 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=616
+2026-02-07 18:31:22 [INFO    ] components.course   : Quizzes encontrados en curso 616: 2
+2026-02-07 18:31:22 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8881
+2026-02-07 18:31:23 [INFO    ] components.quiz     : No hay intentos de yoesel52@gmail.com (Nada que mostrar)
+2026-02-07 18:31:23 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8878
+2026-02-07 18:31:25 [INFO    ] components.quiz     : No hay intentos de yoesel52@gmail.com (Nada que mostrar)
+2026-02-07 18:31:25 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-02-07 18:31:27 [INFO    ] components.enrollment: Aplicando filtro por: yoesel52@gmail.com
+2026-02-07 18:31:30 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-07 18:31:30 [INFO    ] components.enrollment: Usuario yoesel52@gmail.com encontrado en lista de participantes
+2026-02-07 18:31:30 [INFO    ] components.enrollment: Usuario ya matriculado, estado: Activo
+2026-02-07 18:31:30 [INFO    ] components.enrollment: Actualizando matrícula (estado y fechas)...
+2026-02-07 18:31:30 [INFO    ] components.enrollment: Reactivando matrícula para yoesel52@gmail.com
+2026-02-07 18:31:30 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-07 18:31:30 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-07 18:31:37 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-07 18:31:37 [INFO    ] components.enrollment: Usuario yoesel52@gmail.com encontrado en lista de participantes
+2026-02-07 18:31:37 [INFO    ] services.document_generator: Generando documento para: Cristian Alexander Muñoz Caro
+2026-02-07 18:31:37 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Cristian_Alexander_Muñoz_Caro_2026-02-07_18-31-37.docx
+2026-02-07 18:32:01 [INFO    ] components.user     : Buscando usuario por email: prueba@matricula.com
+2026-02-07 18:32:01 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-07 18:32:04 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-02-07 18:32:06 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-02-07 18:32:09 [INFO    ] components.user     : Usuario encontrado: Usuario Prueba Matricula
+2026-02-07 18:32:09 [INFO    ] components.user     : Actualizando contraseña para: prueba@matricula.com
+2026-02-07 18:32:17 [INFO    ] components.user     : Contraseña actualizada para: usprueba
+2026-02-07 20:41:55 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-07 20:41:58 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-07 20:41:58 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-02-07 20:41:58 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-07 20:42:00 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-07 20:42:03 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-02-07 20:42:03 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-07 20:42:48 [INFO    ] components.user     : Buscando usuario por email: julio@julio.com
+2026-02-07 20:42:48 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-07 20:43:23 [INFO    ] components.user     : No se encontró usuario con email: julio@julio.com
+2026-02-07 20:44:06 [INFO    ] components.user     : Iniciando creación de usuario: Julio Julio
+2026-02-07 20:44:06 [INFO    ] components.user     : Intento 1: Probando username 'jjulio'
+2026-02-07 20:44:06 [INFO    ] models.user         : Username actualizado a: jjulio
+2026-02-07 20:44:06 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-07 20:44:12 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260207_204411.png
+2026-02-07 20:44:14 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-02-07 20:44:14 [WARNING ] components.user     : Username 'jjulio' ya existe, probando siguiente...
+2026-02-07 20:44:14 [INFO    ] components.user     : Intento 2: Probando username 'jjulio1'
+2026-02-07 20:44:14 [INFO    ] models.user         : Username actualizado a: jjulio1
+2026-02-07 20:44:14 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-07 20:44:22 [INFO    ] components.user     : Usuario creado exitosamente
+2026-02-07 20:44:22 [INFO    ] components.user     : Usuario creado: jjulio1 (julio@julio.com)
+2026-02-07 20:48:08 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=614
+2026-02-07 20:48:10 [INFO    ] components.course   : Quizzes encontrados en curso 614: 4
+2026-02-07 20:48:10 [INFO    ] components.quiz     : Eliminando intentos de julio@julio.com en quiz 8797
+2026-02-07 20:48:11 [INFO    ] components.quiz     : No hay intentos de julio@julio.com (Nada que mostrar)
+2026-02-07 20:48:11 [INFO    ] components.quiz     : Eliminando intentos de julio@julio.com en quiz 8798
+2026-02-07 20:48:13 [INFO    ] components.quiz     : No hay intentos de julio@julio.com (Nada que mostrar)
+2026-02-07 20:48:13 [INFO    ] components.quiz     : Eliminando intentos de julio@julio.com en quiz 8799
+2026-02-07 20:48:14 [INFO    ] components.quiz     : No hay intentos de julio@julio.com (Nada que mostrar)
+2026-02-07 20:48:14 [INFO    ] components.quiz     : Eliminando intentos de julio@julio.com en quiz 8800
+2026-02-07 20:48:15 [INFO    ] components.quiz     : No hay intentos de julio@julio.com (Nada que mostrar)
+2026-02-07 20:48:15 [INFO    ] components.enrollment: Iniciando matrícula: julio@julio.com en curso 614
+2026-02-07 20:48:17 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-07 20:48:17 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-07 20:48:17 [INFO    ] components.enrollment: Aplicando filtro por: julio@julio.com
+2026-02-07 20:48:21 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-07 20:48:41 [INFO    ] components.enrollment: Creando nueva matrícula para julio@julio.com
+2026-02-07 20:48:50 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-07 20:48:50 [INFO    ] components.enrollment: Usuario julio@julio.com encontrado en lista de participantes
+2026-02-07 20:48:50 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=604
+2026-02-07 20:48:51 [INFO    ] components.course   : Quizzes encontrados en curso 604: 2
+2026-02-07 20:48:51 [INFO    ] components.quiz     : Eliminando intentos de julio@julio.com en quiz 8733
+2026-02-07 20:48:52 [INFO    ] components.quiz     : No hay intentos de julio@julio.com (Nada que mostrar)
+2026-02-07 20:48:52 [INFO    ] components.quiz     : Eliminando intentos de julio@julio.com en quiz 8732
+2026-02-07 20:48:53 [INFO    ] components.quiz     : No hay intentos de julio@julio.com (Nada que mostrar)
+2026-02-07 20:48:53 [INFO    ] components.enrollment: Iniciando matrícula: julio@julio.com en curso 604
+2026-02-07 20:48:54 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-07 20:48:55 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-07 20:48:55 [INFO    ] components.enrollment: Aplicando filtro por: julio@julio.com
+2026-02-07 20:48:58 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-07 20:49:18 [INFO    ] components.enrollment: Creando nueva matrícula para julio@julio.com
+2026-02-07 20:49:27 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-07 20:49:27 [INFO    ] components.enrollment: Usuario julio@julio.com encontrado en lista de participantes
+2026-02-07 20:49:28 [INFO    ] services.document_generator: Generando documento para: Julio Julio
+2026-02-07 20:49:28 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Julio_Julio_2026-02-07_20-49-28.docx
+2026-02-07 21:04:28 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-07 21:04:31 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-07 21:04:31 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-02-07 21:04:31 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-07 21:04:34 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-07 21:04:38 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-02-07 21:04:38 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-07 21:04:51 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-02-07 21:04:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-07 21:05:18 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-02-07 21:05:18 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-02-07 21:05:26 [INFO    ] components.user     : Contraseña actualizada para: cralmunoz
+2026-02-07 21:05:44 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=616
+2026-02-07 21:05:45 [INFO    ] components.course   : Quizzes encontrados en curso 616: 2
+2026-02-07 21:05:45 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8881
+2026-02-07 21:05:46 [INFO    ] components.quiz     : No hay intentos de yoesel52@gmail.com (Nada que mostrar)
+2026-02-07 21:05:46 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8878
+2026-02-07 21:05:47 [INFO    ] components.quiz     : No hay intentos de yoesel52@gmail.com (Nada que mostrar)
+2026-02-07 21:05:47 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-02-07 21:05:49 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-07 21:05:50 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-07 21:05:50 [INFO    ] components.enrollment: Aplicando filtro por: yoesel52@gmail.com
+2026-02-07 21:05:53 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-07 21:05:53 [INFO    ] components.enrollment: Usuario yoesel52@gmail.com encontrado en lista de participantes
+2026-02-07 21:05:53 [INFO    ] components.enrollment: Usuario ya matriculado, estado: Activo
+2026-02-07 21:05:53 [INFO    ] components.enrollment: Actualizando matrícula (estado y fechas)...
+2026-02-07 21:05:53 [INFO    ] components.enrollment: Reactivando matrícula para yoesel52@gmail.com
+2026-02-07 21:06:00 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-07 21:06:00 [INFO    ] components.enrollment: Usuario yoesel52@gmail.com encontrado en lista de participantes
+2026-02-07 21:06:00 [INFO    ] services.document_generator: Generando documento para: Cristian Alexander Muñoz Caro
+2026-02-07 21:06:00 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Cristian_Alexander_Muñoz_Caro_2026-02-07_21-06-00.docx
+2026-02-07 21:09:20 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-02-07 21:09:20 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-07 21:09:22 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-02-07 21:09:25 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-02-07 21:09:27 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-02-07 21:09:27 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-02-07 21:09:35 [INFO    ] components.user     : Contraseña actualizada para: cralmunoz

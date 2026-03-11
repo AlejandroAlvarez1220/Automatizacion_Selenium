@@ -1,0 +1,14 @@
+2026-01-22 21:13:03 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-22 21:13:13 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-22 21:13:24 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-22 21:13:24 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-22 21:13:24 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-22 21:13:41 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-22 21:13:53 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-22 21:13:53 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-22 21:14:05 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-22 21:14:05 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-01-22 21:14:05 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-22 21:14:08 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-22 21:15:05 [INFO    ] core.browser        : Screenshot guardada: screenshots\error_unexpected_20260122_211505.png
+2026-01-22 21:15:07 [INFO    ] core.browser        : Navegador cerrado correctamente

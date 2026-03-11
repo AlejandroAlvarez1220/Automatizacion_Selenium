@@ -1,0 +1,51 @@
+2026-01-31 13:30:13 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-31 13:30:26 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-31 13:30:39 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-31 13:31:00 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-31 13:31:04 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-31 13:31:04 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-31 13:31:04 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-31 13:31:14 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-31 13:31:29 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-31 13:31:29 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-31 13:31:35 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-31 13:31:35 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-01-31 13:31:45 [INFO    ] components.user     : Contraseña actualizada para: cralmunoz
+2026-01-31 13:31:50 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-31 13:32:06 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=616
+2026-01-31 13:32:39 [INFO    ] components.course   : Quizzes encontrados en curso 616: 2
+2026-01-31 13:32:39 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8881
+2026-01-31 13:32:39 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/mod/quiz/report.php?id=8881&mode=overview&tifirst=C&tilast=M
+2026-01-31 13:33:11 [INFO    ] components.quiz     : No se encontraron intentos de yoesel52@gmail.com
+2026-01-31 13:33:11 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8878
+2026-01-31 13:33:11 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/mod/quiz/report.php?id=8878&mode=overview&tifirst=C&tilast=M
+2026-01-31 13:33:43 [INFO    ] components.quiz     : No se encontraron intentos de yoesel52@gmail.com
+2026-01-31 13:33:43 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-01-31 13:33:43 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-31 13:34:35 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-01-31 13:34:35 [INFO    ] components.enrollment: Reactivando matrícula para yoesel52@gmail.com
+2026-01-31 13:35:59 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-31 13:38:16 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-31 16:05:17 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-31 16:05:26 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-31 16:05:29 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-31 16:05:29 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-31 16:05:29 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-31 16:05:32 [ERROR   ] components.auth     : Error inesperado durante login: 'MoodleSelectors' object has no attribute 'accept_cookies_button'
+Traceback (most recent call last):
+  File "c:\Users\CristianAlexanderMuñ\Desktop\Gestor_Qvision\components\auth.py", line 98, in login
+    self._browser.accept_cookies_if_present()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\CristianAlexanderMuñ\Desktop\Gestor_Qvision\core\browser.py", line 722, in accept_cookies_if_present
+    return self.close_cookie_banner()
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\CristianAlexanderMuñ\Desktop\Gestor_Qvision\core\browser.py", line 691, in close_cookie_banner
+    (By.ID, settings.selectors.accept_cookies_button),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CristianAlexanderMuñ\AppData\Local\Programs\Python\Python313\Lib\site-packages\pydantic\main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'MoodleSelectors' object has no attribute 'accept_cookies_button'
+2026-01-31 16:05:32 [INFO    ] core.browser        : Screenshot guardada: screenshots\login_error_20260131_160532.png
+2026-01-31 16:05:33 [INFO    ] core.browser        : Screenshot guardada: screenshots\login_error_20260131_160532.png
+2026-01-31 16:05:35 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-31 16:06:10 [INFO    ] services.course_cache: Cache cargado: 7 cursos

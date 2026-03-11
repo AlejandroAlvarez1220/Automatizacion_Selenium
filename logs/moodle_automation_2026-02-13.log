@@ -1,0 +1,266 @@
+2026-02-13 16:27:55 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-13 16:27:55 [INFO    ] services.excel_reader: Leyendo solicitudes de: ./plantilla_solicitudes.xlsx
+2026-02-13 16:27:55 [INFO    ] services.excel_reader: Encontradas 4 solicitudes pendientes
+2026-02-13 16:28:11 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-13 16:28:14 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-13 16:28:14 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-02-13 16:28:14 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-13 16:28:16 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-13 16:28:19 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-02-13 16:28:19 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-13 16:28:19 [INFO    ] components.user     : Buscando usuario por email: alejandramoreno199611@gmail.com
+2026-02-13 16:28:19 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-13 16:28:54 [INFO    ] components.user     : No se encontró usuario con email: alejandramoreno199611@gmail.com
+2026-02-13 16:28:54 [INFO    ] components.user     : Iniciando creación de usuario: Ivonne Alejandra Moreno Araque
+2026-02-13 16:28:54 [INFO    ] components.user     : Intento 1: Probando username 'imoreno'
+2026-02-13 16:28:54 [INFO    ] models.user         : Username actualizado a: imoreno
+2026-02-13 16:28:54 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-13 16:28:58 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260213_162858.png
+2026-02-13 16:29:01 [INFO    ] components.user     : Usuario creado exitosamente
+2026-02-13 16:29:01 [INFO    ] components.user     : Usuario creado: imoreno (alejandramoreno199611@gmail.com)
+2026-02-13 16:29:01 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-02-13 16:29:02 [INFO    ] components.course   : Quizzes encontrados en curso 612: 4
+2026-02-13 16:29:02 [INFO    ] components.quiz     : Eliminando intentos de alejandramoreno199611@gmail.com en quiz 8788
+2026-02-13 16:29:03 [INFO    ] components.quiz     : No hay intentos de alejandramoreno199611@gmail.com (Nada que mostrar)
+2026-02-13 16:29:03 [INFO    ] components.quiz     : Eliminando intentos de alejandramoreno199611@gmail.com en quiz 8784
+2026-02-13 16:29:03 [INFO    ] components.quiz     : No hay intentos de alejandramoreno199611@gmail.com (Nada que mostrar)
+2026-02-13 16:29:03 [INFO    ] components.quiz     : Eliminando intentos de alejandramoreno199611@gmail.com en quiz 8785
+2026-02-13 16:29:04 [INFO    ] components.quiz     : No hay intentos de alejandramoreno199611@gmail.com (Nada que mostrar)
+2026-02-13 16:29:04 [INFO    ] components.quiz     : Eliminando intentos de alejandramoreno199611@gmail.com en quiz 8786
+2026-02-13 16:29:05 [INFO    ] components.quiz     : No hay intentos de alejandramoreno199611@gmail.com (Nada que mostrar)
+2026-02-13 16:29:05 [INFO    ] components.enrollment: Iniciando matrícula: alejandramoreno199611@gmail.com en curso 612
+2026-02-13 16:29:06 [INFO    ] components.enrollment: Aplicando filtro por: alejandramoreno199611@gmail.com
+2026-02-13 16:29:09 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 16:29:30 [INFO    ] components.enrollment: Creando nueva matrícula para alejandramoreno199611@gmail.com
+2026-02-13 16:29:30 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-13 16:29:30 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-13 16:29:38 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 16:29:38 [INFO    ] components.enrollment: Usuario alejandramoreno199611@gmail.com encontrado en lista de participantes
+2026-02-13 16:29:38 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=590
+2026-02-13 16:29:39 [INFO    ] components.course   : Quizzes encontrados en curso 590: 2
+2026-02-13 16:29:39 [INFO    ] components.quiz     : Eliminando intentos de alejandramoreno199611@gmail.com en quiz 8533
+2026-02-13 16:29:40 [INFO    ] components.quiz     : No hay intentos de alejandramoreno199611@gmail.com (Nada que mostrar)
+2026-02-13 16:29:40 [INFO    ] components.quiz     : Eliminando intentos de alejandramoreno199611@gmail.com en quiz 8531
+2026-02-13 16:29:40 [INFO    ] components.quiz     : No hay intentos de alejandramoreno199611@gmail.com (Nada que mostrar)
+2026-02-13 16:29:40 [INFO    ] components.enrollment: Iniciando matrícula: alejandramoreno199611@gmail.com en curso 590
+2026-02-13 16:29:41 [INFO    ] components.enrollment: Aplicando filtro por: alejandramoreno199611@gmail.com
+2026-02-13 16:29:44 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 16:30:04 [INFO    ] components.enrollment: Creando nueva matrícula para alejandramoreno199611@gmail.com
+2026-02-13 16:30:04 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-13 16:30:05 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-13 16:30:12 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 16:30:12 [INFO    ] components.enrollment: Usuario alejandramoreno199611@gmail.com encontrado en lista de participantes
+2026-02-13 16:30:13 [INFO    ] services.document_generator: Generando documento para: Ivonne Alejandra Moreno Araque
+2026-02-13 16:30:13 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Ivonne_Alejandra_Moreno_Araque_2026-02-13_16-30-13.docx
+2026-02-13 16:30:13 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-13 16:30:13 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-13 16:30:13 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-13 16:30:13 [INFO    ] components.user     : Buscando usuario por email: joelguerra360@gmail.com
+2026-02-13 16:30:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-13 16:30:14 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-02-13 16:30:16 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-02-13 16:30:29 [INFO    ] components.user     : No se encontró usuario con email: joelguerra360@gmail.com
+2026-02-13 16:30:29 [INFO    ] components.user     : Iniciando creación de usuario: Jaen Joel Guerra Morale
+2026-02-13 16:30:29 [INFO    ] components.user     : Intento 1: Probando username 'jguerra'
+2026-02-13 16:30:29 [INFO    ] models.user         : Username actualizado a: jguerra
+2026-02-13 16:30:29 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-13 16:30:32 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260213_163032.png
+2026-02-13 16:30:35 [INFO    ] components.user     : Usuario creado exitosamente
+2026-02-13 16:30:35 [INFO    ] components.user     : Usuario creado: jguerra (joelguerra360@gmail.com)
+2026-02-13 16:30:35 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-02-13 16:30:36 [INFO    ] components.course   : Quizzes encontrados en curso 612: 4
+2026-02-13 16:30:36 [INFO    ] components.quiz     : Eliminando intentos de joelguerra360@gmail.com en quiz 8788
+2026-02-13 16:30:37 [INFO    ] components.quiz     : No hay intentos de joelguerra360@gmail.com (Nada que mostrar)
+2026-02-13 16:30:37 [INFO    ] components.quiz     : Eliminando intentos de joelguerra360@gmail.com en quiz 8784
+2026-02-13 16:30:37 [INFO    ] components.quiz     : No hay intentos de joelguerra360@gmail.com (Nada que mostrar)
+2026-02-13 16:30:37 [INFO    ] components.quiz     : Eliminando intentos de joelguerra360@gmail.com en quiz 8785
+2026-02-13 16:30:38 [INFO    ] components.quiz     : No hay intentos de joelguerra360@gmail.com (Nada que mostrar)
+2026-02-13 16:30:38 [INFO    ] components.quiz     : Eliminando intentos de joelguerra360@gmail.com en quiz 8786
+2026-02-13 16:30:39 [INFO    ] components.quiz     : No hay intentos de joelguerra360@gmail.com (Nada que mostrar)
+2026-02-13 16:30:39 [INFO    ] components.enrollment: Iniciando matrícula: joelguerra360@gmail.com en curso 612
+2026-02-13 16:30:40 [INFO    ] components.enrollment: Aplicando filtro por: joelguerra360@gmail.com
+2026-02-13 16:30:43 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 16:31:03 [INFO    ] components.enrollment: Creando nueva matrícula para joelguerra360@gmail.com
+2026-02-13 16:31:03 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-13 16:31:03 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-13 16:31:11 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 16:31:11 [INFO    ] components.enrollment: Usuario joelguerra360@gmail.com encontrado en lista de participantes
+2026-02-13 16:31:11 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=590
+2026-02-13 16:31:12 [INFO    ] components.course   : Quizzes encontrados en curso 590: 2
+2026-02-13 16:31:12 [INFO    ] components.quiz     : Eliminando intentos de joelguerra360@gmail.com en quiz 8533
+2026-02-13 16:31:13 [INFO    ] components.quiz     : No hay intentos de joelguerra360@gmail.com (Nada que mostrar)
+2026-02-13 16:31:13 [INFO    ] components.quiz     : Eliminando intentos de joelguerra360@gmail.com en quiz 8531
+2026-02-13 16:31:14 [INFO    ] components.quiz     : No hay intentos de joelguerra360@gmail.com (Nada que mostrar)
+2026-02-13 16:31:14 [INFO    ] components.enrollment: Iniciando matrícula: joelguerra360@gmail.com en curso 590
+2026-02-13 16:31:15 [INFO    ] components.enrollment: Aplicando filtro por: joelguerra360@gmail.com
+2026-02-13 16:31:17 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 16:31:38 [INFO    ] components.enrollment: Creando nueva matrícula para joelguerra360@gmail.com
+2026-02-13 16:31:38 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-13 16:31:38 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-13 16:31:46 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 16:31:46 [INFO    ] components.enrollment: Usuario joelguerra360@gmail.com encontrado en lista de participantes
+2026-02-13 16:31:46 [INFO    ] services.document_generator: Generando documento para: Jaen Joel Guerra Morale
+2026-02-13 16:31:46 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Jaen_Joel_Guerra_Morale_2026-02-13_16-31-46.docx
+2026-02-13 16:31:46 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-13 16:31:46 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-13 16:31:46 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-13 16:31:46 [INFO    ] components.user     : Buscando usuario por email: juancamachorocha31@gmail.com
+2026-02-13 16:31:46 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-13 16:31:47 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-02-13 16:31:49 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-02-13 16:31:51 [INFO    ] components.user     : Usuario encontrado: Juan Andres Camacho Rocha
+2026-02-13 16:31:51 [INFO    ] components.user     : Actualizando contraseña para: juancamachorocha31@gmail.com
+2026-02-13 16:31:59 [INFO    ] components.user     : Contraseña actualizada para: jcamacho
+2026-02-13 16:31:59 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-02-13 16:32:00 [INFO    ] components.course   : Quizzes encontrados en curso 612: 4
+2026-02-13 16:32:00 [INFO    ] components.quiz     : Eliminando intentos de juancamachorocha31@gmail.com en quiz 8788
+2026-02-13 16:32:01 [INFO    ] components.quiz     : No hay intentos de juancamachorocha31@gmail.com (Nada que mostrar)
+2026-02-13 16:32:01 [INFO    ] components.quiz     : Eliminando intentos de juancamachorocha31@gmail.com en quiz 8784
+2026-02-13 16:32:01 [INFO    ] components.quiz     : No hay intentos de juancamachorocha31@gmail.com (Nada que mostrar)
+2026-02-13 16:32:01 [INFO    ] components.quiz     : Eliminando intentos de juancamachorocha31@gmail.com en quiz 8785
+2026-02-13 16:32:02 [INFO    ] components.quiz     : No hay intentos de juancamachorocha31@gmail.com (Nada que mostrar)
+2026-02-13 16:32:02 [INFO    ] components.quiz     : Eliminando intentos de juancamachorocha31@gmail.com en quiz 8786
+2026-02-13 16:32:03 [INFO    ] components.quiz     : No hay intentos de juancamachorocha31@gmail.com (Nada que mostrar)
+2026-02-13 16:32:03 [INFO    ] components.enrollment: Iniciando matrícula: juancamachorocha31@gmail.com en curso 612
+2026-02-13 16:32:04 [INFO    ] components.enrollment: Aplicando filtro por: juancamachorocha31@gmail.com
+2026-02-13 16:32:07 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 16:32:27 [INFO    ] components.enrollment: Creando nueva matrícula para juancamachorocha31@gmail.com
+2026-02-13 16:32:27 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-13 16:32:27 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-13 16:32:35 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 16:32:35 [INFO    ] components.enrollment: Usuario juancamachorocha31@gmail.com encontrado en lista de participantes
+2026-02-13 16:32:35 [INFO    ] services.document_generator: Generando documento para: Juan Andres Camacho Rocha
+2026-02-13 16:32:35 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Juan_Andres_Camacho_Rocha_2026-02-13_16-32-35.docx
+2026-02-13 16:32:35 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-13 16:32:35 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-13 16:32:35 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-13 16:32:35 [INFO    ] components.user     : Buscando usuario por email: rolcubaque@gmail.com
+2026-02-13 16:32:35 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-13 16:32:36 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-02-13 16:32:38 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-02-13 16:32:50 [INFO    ] components.user     : No se encontró usuario con email: rolcubaque@gmail.com
+2026-02-13 16:32:50 [INFO    ] components.user     : Iniciando creación de usuario: Roltman Anderson Cubaque Antonio
+2026-02-13 16:32:50 [INFO    ] components.user     : Intento 1: Probando username 'rcubaque'
+2026-02-13 16:32:50 [INFO    ] models.user         : Username actualizado a: rcubaque
+2026-02-13 16:32:50 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-13 16:32:54 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260213_163254.png
+2026-02-13 16:32:57 [INFO    ] components.user     : Usuario creado exitosamente
+2026-02-13 16:32:57 [INFO    ] components.user     : Usuario creado: rcubaque (rolcubaque@gmail.com)
+2026-02-13 16:32:57 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-02-13 16:32:58 [INFO    ] components.course   : Quizzes encontrados en curso 612: 4
+2026-02-13 16:32:58 [INFO    ] components.quiz     : Eliminando intentos de rolcubaque@gmail.com en quiz 8788
+2026-02-13 16:32:59 [INFO    ] components.quiz     : No hay intentos de rolcubaque@gmail.com (Nada que mostrar)
+2026-02-13 16:32:59 [INFO    ] components.quiz     : Eliminando intentos de rolcubaque@gmail.com en quiz 8784
+2026-02-13 16:32:59 [INFO    ] components.quiz     : No hay intentos de rolcubaque@gmail.com (Nada que mostrar)
+2026-02-13 16:32:59 [INFO    ] components.quiz     : Eliminando intentos de rolcubaque@gmail.com en quiz 8785
+2026-02-13 16:33:00 [INFO    ] components.quiz     : No hay intentos de rolcubaque@gmail.com (Nada que mostrar)
+2026-02-13 16:33:00 [INFO    ] components.quiz     : Eliminando intentos de rolcubaque@gmail.com en quiz 8786
+2026-02-13 16:33:01 [INFO    ] components.quiz     : No hay intentos de rolcubaque@gmail.com (Nada que mostrar)
+2026-02-13 16:33:01 [INFO    ] components.enrollment: Iniciando matrícula: rolcubaque@gmail.com en curso 612
+2026-02-13 16:33:02 [INFO    ] components.enrollment: Aplicando filtro por: rolcubaque@gmail.com
+2026-02-13 16:33:05 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 16:33:25 [INFO    ] components.enrollment: Creando nueva matrícula para rolcubaque@gmail.com
+2026-02-13 16:33:25 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-13 16:33:25 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-13 16:33:33 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 16:33:33 [INFO    ] components.enrollment: Usuario rolcubaque@gmail.com encontrado en lista de participantes
+2026-02-13 16:33:33 [INFO    ] services.document_generator: Generando documento para: Roltman Anderson Cubaque Antonio
+2026-02-13 16:33:33 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Roltman_Anderson_Cubaque_Antonio_2026-02-13_16-33-33.docx
+2026-02-13 16:33:33 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-13 16:33:33 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-13 16:33:36 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-02-13 17:18:44 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-13 17:18:46 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-13 17:18:46 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-02-13 17:18:46 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-13 17:18:49 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-13 17:18:51 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-02-13 17:18:51 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-13 17:21:43 [INFO    ] components.user     : Buscando usuario por email: jromero@qvision.com.co
+2026-02-13 17:21:43 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-13 17:22:18 [INFO    ] components.user     : No se encontró usuario con email: jromero@qvision.com.co
+2026-02-13 17:24:09 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-13 17:24:11 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-13 17:24:11 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-02-13 17:24:11 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-13 17:24:13 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-13 17:24:16 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-02-13 17:24:16 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-13 17:24:28 [INFO    ] components.user     : Buscando usuario por email: jromero@qvision.us
+2026-02-13 17:24:28 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-13 17:24:54 [INFO    ] components.user     : Usuario encontrado: Johann Romero Vargas
+2026-02-13 17:24:54 [INFO    ] components.user     : Actualizando contraseña para: jromero@qvision.us
+2026-02-13 17:25:02 [INFO    ] components.user     : Contraseña actualizada para: jromero
+2026-02-13 17:26:23 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=601
+2026-02-13 17:26:24 [INFO    ] components.course   : Quizzes encontrados en curso 601: 4
+2026-02-13 17:26:24 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8710
+2026-02-13 17:26:35 [INFO    ] components.quiz     : No se encontraron intentos de jromero@qvision.us
+2026-02-13 17:26:35 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8711
+2026-02-13 17:26:46 [INFO    ] components.quiz     : No se encontraron intentos de jromero@qvision.us
+2026-02-13 17:26:46 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8712
+2026-02-13 17:26:57 [INFO    ] components.quiz     : No se encontraron intentos de jromero@qvision.us
+2026-02-13 17:26:57 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8713
+2026-02-13 17:26:58 [INFO    ] components.quiz     : No hay intentos de jromero@qvision.us (Nada que mostrar)
+2026-02-13 17:26:58 [INFO    ] components.enrollment: Iniciando matrícula: jromero@qvision.us en curso 601
+2026-02-13 17:27:00 [INFO    ] components.enrollment: Aplicando filtro por: jromero@qvision.us
+2026-02-13 17:27:03 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 17:27:23 [INFO    ] components.enrollment: Creando nueva matrícula para jromero@qvision.us
+2026-02-13 17:27:23 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-13 17:27:24 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-13 17:27:32 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 17:27:32 [INFO    ] components.enrollment: Usuario jromero@qvision.us encontrado en lista de participantes
+2026-02-13 17:27:32 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=602
+2026-02-13 17:27:33 [INFO    ] components.course   : Quizzes encontrados en curso 602: 4
+2026-02-13 17:27:33 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8722
+2026-02-13 17:27:44 [INFO    ] components.quiz     : No se encontraron intentos de jromero@qvision.us
+2026-02-13 17:27:44 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8717
+2026-02-13 17:27:56 [INFO    ] components.quiz     : No se encontraron intentos de jromero@qvision.us
+2026-02-13 17:27:56 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8719
+2026-02-13 17:28:18 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8720
+2026-02-13 17:28:40 [INFO    ] components.enrollment: Iniciando matrícula: jromero@qvision.us en curso 602
+2026-02-13 17:28:41 [INFO    ] components.enrollment: Aplicando filtro por: jromero@qvision.us
+2026-02-13 17:28:44 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 17:29:04 [INFO    ] components.enrollment: Creando nueva matrícula para jromero@qvision.us
+2026-02-13 17:29:04 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-13 17:29:05 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-13 17:29:13 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 17:29:13 [INFO    ] components.enrollment: Usuario jromero@qvision.us encontrado en lista de participantes
+2026-02-13 17:29:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=614
+2026-02-13 17:29:15 [INFO    ] components.course   : Quizzes encontrados en curso 614: 4
+2026-02-13 17:29:15 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8797
+2026-02-13 17:29:25 [INFO    ] components.quiz     : No se encontraron intentos de jromero@qvision.us
+2026-02-13 17:29:25 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8798
+2026-02-13 17:29:37 [INFO    ] components.quiz     : No se encontraron intentos de jromero@qvision.us
+2026-02-13 17:29:37 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8799
+2026-02-13 17:29:48 [INFO    ] components.quiz     : No se encontraron intentos de jromero@qvision.us
+2026-02-13 17:29:48 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8800
+2026-02-13 17:29:59 [INFO    ] components.quiz     : No se encontraron intentos de jromero@qvision.us
+2026-02-13 17:29:59 [INFO    ] components.enrollment: Iniciando matrícula: jromero@qvision.us en curso 614
+2026-02-13 17:30:00 [INFO    ] components.enrollment: Aplicando filtro por: jromero@qvision.us
+2026-02-13 17:30:03 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 17:30:23 [INFO    ] components.enrollment: Creando nueva matrícula para jromero@qvision.us
+2026-02-13 17:30:23 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-13 17:30:24 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-13 17:30:32 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 17:30:32 [INFO    ] components.enrollment: Usuario jromero@qvision.us encontrado en lista de participantes
+2026-02-13 17:30:32 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=610
+2026-02-13 17:30:34 [INFO    ] components.course   : Quizzes encontrados en curso 610: 4
+2026-02-13 17:30:34 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8769
+2026-02-13 17:30:34 [INFO    ] components.quiz     : No hay intentos de jromero@qvision.us (Nada que mostrar)
+2026-02-13 17:30:34 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8770
+2026-02-13 17:30:35 [INFO    ] components.quiz     : No hay intentos de jromero@qvision.us (Nada que mostrar)
+2026-02-13 17:30:35 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8771
+2026-02-13 17:30:36 [INFO    ] components.quiz     : No hay intentos de jromero@qvision.us (Nada que mostrar)
+2026-02-13 17:30:36 [INFO    ] components.quiz     : Eliminando intentos de jromero@qvision.us en quiz 8775
+2026-02-13 17:30:37 [INFO    ] components.quiz     : No hay intentos de jromero@qvision.us (Nada que mostrar)
+2026-02-13 17:30:37 [INFO    ] components.enrollment: Iniciando matrícula: jromero@qvision.us en curso 610
+2026-02-13 17:30:39 [INFO    ] components.enrollment: Aplicando filtro por: jromero@qvision.us
+2026-02-13 17:30:41 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 17:31:02 [INFO    ] components.enrollment: Creando nueva matrícula para jromero@qvision.us
+2026-02-13 17:31:02 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-13 17:31:02 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-13 17:31:11 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-13 17:31:11 [INFO    ] components.enrollment: Usuario jromero@qvision.us encontrado en lista de participantes
+2026-02-13 17:31:11 [INFO    ] services.document_generator: Generando documento para: Johann Romero Vargas
+2026-02-13 17:31:11 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Johann_Romero_Vargas_2026-02-13_17-31-11.docx
+2026-02-13 17:34:08 [INFO    ] core.browser        : Navegador cerrado correctamente

@@ -1,0 +1,121 @@
+2026-01-17 12:33:57 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-17 12:33:57 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-17 12:34:02 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-17 12:34:02 [ERROR   ] core.browser        : Excepción detectada: LoginError: Error al iniciar sesión: Credenciales no proporcionadas | Detalles: Debe proporcionar usuario y contraseña, o configurarlos en .env
+2026-01-17 12:34:02 [INFO    ] core.browser        : Screenshot guardada: screenshots\error_on_exit_20260117_123402.png
+2026-01-17 12:34:04 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-17 12:34:55 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-17 12:34:55 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-17 12:34:58 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-17 12:34:58 [ERROR   ] core.browser        : Excepción detectada: LoginError: Error al iniciar sesión: Credenciales no proporcionadas | Detalles: Debe proporcionar usuario y contraseña, o configurarlos en .env
+2026-01-17 12:34:58 [INFO    ] core.browser        : Screenshot guardada: screenshots\error_on_exit_20260117_123458.png
+2026-01-17 12:35:01 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-17 12:35:22 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-17 12:35:22 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-17 12:35:25 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-17 12:35:25 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-17 12:35:25 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-17 12:35:37 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-17 12:37:06 [INFO    ] services.candidate_service: Procesando candidato: yoesel52@gmail.com
+2026-01-17 12:37:06 [INFO    ] services.candidate_service: Paso 1: Verificando/creando usuario...
+2026-01-17 12:37:06 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-17 12:37:07 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-17 12:37:15 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-17 12:37:15 [INFO    ] services.candidate_service: Usuario existente: Cristian Alexander Muñoz Caro
+2026-01-17 12:37:15 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-01-17 12:37:15 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-17 12:37:19 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-17 12:37:23 [ERROR   ] services.candidate_service: Error en manejo de usuario: 2 validation errors for UserData
+telefono
+  Field required [type=missing, input_value={'primer_nombre': 'Cristi...': 'yoesel52@gmail.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ciudad
+  Field required [type=missing, input_value={'primer_nombre': 'Cristi...': 'yoesel52@gmail.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-17 13:57:15 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-17 13:57:15 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-17 13:57:17 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-17 13:57:17 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-17 13:57:17 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-17 13:57:24 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-17 13:57:24 [INFO    ] services.candidate_service: Procesando candidato: candidato.prueba@ejemplo.com
+2026-01-17 13:57:24 [INFO    ] services.candidate_service: Paso 1: Verificando/creando usuario...
+2026-01-17 13:57:24 [INFO    ] components.user     : Buscando usuario por email: candidato.prueba@ejemplo.com
+2026-01-17 13:57:24 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-17 13:57:39 [INFO    ] components.user     : No se encontró usuario con email: candidato.prueba@ejemplo.com
+2026-01-17 13:57:39 [INFO    ] services.candidate_service: Creando usuario nuevo para: candidato.prueba@ejemplo.com
+2026-01-17 13:57:39 [INFO    ] components.user     : Iniciando creación de usuario: Candidato Prueba
+2026-01-17 13:57:39 [INFO    ] components.user     : Intento 1: Probando username 'cprueba'
+2026-01-17 13:57:39 [INFO    ] models.user         : Username actualizado a: cprueba
+2026-01-17 13:57:39 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-01-17 13:57:44 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260117_135744.png
+2026-01-17 13:57:47 [INFO    ] components.user     : Usuario creado exitosamente
+2026-01-17 13:57:47 [INFO    ] components.user     : Usuario creado: cprueba (candidato.prueba@ejemplo.com)
+2026-01-17 13:57:47 [INFO    ] services.candidate_service: Usuario creado: cprueba
+2026-01-17 13:57:47 [INFO    ] services.candidate_service: Paso 2: Procesando 1 curso(s)...
+2026-01-17 13:57:47 [INFO    ] services.candidate_service:   Curso 1/1: 616
+2026-01-17 13:57:47 [INFO    ] services.candidate_service:     a) Limpiando intentos anteriores...
+2026-01-17 13:57:47 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=616
+2026-01-17 13:58:18 [INFO    ] components.course   : Quizzes encontrados en curso 616: 2
+2026-01-17 13:58:18 [INFO    ] components.quiz     : Eliminando intentos de candidato.prueba@ejemplo.com en quiz 8881
+2026-01-17 13:58:18 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/mod/quiz/report.php?id=8881&mode=overview&tifirst=C&tilast=P
+2026-01-17 13:58:51 [INFO    ] components.quiz     : No se encontraron intentos de candidato.prueba@ejemplo.com
+2026-01-17 13:58:51 [INFO    ] components.quiz     : Eliminando intentos de candidato.prueba@ejemplo.com en quiz 8878
+2026-01-17 13:58:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/mod/quiz/report.php?id=8878&mode=overview&tifirst=C&tilast=P
+2026-01-17 13:59:22 [INFO    ] components.quiz     : No se encontraron intentos de candidato.prueba@ejemplo.com
+2026-01-17 13:59:22 [INFO    ] services.candidate_service:        Intentos eliminados: 0
+2026-01-17 13:59:22 [INFO    ] services.candidate_service:     b) Matriculando/reactivando...
+2026-01-17 13:59:22 [INFO    ] components.enrollment: Iniciando matrícula: candidato.prueba@ejemplo.com en curso 616
+2026-01-17 13:59:22 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-17 14:00:25 [INFO    ] components.enrollment: Creando nueva matrícula para candidato.prueba@ejemplo.com
+2026-01-17 14:01:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-17 14:03:31 [INFO    ] services.candidate_service:        Matrícula: created
+2026-01-17 14:03:31 [INFO    ] services.candidate_service: Candidato procesado: candidato.prueba@ejemplo.com - Candidato procesado: 1 matrícula(s)
+2026-01-17 14:03:34 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-17 15:57:17 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-17 15:57:56 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-17 15:58:00 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-17 15:58:00 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-17 15:58:00 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-17 15:58:18 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-17 15:58:53 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-17 15:59:04 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-17 15:59:07 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-17 15:59:07 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-17 15:59:07 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-17 15:59:21 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-17 15:59:36 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-17 15:59:36 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-17 15:59:45 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-17 15:59:45 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-01-17 15:59:45 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-17 15:59:49 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-17 15:59:57 [INFO    ] core.browser        : Screenshot guardada: screenshots\error_unexpected_20260117_155957.png
+2026-01-17 15:59:59 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-17 16:14:11 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-17 16:14:37 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-17 16:14:40 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-17 16:14:40 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-17 16:14:40 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-17 16:15:00 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-17 16:15:11 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-17 16:15:11 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-17 16:15:19 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-17 16:15:19 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-01-17 16:15:19 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-17 16:15:24 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-17 16:15:39 [INFO    ] components.user     : Contraseña actualizada para: cralmunoz
+2026-01-17 16:15:50 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-17 16:16:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=603
+2026-01-17 16:16:46 [INFO    ] components.course   : Quizzes encontrados en curso 603: 2
+2026-01-17 16:16:46 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8736
+2026-01-17 16:16:46 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/mod/quiz/report.php?id=8736&mode=overview&tifirst=C&tilast=M
+2026-01-17 16:17:18 [INFO    ] components.quiz     : No se encontraron intentos de yoesel52@gmail.com
+2026-01-17 16:17:18 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8737
+2026-01-17 16:17:18 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/mod/quiz/report.php?id=8737&mode=overview&tifirst=C&tilast=M
+2026-01-17 16:17:51 [INFO    ] components.quiz     : No se encontraron intentos de yoesel52@gmail.com
+2026-01-17 16:17:51 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 603
+2026-01-17 16:17:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=603
+2026-01-17 16:18:54 [INFO    ] components.enrollment: Creando nueva matrícula para yoesel52@gmail.com
+2026-01-17 16:19:49 [WARNING ] components.enrollment: No se encontraron sugerencias para: yoesel52@gmail.com
+2026-01-17 16:19:53 [INFO    ] core.browser        : Navegador cerrado correctamente

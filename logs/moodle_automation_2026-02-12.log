@@ -1,0 +1,213 @@
+2026-02-12 16:08:00 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-12 16:08:03 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-12 16:08:03 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-02-12 16:08:03 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-12 16:08:06 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-12 16:08:08 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-02-12 16:08:08 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-12 16:08:29 [INFO    ] components.user     : Buscando usuario por email: aquiroz@qvision.com.co
+2026-02-12 16:08:29 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-12 16:08:54 [INFO    ] components.user     : Usuario encontrado: Alejandro Quiroz Estrada
+2026-02-12 16:08:54 [INFO    ] components.user     : Actualizando contraseña para: aquiroz@qvision.com.co
+2026-02-12 16:09:01 [INFO    ] components.user     : Contraseña actualizada para: aquiroz
+2026-02-12 16:10:28 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=601
+2026-02-12 16:10:30 [INFO    ] components.course   : Quizzes encontrados en curso 601: 4
+2026-02-12 16:10:30 [INFO    ] components.quiz     : Eliminando intentos de aquiroz@qvision.com.co en quiz 8710
+2026-02-12 16:10:31 [INFO    ] components.quiz     : Total checkboxes seleccionados: 1
+2026-02-12 16:10:31 [INFO    ] components.quiz     : Seleccionados 1 intentos, procediendo a eliminar...
+2026-02-12 16:10:33 [INFO    ] components.quiz     : ✓ Eliminados 1 intentos de aquiroz@qvision.com.co
+2026-02-12 16:10:33 [INFO    ] components.quiz     : Eliminando intentos de aquiroz@qvision.com.co en quiz 8711
+2026-02-12 16:10:34 [INFO    ] components.quiz     : Total checkboxes seleccionados: 1
+2026-02-12 16:10:34 [INFO    ] components.quiz     : Seleccionados 1 intentos, procediendo a eliminar...
+2026-02-12 16:10:37 [INFO    ] components.quiz     : ✓ Eliminados 1 intentos de aquiroz@qvision.com.co
+2026-02-12 16:10:37 [INFO    ] components.quiz     : Eliminando intentos de aquiroz@qvision.com.co en quiz 8712
+2026-02-12 16:10:37 [INFO    ] components.quiz     : No hay intentos de aquiroz@qvision.com.co (Nada que mostrar)
+2026-02-12 16:10:37 [INFO    ] components.quiz     : Eliminando intentos de aquiroz@qvision.com.co en quiz 8713
+2026-02-12 16:10:38 [INFO    ] components.quiz     : No hay intentos de aquiroz@qvision.com.co (Nada que mostrar)
+2026-02-12 16:10:38 [INFO    ] components.enrollment: Iniciando matrícula: aquiroz@qvision.com.co en curso 601
+2026-02-12 16:10:39 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-12 16:10:40 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-12 16:10:40 [INFO    ] components.enrollment: Aplicando filtro por: aquiroz@qvision.com.co
+2026-02-12 16:10:43 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:10:43 [INFO    ] components.enrollment: Usuario aquiroz@qvision.com.co encontrado en lista de participantes
+2026-02-12 16:10:43 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-02-12 16:10:43 [INFO    ] components.enrollment: Actualizando matrícula (estado y fechas)...
+2026-02-12 16:10:43 [INFO    ] components.enrollment: Reactivando matrícula para aquiroz@qvision.com.co
+2026-02-12 16:10:47 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-12 16:10:47 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-12 16:10:50 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:10:50 [INFO    ] components.enrollment: Usuario aquiroz@qvision.com.co encontrado en lista de participantes
+2026-02-12 16:10:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=614
+2026-02-12 16:10:52 [INFO    ] components.course   : Quizzes encontrados en curso 614: 4
+2026-02-12 16:10:52 [INFO    ] components.quiz     : Eliminando intentos de aquiroz@qvision.com.co en quiz 8797
+2026-02-12 16:10:52 [INFO    ] components.quiz     : Total checkboxes seleccionados: 1
+2026-02-12 16:10:52 [INFO    ] components.quiz     : Seleccionados 1 intentos, procediendo a eliminar...
+2026-02-12 16:10:55 [INFO    ] components.quiz     : ✓ Eliminados 1 intentos de aquiroz@qvision.com.co
+2026-02-12 16:10:55 [INFO    ] components.quiz     : Eliminando intentos de aquiroz@qvision.com.co en quiz 8798
+2026-02-12 16:10:56 [INFO    ] components.quiz     : Total checkboxes seleccionados: 1
+2026-02-12 16:10:56 [INFO    ] components.quiz     : Seleccionados 1 intentos, procediendo a eliminar...
+2026-02-12 16:10:59 [INFO    ] components.quiz     : ✓ Eliminados 1 intentos de aquiroz@qvision.com.co
+2026-02-12 16:10:59 [INFO    ] components.quiz     : Eliminando intentos de aquiroz@qvision.com.co en quiz 8799
+2026-02-12 16:11:00 [INFO    ] components.quiz     : Total checkboxes seleccionados: 1
+2026-02-12 16:11:00 [INFO    ] components.quiz     : Seleccionados 1 intentos, procediendo a eliminar...
+2026-02-12 16:11:02 [INFO    ] components.quiz     : ✓ Eliminados 1 intentos de aquiroz@qvision.com.co
+2026-02-12 16:11:02 [INFO    ] components.quiz     : Eliminando intentos de aquiroz@qvision.com.co en quiz 8800
+2026-02-12 16:11:03 [INFO    ] components.quiz     : No hay intentos de aquiroz@qvision.com.co (Nada que mostrar)
+2026-02-12 16:11:03 [INFO    ] components.enrollment: Iniciando matrícula: aquiroz@qvision.com.co en curso 614
+2026-02-12 16:11:04 [INFO    ] components.enrollment: Aplicando filtro por: aquiroz@qvision.com.co
+2026-02-12 16:11:07 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:11:07 [INFO    ] components.enrollment: Usuario aquiroz@qvision.com.co encontrado en lista de participantes
+2026-02-12 16:11:08 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-02-12 16:11:08 [INFO    ] components.enrollment: Actualizando matrícula (estado y fechas)...
+2026-02-12 16:11:08 [INFO    ] components.enrollment: Reactivando matrícula para aquiroz@qvision.com.co
+2026-02-12 16:11:08 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-12 16:11:08 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-12 16:11:12 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-12 16:11:12 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-12 16:11:15 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:11:15 [INFO    ] components.enrollment: Usuario aquiroz@qvision.com.co encontrado en lista de participantes
+2026-02-12 16:11:16 [INFO    ] services.document_generator: Generando documento para: Alejandro Quiroz Estrada
+2026-02-12 16:11:16 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Alejandro_Quiroz_Estrada_2026-02-12_16-11-16.docx
+2026-02-12 16:26:09 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-12 16:26:09 [INFO    ] services.excel_reader: Leyendo solicitudes de: ./plantilla_solicitudes.xlsx
+2026-02-12 16:26:09 [INFO    ] services.excel_reader: Encontradas 1 solicitudes pendientes
+2026-02-12 16:26:24 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-12 16:26:26 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-12 16:26:26 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-02-12 16:26:26 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-12 16:26:29 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-12 16:26:31 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-02-12 16:26:32 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-12 16:26:32 [INFO    ] components.user     : Buscando usuario por email: andresfelipegg01@outlook.com
+2026-02-12 16:26:32 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-12 16:27:06 [INFO    ] components.user     : No se encontró usuario con email: andresfelipegg01@outlook.com
+2026-02-12 16:27:06 [INFO    ] components.user     : Iniciando creación de usuario: Andrés González
+2026-02-12 16:27:06 [INFO    ] components.user     : Intento 1: Probando username 'agonzalez'
+2026-02-12 16:27:06 [INFO    ] models.user         : Username actualizado a: agonzalez
+2026-02-12 16:27:06 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-12 16:27:11 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260212_162711.png
+2026-02-12 16:27:13 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-02-12 16:27:13 [WARNING ] components.user     : Username 'agonzalez' ya existe, probando siguiente...
+2026-02-12 16:27:13 [INFO    ] components.user     : Intento 2: Probando username 'agonzalez1'
+2026-02-12 16:27:13 [INFO    ] models.user         : Username actualizado a: agonzalez1
+2026-02-12 16:27:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-12 16:27:20 [INFO    ] components.user     : Usuario creado exitosamente
+2026-02-12 16:27:20 [INFO    ] components.user     : Usuario creado: agonzalez1 (andresfelipegg01@outlook.com)
+2026-02-12 16:27:20 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=601
+2026-02-12 16:27:21 [INFO    ] components.course   : Quizzes encontrados en curso 601: 4
+2026-02-12 16:27:21 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8710
+2026-02-12 16:27:22 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:27:22 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8711
+2026-02-12 16:27:23 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:27:23 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8712
+2026-02-12 16:27:24 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:27:24 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8713
+2026-02-12 16:27:25 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:27:25 [INFO    ] components.enrollment: Iniciando matrícula: andresfelipegg01@outlook.com en curso 601
+2026-02-12 16:27:26 [INFO    ] components.enrollment: Aplicando filtro por: andresfelipegg01@outlook.com
+2026-02-12 16:27:29 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:27:49 [INFO    ] components.enrollment: Creando nueva matrícula para andresfelipegg01@outlook.com
+2026-02-12 16:27:49 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-12 16:27:50 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-12 16:27:58 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:27:58 [INFO    ] components.enrollment: Usuario andresfelipegg01@outlook.com encontrado en lista de participantes
+2026-02-12 16:27:59 [INFO    ] services.document_generator: Generando documento para: Andrés González
+2026-02-12 16:27:59 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Andrés_González_2026-02-12_16-27-59.docx
+2026-02-12 16:27:59 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-12 16:27:59 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-12 16:28:01 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-02-12 16:50:11 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-12 16:50:11 [INFO    ] services.excel_reader: Leyendo solicitudes de: ./plantilla_solicitudes.xlsx
+2026-02-12 16:50:11 [INFO    ] services.excel_reader: Encontradas 1 solicitudes pendientes
+2026-02-12 16:50:49 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-12 16:50:51 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-12 16:50:51 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-02-12 16:50:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-12 16:50:54 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-12 16:50:56 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-02-12 16:50:56 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-12 16:50:56 [INFO    ] components.user     : Buscando usuario por email: andresfelipegg01@outlook.com
+2026-02-12 16:50:56 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-12 16:51:22 [INFO    ] components.user     : Usuario encontrado: Andrés González
+2026-02-12 16:51:22 [INFO    ] components.user     : Actualizando contraseña para: andresfelipegg01@outlook.com
+2026-02-12 16:51:30 [INFO    ] components.user     : Contraseña actualizada para: agonzalez1
+2026-02-12 16:51:30 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=601
+2026-02-12 16:51:32 [INFO    ] components.course   : Quizzes encontrados en curso 601: 4
+2026-02-12 16:51:32 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8710
+2026-02-12 16:51:33 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:51:33 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8711
+2026-02-12 16:51:34 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:51:34 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8712
+2026-02-12 16:51:35 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:51:35 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8713
+2026-02-12 16:51:36 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:51:36 [INFO    ] components.enrollment: Iniciando matrícula: andresfelipegg01@outlook.com en curso 601
+2026-02-12 16:51:37 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-12 16:51:37 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-12 16:51:37 [INFO    ] components.enrollment: Aplicando filtro por: andresfelipegg01@outlook.com
+2026-02-12 16:51:41 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:51:41 [INFO    ] components.enrollment: Usuario andresfelipegg01@outlook.com encontrado en lista de participantes
+2026-02-12 16:51:41 [INFO    ] components.enrollment: Usuario ya matriculado, estado: Activo
+2026-02-12 16:51:41 [INFO    ] components.enrollment: Actualizando matrícula (estado y fechas)...
+2026-02-12 16:51:41 [INFO    ] components.enrollment: Reactivando matrícula para andresfelipegg01@outlook.com
+2026-02-12 16:51:45 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-12 16:51:45 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-12 16:51:48 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:51:48 [INFO    ] components.enrollment: Usuario andresfelipegg01@outlook.com encontrado en lista de participantes
+2026-02-12 16:51:48 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=614
+2026-02-12 16:51:50 [INFO    ] components.course   : Quizzes encontrados en curso 614: 4
+2026-02-12 16:51:50 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8797
+2026-02-12 16:52:01 [INFO    ] components.quiz     : No se encontraron intentos de andresfelipegg01@outlook.com
+2026-02-12 16:52:01 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8798
+2026-02-12 16:52:12 [INFO    ] components.quiz     : No se encontraron intentos de andresfelipegg01@outlook.com
+2026-02-12 16:52:12 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8799
+2026-02-12 16:52:13 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:52:13 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8800
+2026-02-12 16:52:14 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:52:14 [INFO    ] components.enrollment: Iniciando matrícula: andresfelipegg01@outlook.com en curso 614
+2026-02-12 16:52:16 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-12 16:52:16 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-12 16:52:16 [INFO    ] components.enrollment: Aplicando filtro por: andresfelipegg01@outlook.com
+2026-02-12 16:52:19 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:52:39 [INFO    ] components.enrollment: Creando nueva matrícula para andresfelipegg01@outlook.com
+2026-02-12 16:52:48 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:52:48 [INFO    ] components.enrollment: Usuario andresfelipegg01@outlook.com encontrado en lista de participantes
+2026-02-12 16:52:48 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=602
+2026-02-12 16:52:50 [INFO    ] components.course   : Quizzes encontrados en curso 602: 4
+2026-02-12 16:52:50 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8722
+2026-02-12 16:52:50 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:52:50 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8717
+2026-02-12 16:52:51 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:52:51 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8719
+2026-02-12 16:53:13 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8720
+2026-02-12 16:53:35 [INFO    ] components.enrollment: Iniciando matrícula: andresfelipegg01@outlook.com en curso 602
+2026-02-12 16:53:36 [INFO    ] components.enrollment: Aplicando filtro por: andresfelipegg01@outlook.com
+2026-02-12 16:53:39 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:53:59 [INFO    ] components.enrollment: Creando nueva matrícula para andresfelipegg01@outlook.com
+2026-02-12 16:53:59 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-12 16:54:00 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-12 16:54:09 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:54:09 [INFO    ] components.enrollment: Usuario andresfelipegg01@outlook.com encontrado en lista de participantes
+2026-02-12 16:54:09 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=610
+2026-02-12 16:54:11 [INFO    ] components.course   : Quizzes encontrados en curso 610: 4
+2026-02-12 16:54:11 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8769
+2026-02-12 16:54:12 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:54:12 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8770
+2026-02-12 16:54:13 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:54:13 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8771
+2026-02-12 16:54:14 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:54:14 [INFO    ] components.quiz     : Eliminando intentos de andresfelipegg01@outlook.com en quiz 8775
+2026-02-12 16:54:15 [INFO    ] components.quiz     : No hay intentos de andresfelipegg01@outlook.com (Nada que mostrar)
+2026-02-12 16:54:15 [INFO    ] components.enrollment: Iniciando matrícula: andresfelipegg01@outlook.com en curso 610
+2026-02-12 16:54:16 [INFO    ] components.enrollment: Aplicando filtro por: andresfelipegg01@outlook.com
+2026-02-12 16:54:19 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:54:39 [INFO    ] components.enrollment: Creando nueva matrícula para andresfelipegg01@outlook.com
+2026-02-12 16:54:39 [INFO    ] components.enrollment: Modal SMOWL detectado, cerrando...
+2026-02-12 16:54:40 [INFO    ] components.enrollment: Modal SMOWL cerrado
+2026-02-12 16:54:49 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-12 16:54:49 [INFO    ] components.enrollment: Usuario andresfelipegg01@outlook.com encontrado en lista de participantes
+2026-02-12 16:54:49 [INFO    ] services.document_generator: Generando documento para: Andrés González
+2026-02-12 16:54:49 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Andrés_González_2026-02-12_16-54-49.docx
+2026-02-12 16:54:49 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-12 16:54:49 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-12 16:54:52 [INFO    ] core.browser        : Navegador cerrado correctamente

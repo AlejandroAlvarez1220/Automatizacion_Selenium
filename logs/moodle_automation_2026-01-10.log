@@ -1,0 +1,61 @@
+2026-01-10 15:43:21 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-10 15:43:26 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-10 15:43:26 [INFO    ] __main__            : Navegador iniciado correctamente
+2026-01-10 15:43:26 [INFO    ] __main__            : Intentando login...
+2026-01-10 15:43:26 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-10 15:43:26 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-10 15:43:30 [INFO    ] core.browser        : Banner de cookies aceptado
+2026-01-10 15:43:39 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-10 15:53:18 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-10 19:47:15 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-10 19:55:23 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-10 19:55:26 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-10 19:55:26 [INFO    ] __main__            : Navegador iniciado correctamente
+2026-01-10 19:55:26 [INFO    ] __main__            : Intentando login...
+2026-01-10 19:55:26 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-10 19:55:26 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-10 19:55:29 [ERROR   ] components.auth     : Error inesperado durante login: 'MoodleSelectors' object has no attribute 'username_input'
+Traceback (most recent call last):
+  File "c:\Users\CristianAlexanderMuñ\Desktop\Gestor_Qvision\components\auth.py", line 104, in login
+    settings.selectors.username_input,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CristianAlexanderMuñ\AppData\Local\Programs\Python\Python313\Lib\site-packages\pydantic\main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'MoodleSelectors' object has no attribute 'username_input'
+2026-01-10 19:55:29 [INFO    ] core.browser        : Screenshot guardada: screenshots\login_error_20260110_195529.png
+2026-01-10 19:55:29 [ERROR   ] core.browser        : Excepción detectada: LoginError: Error al iniciar sesión: Error inesperado | Detalles: 'MoodleSelectors' object has no attribute 'username_input'
+2026-01-10 19:55:29 [INFO    ] core.browser        : Screenshot guardada: screenshots\error_on_exit_20260110_195529.png
+2026-01-10 19:55:31 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-10 19:59:00 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-10 19:59:02 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-10 19:59:02 [INFO    ] __main__            : Navegador iniciado correctamente
+2026-01-10 19:59:02 [INFO    ] __main__            : Intentando login...
+2026-01-10 19:59:02 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-10 19:59:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-10 19:59:09 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-10 19:59:26 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-10 20:29:35 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-10 20:29:37 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-10 20:29:37 [INFO    ] __main__            : Navegador iniciado correctamente
+2026-01-10 20:29:37 [INFO    ] __main__            : Intentando login...
+2026-01-10 20:29:37 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-10 20:29:37 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-10 20:29:43 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-10 20:33:07 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-10 20:33:42 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-10 20:33:45 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-10 20:33:45 [INFO    ] __main__            : Navegador iniciado correctamente
+2026-01-10 20:33:45 [INFO    ] __main__            : Intentando login...
+2026-01-10 20:33:45 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-10 20:33:45 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-10 20:33:55 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-10 20:34:17 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-10 20:34:27 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-10 20:34:30 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-10 20:34:30 [INFO    ] __main__            : Navegador iniciado correctamente
+2026-01-10 20:34:30 [INFO    ] __main__            : Intentando login...
+2026-01-10 20:34:30 [INFO    ] components.auth     : Iniciando sesión para usuario: luchei
+2026-01-10 20:34:30 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-10 20:34:36 [ERROR   ] core.browser        : Excepción detectada: LoginError: Error al iniciar sesión: Credenciales incorrectas | Detalles: Acceso inválido. Por favor, inténtelo otra vez.
+2026-01-10 20:34:36 [INFO    ] core.browser        : Screenshot guardada: screenshots\error_on_exit_20260110_203436.png
+2026-01-10 20:34:39 [INFO    ] core.browser        : Navegador cerrado correctamente

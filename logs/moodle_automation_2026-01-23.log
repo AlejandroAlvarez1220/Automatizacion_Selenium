@@ -1,0 +1,26 @@
+2026-01-23 14:44:56 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-23 14:46:33 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-23 14:46:37 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-23 14:46:37 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-23 14:46:37 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-23 14:46:46 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-23 14:46:57 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-23 14:46:57 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-23 14:47:03 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-23 14:47:03 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-01-23 14:47:13 [INFO    ] components.user     : Contraseña actualizada para: cralmunoz
+2026-01-23 14:47:17 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-23 14:47:36 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=616
+2026-01-23 14:48:08 [INFO    ] components.course   : Quizzes encontrados en curso 616: 2
+2026-01-23 14:48:08 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8881
+2026-01-23 14:48:08 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/mod/quiz/report.php?id=8881&mode=overview&tifirst=C&tilast=M
+2026-01-23 14:48:41 [INFO    ] components.quiz     : No se encontraron intentos de yoesel52@gmail.com
+2026-01-23 14:48:41 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8878
+2026-01-23 14:48:41 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/mod/quiz/report.php?id=8878&mode=overview&tifirst=C&tilast=M
+2026-01-23 14:49:13 [INFO    ] components.quiz     : No se encontraron intentos de yoesel52@gmail.com
+2026-01-23 14:49:13 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-01-23 14:49:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-23 14:50:05 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-01-23 14:50:05 [INFO    ] components.enrollment: Reactivando matrícula para yoesel52@gmail.com
+2026-01-23 14:51:30 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-23 14:53:46 [INFO    ] core.browser        : Navegador cerrado correctamente

@@ -1,0 +1,61 @@
+2026-01-12 01:00:14 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-12 01:00:14 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-12 01:00:16 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-12 01:00:16 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-12 01:00:16 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-12 01:00:25 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-12 01:01:00 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-12 01:01:00 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-12 01:01:02 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-12 01:01:02 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-12 01:01:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-12 01:01:11 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-12 10:55:12 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-12 10:55:12 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-12 10:55:15 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-12 10:55:15 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-12 10:55:15 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-12 10:55:28 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-12 10:55:51 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-12 10:55:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=616
+2026-01-12 10:56:24 [INFO    ] components.course   : Quizzes encontrados en curso 616: 2
+2026-01-12 10:57:08 [INFO    ] components.quiz     : Eliminando intentos de  en quiz 
+2026-01-12 11:03:58 [INFO    ] components.quiz     : Eliminando intentos de isabella.collazos18@gmail.com en quiz 8881
+2026-01-12 11:03:58 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/mod/quiz/report.php?id=8881&mode=overview&tifirst=I&tilast=C
+2026-01-12 11:04:53 [INFO    ] components.quiz     : Eliminados 1 intentos de isabella.collazos18@gmail.com
+2026-01-12 11:14:07 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-12 11:14:07 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-12 11:14:09 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-12 11:14:09 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-12 11:14:09 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-12 11:14:16 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-12 11:15:02 [INFO    ] components.quiz     : Eliminando intentos de isabella.collozos18@gmail.com en quiz 8881
+2026-01-12 11:15:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/mod/quiz/report.php?id=8881&mode=overview&tifirst=I&tilast=C
+2026-01-12 11:15:35 [INFO    ] components.quiz     : No se encontraron intentos de isabella.collozos18@gmail.com
+2026-01-12 11:26:11 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-12 11:26:11 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-12 11:26:13 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-12 11:26:13 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-12 11:26:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-12 11:26:20 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-12 11:27:04 [INFO    ] components.quiz     : Eliminando intentos de isabella.collazos@gmail.com en quiz 8881
+2026-01-12 11:27:04 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/mod/quiz/report.php?id=8881&mode=overview&tifirst=I&tilast=C
+2026-01-12 11:27:36 [INFO    ] components.quiz     : No se encontraron intentos de isabella.collazos@gmail.com
+2026-01-12 11:31:30 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-12 11:31:30 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-12 11:31:33 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-12 11:31:33 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-12 11:31:33 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-12 11:31:39 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-12 11:32:04 [INFO    ] components.quiz     : Eliminando intentos de isabella.collazos18@gmail.com en quiz 8881
+2026-01-12 11:32:04 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/mod/quiz/report.php?id=8881&mode=overview&tifirst=I&tilast=C
+2026-01-12 11:32:31 [INFO    ] components.quiz     : Eliminados 1 intentos de isabella.collazos18@gmail.com
+2026-01-12 20:03:50 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-12 20:04:04 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-12 20:04:04 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-12 20:04:04 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-12 20:04:23 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-12 20:04:23 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-12 20:04:23 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-12 20:04:34 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-12 20:06:29 [INFO    ] core.browser        : Navegador cerrado correctamente

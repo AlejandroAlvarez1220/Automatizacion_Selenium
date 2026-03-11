@@ -1,0 +1,718 @@
+2026-01-11 02:17:20 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 02:17:25 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 02:17:25 [ERROR   ] core.browser        : Excepción detectada: AttributeError: 'Settings' object has no attribute 'admin_username'
+2026-01-11 02:17:26 [INFO    ] core.browser        : Screenshot guardada: screenshots\error_on_exit_20260111_021726.png
+2026-01-11 02:17:28 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 02:24:16 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 02:24:18 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 02:24:18 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 02:24:18 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 02:24:30 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 02:24:30 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-11 02:24:30 [ERROR   ] core.browser        : Excepción detectada: AttributeError: 'BrowserManager' object has no attribute 'get_current_url'
+2026-01-11 02:24:30 [INFO    ] core.browser        : Screenshot guardada: screenshots\error_on_exit_20260111_022430.png
+2026-01-11 02:24:32 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 02:45:40 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 02:45:42 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 02:45:42 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 02:45:42 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 02:45:52 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 02:45:52 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-11 02:45:52 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 02:45:55 [ERROR   ] core.browser        : Excepción detectada: InvalidArgumentException: Message: invalid argument: invalid locator
+  (Session info: chrome=143.0.7499.41)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7a26788d5
+	0x7ff7a2678930
+	0x7ff7a245165d
+	0x7ff7a24a97fc
+	0x7ff7a24a9d3c
+	0x7ff7a24fdf67
+	0x7ff7a24fac97
+	0x7ff7a249ac29
+	0x7ff7a249ba93
+	0x7ff7a2990620
+	0x7ff7a298af60
+	0x7ff7a29a96c6
+	0x7ff7a2695dd4
+	0x7ff7a269ed7c
+	0x7ff7a2681ff4
+	0x7ff7a26821a5
+	0x7ff7a2667ed2
+	0x7ffb099fe8d7
+	0x7ffb0b0ac53c
+
+2026-01-11 02:45:56 [INFO    ] core.browser        : Screenshot guardada: screenshots\error_on_exit_20260111_024555.png
+2026-01-11 02:45:58 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 02:51:25 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 02:51:28 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 02:51:28 [INFO    ] __main__            : Navegador iniciado correctamente
+2026-01-11 02:51:28 [INFO    ] __main__            : Intentando login...
+2026-01-11 02:51:28 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 02:51:28 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 02:51:39 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 02:51:49 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 02:52:35 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 02:52:38 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 02:52:38 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 02:52:38 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 02:52:48 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 02:52:48 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-11 02:52:48 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 02:52:52 [ERROR   ] core.browser        : Excepción detectada: InvalidArgumentException: Message: invalid argument: invalid locator
+  (Session info: chrome=143.0.7499.41)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7a26788d5
+	0x7ff7a2678930
+	0x7ff7a245165d
+	0x7ff7a24a97fc
+	0x7ff7a24a9d3c
+	0x7ff7a24fdf67
+	0x7ff7a24fac97
+	0x7ff7a249ac29
+	0x7ff7a249ba93
+	0x7ff7a2990620
+	0x7ff7a298af60
+	0x7ff7a29a96c6
+	0x7ff7a2695dd4
+	0x7ff7a269ed7c
+	0x7ff7a2681ff4
+	0x7ff7a26821a5
+	0x7ff7a2667ed2
+	0x7ffb099fe8d7
+	0x7ffb0b0ac53c
+
+2026-01-11 02:52:52 [INFO    ] core.browser        : Screenshot guardada: screenshots\error_on_exit_20260111_025252.png
+2026-01-11 02:52:54 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 02:57:22 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 02:57:25 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 02:57:25 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 02:57:25 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 02:57:35 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 02:57:35 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-11 02:57:35 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 02:57:51 [WARNING ] core.browser        : Elemento no encontrado: css selector='.alert-info'
+2026-01-11 02:57:51 [INFO    ] components.user     : No se encontró usuario con email: yoesel52@gmail.com
+2026-01-11 02:58:29 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 03:00:26 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 03:00:29 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 03:00:29 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 03:00:29 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 03:00:39 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 03:00:39 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-11 03:00:39 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 03:00:55 [WARNING ] core.browser        : Elemento no encontrado: css selector='.alert-info'
+2026-01-11 03:00:55 [INFO    ] components.user     : No se encontró usuario con email: yoesel52@gmail.com
+2026-01-11 03:04:50 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 03:06:54 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 03:06:57 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 03:06:57 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 03:06:57 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 03:07:07 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 03:07:07 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-11 03:07:07 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 03:07:14 [INFO    ] components.user     : No se encontró usuario con email: yoesel52@gmail.com
+2026-01-11 08:20:49 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 08:23:46 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 08:23:49 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 08:23:49 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 08:23:49 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 08:23:58 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 08:23:58 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-11 08:23:58 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 08:24:05 [INFO    ] components.user     : No se encontró usuario con email: yoesel52@gmail.com
+2026-01-11 08:27:31 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 08:28:25 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 08:28:27 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 08:28:27 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 08:28:27 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 08:28:37 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 08:28:37 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-11 08:28:37 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 08:28:43 [INFO    ] components.user     : >>> Tablas encontradas con ID 'users': 1
+2026-01-11 08:28:43 [INFO    ] components.user     : >>> Filas encontradas: 1
+2026-01-11 08:28:43 [INFO    ] components.user     : >>> Celdas en fila: 7
+2026-01-11 08:28:44 [INFO    ] components.user     : >>> Enlace encontrado: Cristian Alexander Muñoz Caro -> https://campusvirtual.izyacademy.com/user/view.php?id=4713&course=1
+2026-01-11 08:28:44 [INFO    ] components.user     : >>> Email extraído: yoesel52@gmail.com
+2026-01-11 08:28:44 [INFO    ] components.user     : >>> Error parseando fila: 1 validation error for UserSearchResult
+user_id
+  Input should be a valid string [type=string_type, input_value=4713, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-01-11 08:28:44 [INFO    ] components.user     : >>> Total resultados: 0
+2026-01-11 08:28:44 [INFO    ] components.user     : No se encontró usuario con email: yoesel52@gmail.com
+2026-01-11 08:33:29 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 08:33:32 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 08:33:32 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 08:33:32 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 08:33:41 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 08:33:41 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-11 08:33:41 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 08:33:47 [INFO    ] components.user     : >>> Tablas encontradas con ID 'users': 1
+2026-01-11 08:33:47 [INFO    ] components.user     : >>> Filas encontradas: 1
+2026-01-11 08:33:47 [INFO    ] components.user     : >>> Celdas en fila: 7
+2026-01-11 08:33:47 [INFO    ] components.user     : >>> Enlace encontrado: Cristian Alexander Muñoz Caro -> https://campusvirtual.izyacademy.com/user/view.php?id=4713&course=1
+2026-01-11 08:33:47 [INFO    ] components.user     : >>> Email extraído: yoesel52@gmail.com
+2026-01-11 08:33:47 [INFO    ] components.user     : >>> Total resultados: 1
+2026-01-11 08:33:47 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-11 08:41:38 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 08:41:41 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 08:41:41 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 08:41:41 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 08:41:50 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 08:41:50 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-11 08:41:50 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 08:41:57 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-11 08:42:07 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 08:47:24 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 08:47:27 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 08:47:27 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 08:47:27 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 08:47:36 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 08:47:36 [INFO    ] components.user     : Buscando usuario por username: yoesel52@gmail.com
+2026-01-11 08:47:36 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 08:47:53 [INFO    ] components.user     : No se encontró usuario con username: yoesel52@gmail.com
+2026-01-11 08:48:31 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 08:48:57 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 08:49:00 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 08:49:00 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 08:49:00 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 08:49:11 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 08:49:11 [INFO    ] components.user     : Buscando usuario por username: 4
+2026-01-11 08:49:11 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 08:49:30 [INFO    ] components.user     : No se encontró usuario con username: 4
+2026-01-11 08:49:36 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 08:56:13 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 08:56:16 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 08:56:16 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 08:56:16 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 08:56:26 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 08:56:26 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-11 08:56:26 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 08:56:34 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-11 08:56:52 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 08:57:31 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 08:57:34 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 08:57:34 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 08:57:34 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 08:57:44 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 08:57:44 [INFO    ] components.user     : Buscando usuario por email: un.email.que.no.exista@prueba.com
+2026-01-11 08:57:44 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 08:58:01 [INFO    ] components.user     : No se encontró usuario con email: un.email.que.no.exista@prueba.com
+2026-01-11 08:59:16 [INFO    ] components.user     : Iniciando creación de usuario: Prueba Automatica Moodle
+2026-01-11 08:59:16 [INFO    ] components.user     : Buscando usuario por email: un.email.que.no.exista@prueba.com
+2026-01-11 08:59:33 [INFO    ] components.user     : No se encontró usuario con email: un.email.que.no.exista@prueba.com
+2026-01-11 08:59:33 [INFO    ] components.user     : Buscando username disponible para: Prueba Automatica Moodle
+2026-01-11 08:59:33 [INFO    ] components.user     : Buscando usuario por username: pmoodle
+2026-01-11 08:59:49 [INFO    ] components.user     : No se encontró usuario con username: pmoodle
+2026-01-11 08:59:49 [INFO    ] components.user     : Username disponible encontrado: pmoodle
+2026-01-11 08:59:49 [INFO    ] models.user         : Username actualizado a: pmoodle
+2026-01-11 08:59:49 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-01-11 08:59:58 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260111_085958.png
+2026-01-11 09:00:04 [INFO    ] components.user     : Usuario creado exitosamente
+2026-01-11 09:00:04 [INFO    ] components.user     : Usuario creado: pmoodle (un.email.que.no.exista@prueba.com)
+2026-01-11 09:00:34 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 09:02:24 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 09:02:27 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 09:02:27 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 09:02:27 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 09:02:37 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 09:02:37 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-01-11 09:02:37 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 09:02:44 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-01-11 09:03:09 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 09:03:22 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 09:03:25 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 09:03:25 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 09:03:25 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 09:03:34 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 09:03:34 [INFO    ] components.user     : Buscando usuario por email: yoesel52@hotmail.com
+2026-01-11 09:03:34 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 09:03:50 [INFO    ] components.user     : No se encontró usuario con email: yoesel52@hotmail.com
+2026-01-11 09:04:25 [INFO    ] components.user     : Iniciando creación de usuario: Cristian Alexander Muñoz Caro
+2026-01-11 09:04:25 [INFO    ] components.user     : Buscando usuario por email: yoesel52@hotmail.com
+2026-01-11 09:04:39 [INFO    ] components.user     : No se encontró usuario con email: yoesel52@hotmail.com
+2026-01-11 09:04:39 [INFO    ] components.user     : Buscando username disponible para: Cristian Alexander Muñoz Caro
+2026-01-11 09:04:39 [INFO    ] components.user     : Buscando usuario por username: cmunoz
+2026-01-11 09:04:54 [INFO    ] components.user     : No se encontró usuario con username: cmunoz
+2026-01-11 09:04:54 [INFO    ] components.user     : Username disponible encontrado: cmunoz
+2026-01-11 09:04:54 [INFO    ] models.user         : Username actualizado a: cmunoz
+2026-01-11 09:04:54 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-01-11 09:05:03 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260111_090502.png
+2026-01-11 09:05:09 [INFO    ] components.user     : Usuario creado exitosamente
+2026-01-11 09:05:09 [INFO    ] components.user     : Usuario creado: cmunoz (yoesel52@hotmail.com)
+2026-01-11 09:05:50 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 09:06:14 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 09:06:17 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 09:06:17 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 09:06:17 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 09:06:27 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 09:06:27 [INFO    ] components.user     : Buscando usuario por email: otro.correo.prueba@prueba.com
+2026-01-11 09:06:27 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 09:06:46 [INFO    ] components.user     : No se encontró usuario con email: otro.correo.prueba@prueba.com
+2026-01-11 09:07:13 [INFO    ] components.user     : Iniciando creación de usuario: Cristian Alexander Muñoz Caro
+2026-01-11 09:07:13 [INFO    ] components.user     : Buscando usuario por email: otro.correo.prueba@prueba.com
+2026-01-11 09:07:27 [INFO    ] components.user     : No se encontró usuario con email: otro.correo.prueba@prueba.com
+2026-01-11 09:07:27 [INFO    ] components.user     : Buscando username disponible para: Cristian Alexander Muñoz Caro
+2026-01-11 09:07:27 [INFO    ] components.user     : Buscando usuario por username: cmunoz
+2026-01-11 09:07:41 [INFO    ] components.user     : No se encontró usuario con username: cmunoz
+2026-01-11 09:07:41 [INFO    ] components.user     : Username disponible encontrado: cmunoz
+2026-01-11 09:07:41 [INFO    ] models.user         : Username actualizado a: cmunoz
+2026-01-11 09:07:41 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-01-11 09:07:50 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260111_090750.png
+2026-01-11 09:07:54 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-01-11 09:07:54 [INFO    ] core.browser        : Screenshot guardada: screenshots\full_flow_error_20260111_090754.png
+2026-01-11 09:10:05 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 09:29:49 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 09:29:52 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 09:29:52 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 09:29:52 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 09:29:59 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 09:29:59 [INFO    ] components.user     : Buscando usuario por email: otro.usuario.de.prueba@prueba.com
+2026-01-11 09:29:59 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 09:30:15 [INFO    ] components.user     : No se encontró usuario con email: otro.usuario.de.prueba@prueba.com
+2026-01-11 09:30:37 [INFO    ] components.user     : Iniciando creación de usuario: Cristian Alexander Muñoz Caro
+2026-01-11 09:30:37 [INFO    ] components.user     : Buscando usuario por email: otro.usuario.de.prueba@prueba.com
+2026-01-11 09:30:50 [INFO    ] components.user     : No se encontró usuario con email: otro.usuario.de.prueba@prueba.com
+2026-01-11 09:30:50 [INFO    ] components.user     : Intento 1: Probando username 'cmunoz'
+2026-01-11 09:30:50 [INFO    ] models.user         : Username actualizado a: cmunoz
+2026-01-11 09:30:50 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-01-11 09:30:55 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260111_093055.png
+2026-01-11 09:30:58 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-01-11 09:30:58 [WARNING ] components.user     : Username 'cmunoz' ya existe, probando siguiente...
+2026-01-11 09:30:58 [INFO    ] components.user     : Intento 2: Probando username 'cmunoz1'
+2026-01-11 09:30:58 [INFO    ] models.user         : Username actualizado a: cmunoz1
+2026-01-11 09:30:58 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-01-11 09:31:06 [INFO    ] components.user     : Usuario creado exitosamente
+2026-01-11 09:31:06 [INFO    ] components.user     : Usuario creado: cmunoz1 (otro.usuario.de.prueba@prueba.com)
+2026-01-11 09:31:18 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 15:24:30 [INFO    ] services.course_cache: No existe cache, creando catálogo vacío
+2026-01-11 15:25:24 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 15:25:28 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 15:25:28 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 15:25:28 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 15:25:35 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 15:25:35 [INFO    ] services.course_cache: No existe cache, creando catálogo vacío
+2026-01-11 15:25:35 [INFO    ] components.course   : Iniciando sincronización de 1 categoría(s)
+2026-01-11 15:25:35 [INFO    ] components.course   : Sincronizando: Pruebas Diagnósticas
+2026-01-11 15:25:35 [ERROR   ] core.browser        : Excepción detectada: AttributeError: 'BrowserManager' object has no attribute 'navigate'
+2026-01-11 15:25:35 [INFO    ] core.browser        : Screenshot guardada: screenshots\error_on_exit_20260111_152535.png
+2026-01-11 15:25:37 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 15:25:37 [ERROR   ] __main__            : Error en sincronización: 'BrowserManager' object has no attribute 'navigate'
+2026-01-11 15:32:04 [INFO    ] services.course_cache: No existe cache, creando catálogo vacío
+2026-01-11 15:32:32 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 15:32:34 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 15:32:34 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 15:32:34 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 15:32:40 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 15:32:40 [INFO    ] services.course_cache: No existe cache, creando catálogo vacío
+2026-01-11 15:32:40 [INFO    ] components.course   : Iniciando sincronización de 1 categoría(s)
+2026-01-11 15:32:40 [INFO    ] components.course   : Sincronizando: Pruebas Diagnósticas
+2026-01-11 15:32:40 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/management.php?categoryid=35&perpage=999
+2026-01-11 15:32:44 [INFO    ] components.course   : Encontrados 46 cursos en Pruebas Diagnósticas
+2026-01-11 15:32:44 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=614
+2026-01-11 15:32:46 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=613
+2026-01-11 15:32:48 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=610
+2026-01-11 15:32:49 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=601
+2026-01-11 15:32:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-01-11 15:32:52 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=611
+2026-01-11 15:32:54 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=600
+2026-01-11 15:32:56 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=604
+2026-01-11 15:32:57 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=607
+2026-01-11 15:32:59 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=606
+2026-01-11 15:33:00 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=602
+2026-01-11 15:33:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=608
+2026-01-11 15:33:03 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=595
+2026-01-11 15:33:05 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=594
+2026-01-11 15:33:07 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=596
+2026-01-11 15:33:08 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=609
+2026-01-11 15:33:10 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=605
+2026-01-11 15:33:12 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=585
+2026-01-11 15:33:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=589
+2026-01-11 15:33:15 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=586
+2026-01-11 15:33:16 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=356
+2026-01-11 15:33:18 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=371
+2026-01-11 15:33:19 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=194
+2026-01-11 15:33:21 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=235
+2026-01-11 15:33:22 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=271
+2026-01-11 15:33:24 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=269
+2026-01-11 15:33:25 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=325
+2026-01-11 15:33:27 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=326
+2026-01-11 15:33:28 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=324
+2026-01-11 15:33:30 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=336
+2026-01-11 15:33:31 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=346
+2026-01-11 15:33:33 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=344
+2026-01-11 15:33:34 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=467
+2026-01-11 15:33:36 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-01-11 15:33:38 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=577
+2026-01-11 15:33:40 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=583
+2026-01-11 15:33:41 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=579
+2026-01-11 15:33:43 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=582
+2026-01-11 15:33:45 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=320
+2026-01-11 15:33:47 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=363
+2026-01-11 15:33:49 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=357
+2026-01-11 15:33:50 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=360
+2026-01-11 15:33:52 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=192
+2026-01-11 15:33:53 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=362
+2026-01-11 15:33:55 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=364
+2026-01-11 15:33:56 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=365
+2026-01-11 15:33:58 [INFO    ] components.course   :   → 46 cursos extraídos
+2026-01-11 15:33:58 [INFO    ] services.course_cache: Cache guardado: 46 cursos
+2026-01-11 15:33:58 [INFO    ] components.course   : Sincronización completa: 46 cursos
+2026-01-11 15:34:00 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 15:40:39 [INFO    ] services.course_cache: Cache cargado: 46 cursos
+2026-01-11 15:41:04 [INFO    ] services.course_cache: Cache cargado: 46 cursos
+2026-01-11 15:42:38 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 15:42:40 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 15:42:40 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 15:42:40 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 15:42:46 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 15:42:46 [INFO    ] services.course_cache: Cache cargado: 46 cursos
+2026-01-11 15:42:46 [INFO    ] components.course   : Iniciando sincronización de 1 categoría(s)
+2026-01-11 15:42:46 [INFO    ] components.course   : Sincronizando: Pruebas Diagnósticas
+2026-01-11 15:42:46 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/management.php?categoryid=35&perpage=999
+2026-01-11 15:42:50 [INFO    ] components.course   : Encontrados 22 cursos en Pruebas Diagnósticas
+2026-01-11 15:42:50 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=614
+2026-01-11 15:42:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=613
+2026-01-11 15:42:53 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=610
+2026-01-11 15:42:55 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=601
+2026-01-11 15:42:56 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-01-11 15:42:58 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=611
+2026-01-11 15:42:59 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=600
+2026-01-11 15:43:01 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=604
+2026-01-11 15:43:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=607
+2026-01-11 15:43:04 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=606
+2026-01-11 15:43:06 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=602
+2026-01-11 15:43:08 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=608
+2026-01-11 15:43:10 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=595
+2026-01-11 15:43:12 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=594
+2026-01-11 15:43:14 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=596
+2026-01-11 15:43:16 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=609
+2026-01-11 15:43:18 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=605
+2026-01-11 15:43:20 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=585
+2026-01-11 15:43:22 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=269
+2026-01-11 15:43:24 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=325
+2026-01-11 15:43:26 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-01-11 15:43:28 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=320
+2026-01-11 15:43:29 [INFO    ] components.course   :   → 22 cursos extraídos
+2026-01-11 15:43:29 [INFO    ] services.course_cache: Cache guardado: 46 cursos
+2026-01-11 15:43:29 [INFO    ] components.course   : Sincronización completa: 22 cursos
+2026-01-11 15:43:32 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 15:44:29 [INFO    ] services.course_cache: Cache cargado: 46 cursos
+2026-01-11 15:44:34 [INFO    ] services.course_cache: Cache cargado: 46 cursos
+2026-01-11 15:44:50 [INFO    ] services.course_cache: Cache cargado: 46 cursos
+2026-01-11 15:45:07 [INFO    ] services.course_cache: Cache cargado: 46 cursos
+2026-01-11 15:45:10 [INFO    ] services.course_cache: Cache guardado: 0 cursos
+2026-01-11 15:45:10 [INFO    ] services.course_cache: Cache limpiado
+2026-01-11 15:45:16 [INFO    ] services.course_cache: Cache cargado: 0 cursos
+2026-01-11 15:45:28 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 15:45:30 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 15:45:30 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 15:45:30 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 15:45:37 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 15:45:37 [INFO    ] services.course_cache: Cache cargado: 0 cursos
+2026-01-11 15:45:37 [INFO    ] components.course   : Iniciando sincronización de 1 categoría(s)
+2026-01-11 15:45:37 [INFO    ] components.course   : Sincronizando: Pruebas Diagnósticas
+2026-01-11 15:45:37 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/management.php?categoryid=35&perpage=999
+2026-01-11 15:45:40 [INFO    ] components.course   : Encontrados 22 cursos en Pruebas Diagnósticas
+2026-01-11 15:45:40 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=614
+2026-01-11 15:45:42 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=613
+2026-01-11 15:45:43 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=610
+2026-01-11 15:45:45 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=601
+2026-01-11 15:45:47 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-01-11 15:45:48 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=611
+2026-01-11 15:45:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=600
+2026-01-11 15:45:53 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=604
+2026-01-11 15:45:54 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=607
+2026-01-11 15:45:56 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=606
+2026-01-11 15:45:57 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=602
+2026-01-11 15:45:59 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=608
+2026-01-11 15:46:00 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=595
+2026-01-11 15:46:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=594
+2026-01-11 15:46:04 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=596
+2026-01-11 15:46:05 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=609
+2026-01-11 15:46:07 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=605
+2026-01-11 15:46:09 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=585
+2026-01-11 15:46:10 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=269
+2026-01-11 15:46:12 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=325
+2026-01-11 15:46:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-01-11 15:46:15 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=320
+2026-01-11 15:46:16 [INFO    ] components.course   :   → 22 cursos extraídos
+2026-01-11 15:46:16 [INFO    ] services.course_cache: Cache guardado: 22 cursos
+2026-01-11 15:46:16 [INFO    ] components.course   : Sincronización completa: 22 cursos
+2026-01-11 15:46:19 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 15:46:23 [INFO    ] services.course_cache: Cache cargado: 22 cursos
+2026-01-11 15:46:26 [INFO    ] services.course_cache: Cache cargado: 22 cursos
+2026-01-11 15:46:53 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 15:46:55 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 15:46:55 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 15:46:55 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 15:47:02 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 15:47:02 [INFO    ] services.course_cache: Cache cargado: 22 cursos
+2026-01-11 15:47:02 [INFO    ] components.course   : Iniciando sincronización de 2 categoría(s)
+2026-01-11 15:47:02 [INFO    ] components.course   : Sincronizando: Pruebas Diagnósticas
+2026-01-11 15:47:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/management.php?categoryid=35&perpage=999
+2026-01-11 15:47:05 [INFO    ] components.course   : Encontrados 22 cursos en Pruebas Diagnósticas
+2026-01-11 15:47:05 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=614
+2026-01-11 15:47:07 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=613
+2026-01-11 15:47:08 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=610
+2026-01-11 15:47:10 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=601
+2026-01-11 15:47:12 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-01-11 15:47:14 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=611
+2026-01-11 15:47:16 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=600
+2026-01-11 15:47:18 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=604
+2026-01-11 15:47:20 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=607
+2026-01-11 15:47:22 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=606
+2026-01-11 15:47:24 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=602
+2026-01-11 15:47:26 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=608
+2026-01-11 15:47:28 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=595
+2026-01-11 15:47:30 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=594
+2026-01-11 15:47:32 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=596
+2026-01-11 15:47:34 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=609
+2026-01-11 15:47:36 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=605
+2026-01-11 15:47:38 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=585
+2026-01-11 15:47:40 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=269
+2026-01-11 15:47:42 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=325
+2026-01-11 15:47:44 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-01-11 15:47:46 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=320
+2026-01-11 15:47:48 [INFO    ] components.course   :   → 22 cursos extraídos
+2026-01-11 15:47:48 [INFO    ] components.course   : Sincronizando: Pruebas Técnicas
+2026-01-11 15:47:48 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/management.php?categoryid=50&perpage=999
+2026-01-11 15:47:51 [INFO    ] components.course   : Encontrados 7 cursos en Pruebas Técnicas
+2026-01-11 15:47:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=616
+2026-01-11 15:47:53 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=603
+2026-01-11 15:47:55 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=590
+2026-01-11 15:47:57 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=378
+2026-01-11 15:47:59 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=403
+2026-01-11 15:48:00 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=456
+2026-01-11 15:48:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=223
+2026-01-11 15:48:04 [INFO    ] components.course   :   → 7 cursos extraídos
+2026-01-11 15:48:04 [INFO    ] services.course_cache: Cache guardado: 29 cursos
+2026-01-11 15:48:04 [INFO    ] components.course   : Sincronización completa: 29 cursos
+2026-01-11 15:48:06 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 17:33:07 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-01-11 17:33:23 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-01-11 17:33:29 [INFO    ] services.course_cache: Cache guardado: 0 cursos
+2026-01-11 17:33:29 [INFO    ] services.course_cache: Cache limpiado
+2026-01-11 17:33:40 [INFO    ] services.course_cache: Cache cargado: 0 cursos
+2026-01-11 17:35:16 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 17:35:19 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 17:35:19 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 17:35:19 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 17:35:27 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 17:35:27 [INFO    ] services.course_cache: Cache cargado: 0 cursos
+2026-01-11 17:35:27 [INFO    ] components.course   : Iniciando sincronización de 1 categoría(s)
+2026-01-11 17:35:27 [INFO    ] components.course   : Sincronizando: Pruebas Técnicas
+2026-01-11 17:35:27 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/management.php?categoryid=50&perpage=999
+2026-01-11 17:35:31 [INFO    ] components.course   : Encontrados 7 cursos en Pruebas Técnicas
+2026-01-11 17:35:31 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=616
+2026-01-11 17:35:33 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=603
+2026-01-11 17:35:34 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=590
+2026-01-11 17:35:36 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=378
+2026-01-11 17:35:39 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=403
+2026-01-11 17:35:41 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=456
+2026-01-11 17:35:43 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=223
+2026-01-11 17:35:45 [INFO    ] components.course   :   → 7 cursos extraídos
+2026-01-11 17:35:45 [INFO    ] services.course_cache: Cache guardado: 7 cursos
+2026-01-11 17:35:45 [INFO    ] components.course   : Sincronización completa: 7 cursos
+2026-01-11 17:35:47 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 17:35:57 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-11 17:36:00 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-11 17:37:35 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 17:37:38 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 17:37:38 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 17:37:38 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 17:37:45 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 17:37:45 [INFO    ] components.user     : Buscando usuario por email: otra.prueba.moodle@prueba.com
+2026-01-11 17:37:45 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-01-11 17:38:00 [INFO    ] components.user     : No se encontró usuario con email: otra.prueba.moodle@prueba.com
+2026-01-11 17:38:22 [INFO    ] components.user     : Iniciando creación de usuario: Crismtian Alexander Muñoz Caro
+2026-01-11 17:38:22 [INFO    ] components.user     : Buscando usuario por email: otra.prueba.moodle@prueba.com
+2026-01-11 17:38:36 [INFO    ] components.user     : No se encontró usuario con email: otra.prueba.moodle@prueba.com
+2026-01-11 17:38:36 [INFO    ] components.user     : Intento 1: Probando username 'cmunoz'
+2026-01-11 17:38:36 [INFO    ] models.user         : Username actualizado a: cmunoz
+2026-01-11 17:38:36 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-01-11 17:38:41 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260111_173841.png
+2026-01-11 17:38:44 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-01-11 17:38:44 [WARNING ] components.user     : Username 'cmunoz' ya existe, probando siguiente...
+2026-01-11 17:38:44 [INFO    ] components.user     : Intento 2: Probando username 'cmunoz1'
+2026-01-11 17:38:44 [INFO    ] models.user         : Username actualizado a: cmunoz1
+2026-01-11 17:38:44 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-01-11 17:38:51 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-01-11 17:38:51 [WARNING ] components.user     : Username 'cmunoz1' ya existe, probando siguiente...
+2026-01-11 17:38:51 [INFO    ] components.user     : Intento 3: Probando username 'cmunoz2'
+2026-01-11 17:38:51 [INFO    ] models.user         : Username actualizado a: cmunoz2
+2026-01-11 17:38:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-01-11 17:38:58 [INFO    ] components.user     : Usuario creado exitosamente
+2026-01-11 17:38:58 [INFO    ] components.user     : Usuario creado: cmunoz2 (otra.prueba.moodle@prueba.com)
+2026-01-11 17:51:03 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 19:35:11 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-11 19:38:18 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 19:38:22 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 19:38:22 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 19:38:22 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 19:38:32 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 19:38:32 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-11 19:39:19 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 19:43:25 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-11 19:45:36 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 19:45:38 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 19:45:38 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 19:45:38 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 19:45:48 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 19:45:48 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-01-11 19:45:48 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-11 19:46:32 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-01-11 19:46:32 [INFO    ] components.enrollment: Reactivando matrícula para yoesel52@gmail.com
+2026-01-11 19:46:35 [ERROR   ] components.enrollment: Error abriendo editor: Message: element click intercepted: Element <a href="https://campusvirtual.izyacademy.com/enrol/editenrolment.php?page=0&amp;perpage=20&amp;contextid=0&amp;id=616&amp;newcourse&amp;ue=30607" role="button" class="editenrollink" rel="30607" data-action="editenrolment" title="Editar matrícula">...</a> is not clickable at point (1248, 882). Other element would receive the click: <div id="cookie-banner">...</div>
+  (Session info: chrome=143.0.7499.41); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7fb4788d5
+	0x7ff7fb478930
+	0x7ff7fb25165d
+	0x7ff7fb2b19e8
+	0x7ff7fb2af40f
+	0x7ff7fb2ac417
+	0x7ff7fb2ab338
+	0x7ff7fb29ce7f
+	0x7ff7fb2d1fda
+	0x7ff7fb29c746
+	0x7ff7fb2fac97
+	0x7ff7fb29ac29
+	0x7ff7fb29ba93
+	0x7ff7fb790620
+	0x7ff7fb78af60
+	0x7ff7fb7a96c6
+	0x7ff7fb495dd4
+	0x7ff7fb49ed7c
+	0x7ff7fb481ff4
+	0x7ff7fb4821a5
+	0x7ff7fb467ed2
+	0x7ffb099fe8d7
+	0x7ffb0b0ac53c
+
+2026-01-11 19:46:38 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 19:53:59 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-11 19:54:23 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 19:54:26 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 19:54:26 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 19:54:26 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 19:54:37 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 19:54:37 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-01-11 19:54:37 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-11 19:55:22 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-01-11 19:55:22 [INFO    ] components.enrollment: Reactivando matrícula para yoesel52@gmail.com
+2026-01-11 19:55:24 [ERROR   ] components.enrollment: Error abriendo editor: Message: element click intercepted: Element <a href="https://campusvirtual.izyacademy.com/enrol/editenrolment.php?page=0&amp;perpage=20&amp;contextid=0&amp;id=616&amp;newcourse&amp;ue=30607" role="button" class="editenrollink" rel="30607" data-action="editenrolment" title="Editar matrícula">...</a> is not clickable at point (1248, 882). Other element would receive the click: <div id="cookie-banner">...</div>
+  (Session info: chrome=143.0.7499.41); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7fb4788d5
+	0x7ff7fb478930
+	0x7ff7fb25165d
+	0x7ff7fb2b19e8
+	0x7ff7fb2af40f
+	0x7ff7fb2ac417
+	0x7ff7fb2ab338
+	0x7ff7fb29ce7f
+	0x7ff7fb2d1fda
+	0x7ff7fb29c746
+	0x7ff7fb2fac97
+	0x7ff7fb29ac29
+	0x7ff7fb29ba93
+	0x7ff7fb790620
+	0x7ff7fb78af60
+	0x7ff7fb7a96c6
+	0x7ff7fb495dd4
+	0x7ff7fb49ed7c
+	0x7ff7fb481ff4
+	0x7ff7fb4821a5
+	0x7ff7fb467ed2
+	0x7ffb099fe8d7
+	0x7ffb0b0ac53c
+
+2026-01-11 19:55:27 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 19:57:44 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-11 19:58:08 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 19:58:11 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 19:58:11 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 19:58:11 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 19:58:20 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 19:58:20 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-01-11 19:58:20 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-11 19:59:04 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-01-11 19:59:04 [INFO    ] components.enrollment: Reactivando matrícula para yoesel52@gmail.com
+2026-01-11 19:59:09 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-11 19:59:58 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 20:14:41 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-11 20:15:08 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 20:15:11 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 20:15:11 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 20:15:11 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 20:15:21 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 20:15:21 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-01-11 20:15:21 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-11 20:16:05 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-01-11 20:16:05 [INFO    ] components.enrollment: Reactivando matrícula para yoesel52@gmail.com
+2026-01-11 20:17:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-11 20:17:51 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 20:22:17 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-11 20:22:46 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 20:22:49 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 20:22:49 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 20:22:50 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 20:22:59 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 20:22:59 [INFO    ] components.enrollment: Iniciando matrícula: otro.correo.de.prueba.@prueba.com en curso 616
+2026-01-11 20:22:59 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-11 20:23:43 [INFO    ] components.enrollment: Creando nueva matrícula para otro.correo.de.prueba.@prueba.com
+2026-01-11 20:23:45 [ERROR   ] components.enrollment: Error click botón matricular: Message: element click intercepted: Element <input type="submit" value="Matricular usuarios" class="btn btn-primary"> is not clickable at point (677, 869). Other element would receive the click: <div id="cookie-banner">...</div>
+  (Session info: chrome=143.0.7499.41); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7fb4788d5
+	0x7ff7fb478930
+	0x7ff7fb25165d
+	0x7ff7fb2b19e8
+	0x7ff7fb2af40f
+	0x7ff7fb2ac417
+	0x7ff7fb2ab338
+	0x7ff7fb29ce7f
+	0x7ff7fb2d1fda
+	0x7ff7fb29c746
+	0x7ff7fb2fac97
+	0x7ff7fb29ac29
+	0x7ff7fb29ba93
+	0x7ff7fb790620
+	0x7ff7fb78af60
+	0x7ff7fb7a96c6
+	0x7ff7fb495dd4
+	0x7ff7fb49ed7c
+	0x7ff7fb481ff4
+	0x7ff7fb4821a5
+	0x7ff7fb467ed2
+	0x7ffb099fe8d7
+	0x7ffb0b0ac53c
+
+2026-01-11 20:23:47 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 20:30:32 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-11 20:30:58 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 20:31:01 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 20:31:01 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 20:31:01 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 20:31:11 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 20:31:11 [INFO    ] components.enrollment: Iniciando matrícula: otra.prueba.moodle@prueba.com en curso 616
+2026-01-11 20:31:11 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-11 20:32:45 [INFO    ] components.enrollment: Creando nueva matrícula para otra.prueba.moodle@prueba.com
+2026-01-11 20:33:47 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-11 20:36:16 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-01-11 20:54:47 [INFO    ] services.course_cache: Cache cargado: 7 cursos
+2026-01-11 20:55:08 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-01-11 20:55:11 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-01-11 20:55:11 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-01-11 20:55:11 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-01-11 20:55:21 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-01-11 20:55:21 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-01-11 20:55:21 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/index.php?id=616
+2026-01-11 20:56:15 [INFO    ] components.enrollment: Usuario ya matriculado, estado: Activo
+2026-01-11 20:56:17 [INFO    ] core.browser        : Navegador cerrado correctamente

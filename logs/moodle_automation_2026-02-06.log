@@ -1,0 +1,278 @@
+2026-02-06 00:12:22 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-06 00:12:25 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-06 00:12:25 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-02-06 00:12:25 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-06 00:12:27 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-06 00:12:29 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-02-06 00:12:30 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-06 00:13:15 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-02-06 00:13:15 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 00:13:22 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-02-06 00:13:22 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-02-06 00:13:30 [INFO    ] components.user     : Contraseña actualizada para: cralmunoz
+2026-02-06 00:14:04 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=616
+2026-02-06 00:14:05 [INFO    ] components.course   : Quizzes encontrados en curso 616: 2
+2026-02-06 00:14:05 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8881
+2026-02-06 00:14:07 [INFO    ] components.quiz     : No hay intentos de yoesel52@gmail.com (Nada que mostrar)
+2026-02-06 00:14:07 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8878
+2026-02-06 00:14:08 [INFO    ] components.quiz     : No hay intentos de yoesel52@gmail.com (Nada que mostrar)
+2026-02-06 00:14:08 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-02-06 00:14:10 [INFO    ] components.enrollment: Aplicando filtro por: yoesel52@gmail.com
+2026-02-06 00:14:13 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 00:14:13 [INFO    ] components.enrollment: Usuario yoesel52@gmail.com encontrado en lista de participantes
+2026-02-06 00:14:13 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-02-06 00:14:13 [INFO    ] components.enrollment: Actualizando matrícula (estado y fechas)...
+2026-02-06 00:14:13 [INFO    ] components.enrollment: Reactivando matrícula para yoesel52@gmail.com
+2026-02-06 00:14:20 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 00:14:20 [INFO    ] components.enrollment: Usuario yoesel52@gmail.com encontrado en lista de participantes
+2026-02-06 00:14:20 [INFO    ] services.document_generator: Generando documento para: Cristian Alexander Muñoz Caro
+2026-02-06 00:14:21 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Cristian_Alexander_Muñoz_Caro_2026-02-06_00-14-21.docx
+2026-02-06 00:14:50 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-02-06 00:14:50 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 00:14:57 [INFO    ] components.user     : No se encontró usuario con email: yoesel52@gmail.com
+2026-02-06 01:52:10 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-06 01:52:13 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-06 01:52:13 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-02-06 01:52:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-06 01:52:15 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-06 01:52:18 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-02-06 01:52:18 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-06 01:52:32 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-02-06 01:52:32 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 01:53:09 [INFO    ] components.user     : Usuario encontrado: Cristian Alexander Muñoz Caro
+2026-02-06 01:53:09 [INFO    ] components.user     : Actualizando contraseña para: yoesel52@gmail.com
+2026-02-06 01:53:17 [INFO    ] components.user     : Contraseña actualizada para: cralmunoz
+2026-02-06 01:53:40 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=616
+2026-02-06 01:53:41 [INFO    ] components.course   : Quizzes encontrados en curso 616: 2
+2026-02-06 01:53:41 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8881
+2026-02-06 01:53:43 [INFO    ] components.quiz     : No hay intentos de yoesel52@gmail.com (Nada que mostrar)
+2026-02-06 01:53:43 [INFO    ] components.quiz     : Eliminando intentos de yoesel52@gmail.com en quiz 8878
+2026-02-06 01:53:44 [INFO    ] components.quiz     : No hay intentos de yoesel52@gmail.com (Nada que mostrar)
+2026-02-06 01:53:44 [INFO    ] components.enrollment: Iniciando matrícula: yoesel52@gmail.com en curso 616
+2026-02-06 01:53:46 [INFO    ] components.enrollment: Aplicando filtro por: yoesel52@gmail.com
+2026-02-06 01:53:49 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 01:53:49 [INFO    ] components.enrollment: Usuario yoesel52@gmail.com encontrado en lista de participantes
+2026-02-06 01:53:49 [INFO    ] components.enrollment: Usuario ya matriculado, estado: Activo
+2026-02-06 01:53:49 [INFO    ] components.enrollment: Actualizando matrícula (estado y fechas)...
+2026-02-06 01:53:49 [INFO    ] components.enrollment: Reactivando matrícula para yoesel52@gmail.com
+2026-02-06 01:53:55 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 01:53:55 [INFO    ] components.enrollment: Usuario yoesel52@gmail.com encontrado en lista de participantes
+2026-02-06 01:53:56 [INFO    ] services.document_generator: Generando documento para: Cristian Alexander Muñoz Caro
+2026-02-06 01:53:56 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Cristian_Alexander_Muñoz_Caro_2026-02-06_01-53-56.docx
+2026-02-06 01:54:23 [INFO    ] components.user     : Buscando usuario por email: yoesel52@gmail.com
+2026-02-06 01:54:23 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 01:54:33 [INFO    ] components.user     : No se encontró usuario con email: yoesel52@gmail.com
+2026-02-06 11:09:23 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-06 11:09:26 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-06 11:09:26 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-02-06 11:09:26 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-06 11:09:36 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-06 11:09:38 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-02-06 11:09:38 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-06 11:09:55 [INFO    ] components.user     : Buscando usuario por email: juancamachorocha31@gmail.com
+2026-02-06 11:09:55 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 11:10:10 [INFO    ] components.user     : No se encontró usuario con email: juancamachorocha31@gmail.com
+2026-02-06 11:10:52 [INFO    ] components.user     : Iniciando creación de usuario: Juan Andres Camacho Rocha
+2026-02-06 11:10:52 [INFO    ] components.user     : Intento 1: Probando username 'jcamacho'
+2026-02-06 11:10:52 [INFO    ] models.user         : Username actualizado a: jcamacho
+2026-02-06 11:10:52 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-06 11:11:02 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260206_111102.png
+2026-02-06 11:11:05 [INFO    ] components.user     : Usuario creado exitosamente
+2026-02-06 11:11:05 [INFO    ] components.user     : Usuario creado: jcamacho (juancamachorocha31@gmail.com)
+2026-02-06 11:11:32 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-02-06 11:11:33 [INFO    ] components.course   : Quizzes encontrados en curso 612: 4
+2026-02-06 11:11:33 [INFO    ] components.quiz     : Eliminando intentos de juancamachorocha31@gmail.com en quiz 8788
+2026-02-06 11:11:35 [INFO    ] components.quiz     : No hay intentos de juancamachorocha31@gmail.com (Nada que mostrar)
+2026-02-06 11:11:35 [INFO    ] components.quiz     : Eliminando intentos de juancamachorocha31@gmail.com en quiz 8784
+2026-02-06 11:11:36 [INFO    ] components.quiz     : No hay intentos de juancamachorocha31@gmail.com (Nada que mostrar)
+2026-02-06 11:11:36 [INFO    ] components.quiz     : Eliminando intentos de juancamachorocha31@gmail.com en quiz 8785
+2026-02-06 11:11:37 [INFO    ] components.quiz     : No hay intentos de juancamachorocha31@gmail.com (Nada que mostrar)
+2026-02-06 11:11:37 [INFO    ] components.quiz     : Eliminando intentos de juancamachorocha31@gmail.com en quiz 8786
+2026-02-06 11:11:38 [INFO    ] components.quiz     : No hay intentos de juancamachorocha31@gmail.com (Nada que mostrar)
+2026-02-06 11:11:38 [INFO    ] components.enrollment: Iniciando matrícula: juancamachorocha31@gmail.com en curso 612
+2026-02-06 11:11:39 [INFO    ] components.enrollment: Aplicando filtro por: juancamachorocha31@gmail.com
+2026-02-06 11:11:42 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:12:02 [INFO    ] components.enrollment: Creando nueva matrícula para juancamachorocha31@gmail.com
+2026-02-06 11:12:10 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:12:10 [INFO    ] components.enrollment: Usuario juancamachorocha31@gmail.com encontrado en lista de participantes
+2026-02-06 11:12:11 [INFO    ] services.document_generator: Generando documento para: Juan Andres Camacho Rocha
+2026-02-06 11:12:11 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Juan_Andres_Camacho_Rocha_2026-02-06_11-12-11.docx
+2026-02-06 11:13:41 [INFO    ] components.user     : Buscando usuario por email: sequintero.rincon@gmail.com
+2026-02-06 11:13:41 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 11:14:02 [INFO    ] components.user     : No se encontró usuario con email: sequintero.rincon@gmail.com
+2026-02-06 11:15:49 [INFO    ] components.user     : Iniciando creación de usuario: Sergio Ernesto Quintero Rincon
+2026-02-06 11:15:49 [INFO    ] components.user     : Intento 1: Probando username 'squintero'
+2026-02-06 11:15:49 [INFO    ] models.user         : Username actualizado a: squintero
+2026-02-06 11:15:49 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-06 11:15:54 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260206_111554.png
+2026-02-06 11:15:56 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-02-06 11:15:56 [WARNING ] components.user     : Username 'squintero' ya existe, probando siguiente...
+2026-02-06 11:15:56 [INFO    ] components.user     : Intento 2: Probando username 'squintero1'
+2026-02-06 11:15:56 [INFO    ] models.user         : Username actualizado a: squintero1
+2026-02-06 11:15:56 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-06 11:16:03 [INFO    ] components.user     : Usuario creado exitosamente
+2026-02-06 11:16:03 [INFO    ] components.user     : Usuario creado: squintero1 (sequintero.rincon@gmail.com)
+2026-02-06 11:16:21 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-02-06 11:16:23 [INFO    ] components.course   : Quizzes encontrados en curso 612: 4
+2026-02-06 11:16:23 [INFO    ] components.quiz     : Eliminando intentos de sequintero.rincon@gmail.com en quiz 8788
+2026-02-06 11:16:25 [INFO    ] components.quiz     : No hay intentos de sequintero.rincon@gmail.com (Nada que mostrar)
+2026-02-06 11:16:25 [INFO    ] components.quiz     : Eliminando intentos de sequintero.rincon@gmail.com en quiz 8784
+2026-02-06 11:16:27 [INFO    ] components.quiz     : No hay intentos de sequintero.rincon@gmail.com (Nada que mostrar)
+2026-02-06 11:16:27 [INFO    ] components.quiz     : Eliminando intentos de sequintero.rincon@gmail.com en quiz 8785
+2026-02-06 11:16:29 [INFO    ] components.quiz     : No hay intentos de sequintero.rincon@gmail.com (Nada que mostrar)
+2026-02-06 11:16:29 [INFO    ] components.quiz     : Eliminando intentos de sequintero.rincon@gmail.com en quiz 8786
+2026-02-06 11:16:30 [INFO    ] components.quiz     : No hay intentos de sequintero.rincon@gmail.com (Nada que mostrar)
+2026-02-06 11:16:30 [INFO    ] components.enrollment: Iniciando matrícula: sequintero.rincon@gmail.com en curso 612
+2026-02-06 11:16:32 [INFO    ] components.enrollment: Aplicando filtro por: sequintero.rincon@gmail.com
+2026-02-06 11:16:36 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:16:56 [INFO    ] components.enrollment: Creando nueva matrícula para sequintero.rincon@gmail.com
+2026-02-06 11:17:05 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:17:05 [INFO    ] components.enrollment: Usuario sequintero.rincon@gmail.com encontrado en lista de participantes
+2026-02-06 11:17:05 [INFO    ] services.document_generator: Generando documento para: Sergio Ernesto Quintero Rincon
+2026-02-06 11:17:05 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Sergio_Ernesto_Quintero_Rincon_2026-02-06_11-17-05.docx
+2026-02-06 11:18:14 [INFO    ] components.user     : Buscando usuario por email: juandbuitrago1999@gmail.com
+2026-02-06 11:18:14 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 11:18:40 [INFO    ] components.user     : No se encontró usuario con email: juandbuitrago1999@gmail.com
+2026-02-06 11:19:43 [INFO    ] components.user     : Iniciando creación de usuario: Juan Diego Buitrago Marquez
+2026-02-06 11:19:43 [INFO    ] components.user     : Intento 1: Probando username 'jbuitrago'
+2026-02-06 11:19:43 [INFO    ] models.user         : Username actualizado a: jbuitrago
+2026-02-06 11:19:43 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-06 11:19:59 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260206_111959.png
+2026-02-06 11:20:02 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-02-06 11:20:02 [WARNING ] components.user     : Username 'jbuitrago' ya existe, probando siguiente...
+2026-02-06 11:20:02 [INFO    ] components.user     : Intento 2: Probando username 'jbuitrago1'
+2026-02-06 11:20:02 [INFO    ] models.user         : Username actualizado a: jbuitrago1
+2026-02-06 11:20:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-06 11:20:09 [INFO    ] components.user     : Usuario creado exitosamente
+2026-02-06 11:20:09 [INFO    ] components.user     : Usuario creado: jbuitrago1 (juandbuitrago1999@gmail.com)
+2026-02-06 11:21:14 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-02-06 11:21:16 [INFO    ] components.course   : Quizzes encontrados en curso 612: 4
+2026-02-06 11:21:16 [INFO    ] components.quiz     : Eliminando intentos de juandbuitrago1999@gmail.com en quiz 8788
+2026-02-06 11:21:29 [INFO    ] components.quiz     : No se encontraron intentos de juandbuitrago1999@gmail.com
+2026-02-06 11:21:29 [INFO    ] components.quiz     : Eliminando intentos de juandbuitrago1999@gmail.com en quiz 8784
+2026-02-06 11:21:40 [INFO    ] components.quiz     : No se encontraron intentos de juandbuitrago1999@gmail.com
+2026-02-06 11:21:40 [INFO    ] components.quiz     : Eliminando intentos de juandbuitrago1999@gmail.com en quiz 8785
+2026-02-06 11:21:41 [INFO    ] components.quiz     : No hay intentos de juandbuitrago1999@gmail.com (Nada que mostrar)
+2026-02-06 11:21:41 [INFO    ] components.quiz     : Eliminando intentos de juandbuitrago1999@gmail.com en quiz 8786
+2026-02-06 11:21:42 [INFO    ] components.quiz     : No hay intentos de juandbuitrago1999@gmail.com (Nada que mostrar)
+2026-02-06 11:21:42 [INFO    ] components.enrollment: Iniciando matrícula: juandbuitrago1999@gmail.com en curso 612
+2026-02-06 11:21:43 [INFO    ] components.enrollment: Aplicando filtro por: juandbuitrago1999@gmail.com
+2026-02-06 11:21:47 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:22:07 [INFO    ] components.enrollment: Creando nueva matrícula para juandbuitrago1999@gmail.com
+2026-02-06 11:22:15 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:22:15 [INFO    ] components.enrollment: Usuario juandbuitrago1999@gmail.com encontrado en lista de participantes
+2026-02-06 11:22:15 [INFO    ] services.document_generator: Generando documento para: Juan Diego Buitrago Marquez
+2026-02-06 11:22:15 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Juan_Diego_Buitrago_Marquez_2026-02-06_11-22-15.docx
+2026-02-06 11:26:02 [INFO    ] components.user     : Buscando usuario por email: christian0995@gmail.com
+2026-02-06 11:26:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 11:26:28 [INFO    ] components.user     : Usuario encontrado: Cristian Felipe Oyola Ordoñez
+2026-02-06 11:26:28 [INFO    ] components.user     : Actualizando contraseña para: christian0995@gmail.com
+2026-02-06 11:26:35 [INFO    ] components.user     : Contraseña actualizada para: crfeoyola
+2026-02-06 11:27:10 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-02-06 11:27:12 [INFO    ] components.course   : Quizzes encontrados en curso 612: 4
+2026-02-06 11:27:12 [INFO    ] components.quiz     : Eliminando intentos de christian0995@gmail.com en quiz 8788
+2026-02-06 11:27:14 [INFO    ] components.quiz     : Total checkboxes seleccionados: 1
+2026-02-06 11:27:14 [INFO    ] components.quiz     : Seleccionados 1 intentos, procediendo a eliminar...
+2026-02-06 11:27:16 [INFO    ] components.quiz     : ✓ Eliminados 1 intentos de christian0995@gmail.com
+2026-02-06 11:27:16 [INFO    ] components.quiz     : Eliminando intentos de christian0995@gmail.com en quiz 8784
+2026-02-06 11:27:18 [INFO    ] components.quiz     : Total checkboxes seleccionados: 1
+2026-02-06 11:27:18 [INFO    ] components.quiz     : Seleccionados 1 intentos, procediendo a eliminar...
+2026-02-06 11:27:21 [INFO    ] components.quiz     : ✓ Eliminados 1 intentos de christian0995@gmail.com
+2026-02-06 11:27:21 [INFO    ] components.quiz     : Eliminando intentos de christian0995@gmail.com en quiz 8785
+2026-02-06 11:27:22 [INFO    ] components.quiz     : No hay intentos de christian0995@gmail.com (Nada que mostrar)
+2026-02-06 11:27:22 [INFO    ] components.quiz     : Eliminando intentos de christian0995@gmail.com en quiz 8786
+2026-02-06 11:27:23 [INFO    ] components.quiz     : No hay intentos de christian0995@gmail.com (Nada que mostrar)
+2026-02-06 11:27:23 [INFO    ] components.enrollment: Iniciando matrícula: christian0995@gmail.com en curso 612
+2026-02-06 11:27:24 [INFO    ] components.enrollment: Aplicando filtro por: christian0995@gmail.com
+2026-02-06 11:27:27 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:27:27 [INFO    ] components.enrollment: Usuario christian0995@gmail.com encontrado en lista de participantes
+2026-02-06 11:27:27 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-02-06 11:27:27 [INFO    ] components.enrollment: Actualizando matrícula (estado y fechas)...
+2026-02-06 11:27:27 [INFO    ] components.enrollment: Reactivando matrícula para christian0995@gmail.com
+2026-02-06 11:27:33 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:27:33 [INFO    ] components.enrollment: Usuario christian0995@gmail.com encontrado en lista de participantes
+2026-02-06 11:27:33 [INFO    ] services.document_generator: Generando documento para: Cristian Felipe Oyola Ordoñez
+2026-02-06 11:27:34 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Cristian_Felipe_Oyola_Ordoñez_2026-02-06_11-27-34.docx
+2026-02-06 11:29:12 [INFO    ] components.user     : Buscando usuario por email: davidjimenez287623@correo.itm.edu.co
+2026-02-06 11:29:12 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 11:29:38 [INFO    ] components.user     : No se encontró usuario con email: davidjimenez287623@correo.itm.edu.co
+2026-02-06 11:30:43 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-06 11:30:45 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-06 11:30:45 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-02-06 11:30:45 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-06 11:30:53 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-06 11:30:57 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-02-06 11:30:57 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-06 11:31:06 [INFO    ] components.user     : Buscando usuario por email: davidjimenez287623@correo.itm.edu.co
+2026-02-06 11:31:06 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 11:31:19 [INFO    ] components.user     : Usuario encontrado: David Santiago Jiménez Múnera
+2026-02-06 11:31:19 [INFO    ] components.user     : Actualizando contraseña para: davidjimenez287623@correo.itm.edu.co
+2026-02-06 11:31:32 [INFO    ] components.user     : Contraseña actualizada para: djimenez1
+2026-02-06 11:32:15 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=403
+2026-02-06 11:32:27 [INFO    ] components.course   : Quizzes encontrados en curso 403: 0
+2026-02-06 11:32:27 [INFO    ] components.enrollment: Iniciando matrícula: davidjimenez287623@correo.itm.edu.co en curso 403
+2026-02-06 11:32:28 [INFO    ] components.enrollment: Aplicando filtro por: davidjimenez287623@correo.itm.edu.co
+2026-02-06 11:32:31 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:32:51 [INFO    ] components.enrollment: Creando nueva matrícula para davidjimenez287623@correo.itm.edu.co
+2026-02-06 11:33:00 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:33:00 [INFO    ] components.enrollment: Usuario davidjimenez287623@correo.itm.edu.co encontrado en lista de participantes
+2026-02-06 11:33:01 [INFO    ] services.document_generator: Generando documento para: David Santiago Jiménez Múnera
+2026-02-06 11:33:01 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_David_Santiago_Jiménez_Múnera_2026-02-06_11-33-01.docx
+2026-02-06 11:34:24 [INFO    ] components.user     : Buscando usuario por email: mateosepulveda26u@gmail.com
+2026-02-06 11:34:24 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 11:34:39 [INFO    ] components.user     : Usuario encontrado: Mateo Gutiérrez Sepúlveda
+2026-02-06 11:34:39 [INFO    ] components.user     : Actualizando contraseña para: mateosepulveda26u@gmail.com
+2026-02-06 11:34:46 [INFO    ] components.user     : Contraseña actualizada para: magutierrezs
+2026-02-06 11:35:06 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=403
+2026-02-06 11:35:17 [INFO    ] components.course   : Quizzes encontrados en curso 403: 0
+2026-02-06 11:35:17 [INFO    ] components.enrollment: Iniciando matrícula: mateosepulveda26u@gmail.com en curso 403
+2026-02-06 11:35:18 [INFO    ] components.enrollment: Aplicando filtro por: mateosepulveda26u@gmail.com
+2026-02-06 11:35:22 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:35:42 [INFO    ] components.enrollment: Creando nueva matrícula para mateosepulveda26u@gmail.com
+2026-02-06 11:35:49 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:35:49 [INFO    ] components.enrollment: Usuario mateosepulveda26u@gmail.com encontrado en lista de participantes
+2026-02-06 11:35:49 [INFO    ] services.document_generator: Generando documento para: Mateo Gutiérrez Sepúlveda
+2026-02-06 11:35:49 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Mateo_Gutiérrez_Sepúlveda_2026-02-06_11-35-49.docx
+2026-02-06 11:37:13 [INFO    ] components.user     : Buscando usuario por email: mateomorales1114289@correo.itm.edu.co
+2026-02-06 11:37:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 11:37:39 [INFO    ] components.user     : No se encontró usuario con email: mateomorales1114289@correo.itm.edu.co
+2026-02-06 11:38:31 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-06 11:38:33 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-06 11:38:33 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-02-06 11:38:33 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-06 11:38:42 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-06 11:38:45 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-02-06 11:38:45 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-06 11:38:55 [INFO    ] components.user     : Buscando usuario por email: mateomorales1114289@correo.itm.edu.co
+2026-02-06 11:38:55 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-06 11:39:15 [INFO    ] components.user     : No se encontró usuario con email: mateomorales1114289@correo.itm.edu.co
+2026-02-06 11:39:47 [INFO    ] components.user     : Iniciando creación de usuario: Mateo Morales Muriel
+2026-02-06 11:39:47 [INFO    ] components.user     : Intento 1: Probando username 'mmorales'
+2026-02-06 11:39:47 [INFO    ] models.user         : Username actualizado a: mmorales
+2026-02-06 11:39:47 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-06 11:39:52 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260206_113952.png
+2026-02-06 11:39:55 [INFO    ] components.user     : Usuario creado exitosamente
+2026-02-06 11:39:55 [INFO    ] components.user     : Usuario creado: mmorales (mateomorales1114289@correo.itm.edu.co)
+2026-02-06 11:40:36 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=604
+2026-02-06 11:40:38 [INFO    ] components.course   : Quizzes encontrados en curso 604: 2
+2026-02-06 11:40:38 [INFO    ] components.quiz     : Eliminando intentos de mateomorales1114289@correo.itm.edu.co en quiz 8733
+2026-02-06 11:40:50 [INFO    ] components.quiz     : No se encontraron intentos de mateomorales1114289@correo.itm.edu.co
+2026-02-06 11:40:50 [INFO    ] components.quiz     : Eliminando intentos de mateomorales1114289@correo.itm.edu.co en quiz 8732
+2026-02-06 11:41:01 [INFO    ] components.quiz     : No se encontraron intentos de mateomorales1114289@correo.itm.edu.co
+2026-02-06 11:41:01 [INFO    ] components.enrollment: Iniciando matrícula: mateomorales1114289@correo.itm.edu.co en curso 604
+2026-02-06 11:41:02 [INFO    ] components.enrollment: Aplicando filtro por: mateomorales1114289@correo.itm.edu.co
+2026-02-06 11:41:06 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:41:26 [INFO    ] components.enrollment: Creando nueva matrícula para mateomorales1114289@correo.itm.edu.co
+2026-02-06 11:41:34 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:41:34 [INFO    ] components.enrollment: Usuario mateomorales1114289@correo.itm.edu.co encontrado en lista de participantes
+2026-02-06 11:41:34 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=403
+2026-02-06 11:41:45 [INFO    ] components.course   : Quizzes encontrados en curso 403: 0
+2026-02-06 11:41:45 [INFO    ] components.enrollment: Iniciando matrícula: mateomorales1114289@correo.itm.edu.co en curso 403
+2026-02-06 11:41:46 [INFO    ] components.enrollment: Aplicando filtro por: mateomorales1114289@correo.itm.edu.co
+2026-02-06 11:41:50 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:42:10 [INFO    ] components.enrollment: Creando nueva matrícula para mateomorales1114289@correo.itm.edu.co
+2026-02-06 11:42:18 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-06 11:42:18 [INFO    ] components.enrollment: Usuario mateomorales1114289@correo.itm.edu.co encontrado en lista de participantes
+2026-02-06 11:42:18 [INFO    ] services.document_generator: Generando documento para: Mateo Morales Muriel
+2026-02-06 11:42:18 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Mateo_Morales_Muriel_2026-02-06_11-42-18.docx
+2026-02-06 14:05:24 [INFO    ] core.browser        : Navegador cerrado correctamente

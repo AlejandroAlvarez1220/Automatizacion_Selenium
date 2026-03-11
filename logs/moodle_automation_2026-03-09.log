@@ -1,0 +1,488 @@
+2026-03-09 16:19:35 [INFO    ] services.course_cache: Cache cargado: 24 cursos
+2026-03-09 16:19:35 [INFO    ] services.excel_reader: Leyendo solicitudes de: ./plantilla_solicitudes.xlsx
+2026-03-09 16:19:35 [INFO    ] services.excel_reader: Encontradas 6 solicitudes pendientes
+2026-03-09 16:19:52 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-03-09 16:19:55 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-03-09 16:19:55 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-03-09 16:19:55 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-03-09 16:19:57 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-03-09 16:19:59 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-03-09 16:19:59 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:19:59 [INFO    ] components.user     : Buscando usuario por email: alextriana777@gmail.com
+2026-03-09 16:19:59 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-09 16:20:23 [INFO    ] components.user     : Usuario encontrado: Jesus Alexander Triana Lopez
+2026-03-09 16:20:23 [INFO    ] components.user     : Actualizando contraseña para: alextriana777@gmail.com
+2026-03-09 16:20:31 [INFO    ] components.user     : Contraseña actualizada para: jtriana1
+2026-03-09 16:20:31 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=182
+2026-03-09 16:20:32 [INFO    ] components.course   : Quizzes encontrados en curso 182: 2
+2026-03-09 16:20:32 [INFO    ] components.quiz     : Eliminando intentos de alextriana777@gmail.com en quiz 4403
+2026-03-09 16:20:33 [INFO    ] components.quiz     : Total checkboxes seleccionados: 1
+2026-03-09 16:20:33 [INFO    ] components.quiz     : Seleccionados 1 intentos, procediendo a eliminar...
+2026-03-09 16:20:36 [INFO    ] components.quiz     : ✓ Eliminados 1 intentos de alextriana777@gmail.com
+2026-03-09 16:20:36 [INFO    ] components.quiz     : Eliminando intentos de alextriana777@gmail.com en quiz 3838
+2026-03-09 16:20:46 [INFO    ] components.quiz     : No se encontraron intentos de alextriana777@gmail.com
+2026-03-09 16:20:46 [INFO    ] components.enrollment: Iniciando matrícula: alextriana777@gmail.com en curso 182
+2026-03-09 16:20:48 [INFO    ] components.enrollment: Aplicando filtro por: alextriana777@gmail.com
+2026-03-09 16:20:51 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-09 16:20:51 [INFO    ] components.enrollment: Usuario alextriana777@gmail.com encontrado en lista de participantes
+2026-03-09 16:20:51 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-03-09 16:20:51 [INFO    ] components.enrollment: Actualizando matrícula (estado y fechas)...
+2026-03-09 16:20:51 [INFO    ] components.enrollment: Reactivando matrícula para alextriana777@gmail.com
+2026-03-09 16:20:57 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-09 16:20:57 [INFO    ] components.enrollment: Usuario alextriana777@gmail.com encontrado en lista de participantes
+2026-03-09 16:20:57 [INFO    ] services.document_generator: Generando documento para: Jesus Alexander Triana Lopez
+2026-03-09 16:20:57 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Jesus_Alexander_Triana_Lopez_2026-03-09_16-20-57.docx
+2026-03-09 16:20:57 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:20:57 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:20:58 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:20:58 [INFO    ] components.user     : Buscando usuario por email: wichigan29@gmail.com
+2026-03-09 16:20:58 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-09 16:20:59 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-09 16:21:00 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-09 16:21:13 [INFO    ] components.user     : No se encontró usuario con email: wichigan29@gmail.com
+2026-03-09 16:21:13 [INFO    ] components.user     : Iniciando creación de usuario: Kevin Abdiel González
+2026-03-09 16:21:13 [INFO    ] components.user     : Intento 1: Probando username 'kabdiel'
+2026-03-09 16:21:13 [INFO    ] models.user         : Username actualizado a: kabdiel
+2026-03-09 16:21:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-09 16:21:17 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260309_162116.png
+2026-03-09 16:21:20 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-09 16:21:20 [INFO    ] components.user     : Usuario creado: kabdiel (wichigan29@gmail.com)
+2026-03-09 16:21:20 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=194
+2026-03-09 16:21:20 [INFO    ] components.course   : Quizzes encontrados en curso 194: 3
+2026-03-09 16:21:20 [INFO    ] components.quiz     : Eliminando intentos de wichigan29@gmail.com en quiz 2243
+2026-03-09 16:21:32 [INFO    ] components.quiz     : No se encontraron intentos de wichigan29@gmail.com
+2026-03-09 16:21:32 [INFO    ] components.quiz     : Eliminando intentos de wichigan29@gmail.com en quiz 2244
+2026-03-09 16:21:43 [INFO    ] components.quiz     : No se encontraron intentos de wichigan29@gmail.com
+2026-03-09 16:21:43 [INFO    ] components.quiz     : Eliminando intentos de wichigan29@gmail.com en quiz 2225
+2026-03-09 16:21:43 [INFO    ] components.quiz     : No hay intentos de wichigan29@gmail.com (Nada que mostrar)
+2026-03-09 16:21:43 [INFO    ] components.enrollment: Iniciando matrícula: wichigan29@gmail.com en curso 194
+2026-03-09 16:21:45 [INFO    ] components.enrollment: Aplicando filtro por: wichigan29@gmail.com
+2026-03-09 16:21:47 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-09 16:22:07 [INFO    ] components.enrollment: Creando nueva matrícula para wichigan29@gmail.com
+2026-03-09 16:22:15 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-09 16:22:15 [INFO    ] components.enrollment: Usuario wichigan29@gmail.com encontrado en lista de participantes
+2026-03-09 16:22:15 [INFO    ] services.document_generator: Generando documento para: Kevin Abdiel González
+2026-03-09 16:22:15 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Kevin_Abdiel_González_2026-03-09_16-22-15.docx
+2026-03-09 16:22:15 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:22:15 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:22:15 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:22:15 [INFO    ] components.user     : Buscando usuario por email: juancarlos26482@gmail.com
+2026-03-09 16:22:15 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-09 16:22:17 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-09 16:22:18 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-09 16:22:31 [INFO    ] components.user     : No se encontró usuario con email: juancarlos26482@gmail.com
+2026-03-09 16:22:31 [INFO    ] components.user     : Iniciando creación de usuario: Juan Carlos Ríos
+2026-03-09 16:22:31 [INFO    ] components.user     : Intento 1: Probando username 'jrios'
+2026-03-09 16:22:31 [INFO    ] models.user         : Username actualizado a: jrios
+2026-03-09 16:22:31 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-09 16:22:34 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260309_162234.png
+2026-03-09 16:22:37 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-09 16:22:37 [INFO    ] components.user     : Usuario creado: jrios (juancarlos26482@gmail.com)
+2026-03-09 16:22:37 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=194
+2026-03-09 16:22:38 [INFO    ] components.course   : Quizzes encontrados en curso 194: 3
+2026-03-09 16:22:38 [INFO    ] components.quiz     : Eliminando intentos de juancarlos26482@gmail.com en quiz 2243
+2026-03-09 16:22:49 [INFO    ] components.quiz     : No se encontraron intentos de juancarlos26482@gmail.com
+2026-03-09 16:22:49 [INFO    ] components.quiz     : Eliminando intentos de juancarlos26482@gmail.com en quiz 2244
+2026-03-09 16:23:00 [INFO    ] components.quiz     : No se encontraron intentos de juancarlos26482@gmail.com
+2026-03-09 16:23:00 [INFO    ] components.quiz     : Eliminando intentos de juancarlos26482@gmail.com en quiz 2225
+2026-03-09 16:23:11 [INFO    ] components.quiz     : No se encontraron intentos de juancarlos26482@gmail.com
+2026-03-09 16:23:11 [INFO    ] components.enrollment: Iniciando matrícula: juancarlos26482@gmail.com en curso 194
+2026-03-09 16:23:12 [INFO    ] components.enrollment: Aplicando filtro por: juancarlos26482@gmail.com
+2026-03-09 16:23:15 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-09 16:23:35 [INFO    ] components.enrollment: Creando nueva matrícula para juancarlos26482@gmail.com
+2026-03-09 16:23:43 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-09 16:23:43 [INFO    ] components.enrollment: Usuario juancarlos26482@gmail.com encontrado en lista de participantes
+2026-03-09 16:23:43 [INFO    ] services.document_generator: Generando documento para: Juan Carlos Ríos
+2026-03-09 16:23:43 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Juan_Carlos_Ríos_2026-03-09_16-23-43.docx
+2026-03-09 16:23:43 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:23:43 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:23:43 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:23:43 [INFO    ] components.user     : Buscando usuario por email: ivanrl7913@gmail.com
+2026-03-09 16:23:43 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-09 16:23:44 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-09 16:23:46 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-09 16:23:58 [INFO    ] components.user     : No se encontró usuario con email: ivanrl7913@gmail.com
+2026-03-09 16:23:58 [INFO    ] components.user     : Iniciando creación de usuario: Iván Ramírez López
+2026-03-09 16:23:58 [INFO    ] components.user     : Intento 1: Probando username 'iramirez'
+2026-03-09 16:23:58 [INFO    ] models.user         : Username actualizado a: iramirez
+2026-03-09 16:23:58 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-09 16:24:02 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260309_162402.png
+2026-03-09 16:24:05 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-09 16:24:05 [INFO    ] components.user     : Usuario creado: iramirez (ivanrl7913@gmail.com)
+2026-03-09 16:24:05 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=194
+2026-03-09 16:24:05 [INFO    ] components.course   : Quizzes encontrados en curso 194: 3
+2026-03-09 16:24:05 [INFO    ] components.quiz     : Eliminando intentos de ivanrl7913@gmail.com en quiz 2243
+2026-03-09 16:24:06 [INFO    ] components.quiz     : No hay intentos de ivanrl7913@gmail.com (Nada que mostrar)
+2026-03-09 16:24:06 [INFO    ] components.quiz     : Eliminando intentos de ivanrl7913@gmail.com en quiz 2244
+2026-03-09 16:24:07 [INFO    ] components.quiz     : No hay intentos de ivanrl7913@gmail.com (Nada que mostrar)
+2026-03-09 16:24:07 [INFO    ] components.quiz     : Eliminando intentos de ivanrl7913@gmail.com en quiz 2225
+2026-03-09 16:24:07 [INFO    ] components.quiz     : No hay intentos de ivanrl7913@gmail.com (Nada que mostrar)
+2026-03-09 16:24:07 [INFO    ] components.enrollment: Iniciando matrícula: ivanrl7913@gmail.com en curso 194
+2026-03-09 16:24:08 [INFO    ] components.enrollment: Aplicando filtro por: ivanrl7913@gmail.com
+2026-03-09 16:24:11 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-09 16:24:31 [INFO    ] components.enrollment: Creando nueva matrícula para ivanrl7913@gmail.com
+2026-03-09 16:24:39 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-09 16:24:39 [INFO    ] components.enrollment: Usuario ivanrl7913@gmail.com encontrado en lista de participantes
+2026-03-09 16:24:39 [INFO    ] services.document_generator: Generando documento para: Iván Ramírez López
+2026-03-09 16:24:39 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Iván_Ramírez_López_2026-03-09_16-24-39.docx
+2026-03-09 16:24:39 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:24:39 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:24:39 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:24:39 [INFO    ] components.user     : Buscando usuario por email: aurismadeline@gmail.com
+2026-03-09 16:24:39 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-09 16:24:40 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-09 16:24:42 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-09 16:24:54 [INFO    ] components.user     : No se encontró usuario con email: aurismadeline@gmail.com
+2026-03-09 16:24:54 [INFO    ] components.user     : Iniciando creación de usuario: Auris Madeline Monteverde
+2026-03-09 16:24:54 [INFO    ] components.user     : Intento 1: Probando username 'amadeline'
+2026-03-09 16:24:54 [INFO    ] models.user         : Username actualizado a: amadeline
+2026-03-09 16:24:54 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-09 16:24:58 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260309_162458.png
+2026-03-09 16:25:01 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-09 16:25:01 [INFO    ] components.user     : Usuario creado: amadeline (aurismadeline@gmail.com)
+2026-03-09 16:25:01 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=194
+2026-03-09 16:25:01 [INFO    ] components.course   : Quizzes encontrados en curso 194: 3
+2026-03-09 16:25:01 [INFO    ] components.quiz     : Eliminando intentos de aurismadeline@gmail.com en quiz 2243
+2026-03-09 16:25:12 [INFO    ] components.quiz     : No se encontraron intentos de aurismadeline@gmail.com
+2026-03-09 16:25:12 [INFO    ] components.quiz     : Eliminando intentos de aurismadeline@gmail.com en quiz 2244
+2026-03-09 16:25:24 [INFO    ] components.quiz     : No se encontraron intentos de aurismadeline@gmail.com
+2026-03-09 16:25:24 [INFO    ] components.quiz     : Eliminando intentos de aurismadeline@gmail.com en quiz 2225
+2026-03-09 16:25:35 [INFO    ] components.quiz     : No se encontraron intentos de aurismadeline@gmail.com
+2026-03-09 16:25:35 [INFO    ] components.enrollment: Iniciando matrícula: aurismadeline@gmail.com en curso 194
+2026-03-09 16:25:36 [INFO    ] components.enrollment: Aplicando filtro por: aurismadeline@gmail.com
+2026-03-09 16:25:39 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-09 16:25:59 [INFO    ] components.enrollment: Creando nueva matrícula para aurismadeline@gmail.com
+2026-03-09 16:26:06 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-09 16:26:06 [INFO    ] components.enrollment: Usuario aurismadeline@gmail.com encontrado en lista de participantes
+2026-03-09 16:26:06 [INFO    ] services.document_generator: Generando documento para: Auris Madeline Monteverde
+2026-03-09 16:26:07 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Auris_Madeline_Monteverde_2026-03-09_16-26-07.docx
+2026-03-09 16:26:07 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:26:07 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:26:07 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:26:07 [INFO    ] components.user     : Buscando usuario por email: hhernandez1202@hotmail.com
+2026-03-09 16:26:07 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-09 16:26:08 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-09 16:26:10 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-09 16:26:22 [INFO    ] components.user     : No se encontró usuario con email: hhernandez1202@hotmail.com
+2026-03-09 16:26:22 [INFO    ] components.user     : Iniciando creación de usuario: Hernán José Hernández Vásquez
+2026-03-09 16:26:22 [INFO    ] components.user     : Intento 1: Probando username 'hhernandez'
+2026-03-09 16:26:22 [INFO    ] models.user         : Username actualizado a: hhernandez
+2026-03-09 16:26:22 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-09 16:26:26 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260309_162626.png
+2026-03-09 16:26:27 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-03-09 16:26:27 [WARNING ] components.user     : Username 'hhernandez' ya existe, probando siguiente...
+2026-03-09 16:26:27 [INFO    ] components.user     : Intento 2: Probando username 'hhernandez1'
+2026-03-09 16:26:27 [INFO    ] models.user         : Username actualizado a: hhernandez1
+2026-03-09 16:26:27 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-09 16:26:34 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-09 16:26:34 [INFO    ] components.user     : Usuario creado: hhernandez1 (hhernandez1202@hotmail.com)
+2026-03-09 16:26:34 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=194
+2026-03-09 16:26:34 [INFO    ] components.course   : Quizzes encontrados en curso 194: 3
+2026-03-09 16:26:34 [INFO    ] components.quiz     : Eliminando intentos de hhernandez1202@hotmail.com en quiz 2243
+2026-03-09 16:26:35 [INFO    ] components.quiz     : No hay intentos de hhernandez1202@hotmail.com (Nada que mostrar)
+2026-03-09 16:26:35 [INFO    ] components.quiz     : Eliminando intentos de hhernandez1202@hotmail.com en quiz 2244
+2026-03-09 16:26:36 [INFO    ] components.quiz     : No hay intentos de hhernandez1202@hotmail.com (Nada que mostrar)
+2026-03-09 16:26:36 [INFO    ] components.quiz     : Eliminando intentos de hhernandez1202@hotmail.com en quiz 2225
+2026-03-09 16:26:37 [INFO    ] components.quiz     : No hay intentos de hhernandez1202@hotmail.com (Nada que mostrar)
+2026-03-09 16:26:37 [INFO    ] components.enrollment: Iniciando matrícula: hhernandez1202@hotmail.com en curso 194
+2026-03-09 16:26:38 [INFO    ] components.enrollment: Aplicando filtro por: hhernandez1202@hotmail.com
+2026-03-09 16:26:41 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-09 16:27:01 [INFO    ] components.enrollment: Creando nueva matrícula para hhernandez1202@hotmail.com
+2026-03-09 16:27:08 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-09 16:27:08 [INFO    ] components.enrollment: Usuario hhernandez1202@hotmail.com encontrado en lista de participantes
+2026-03-09 16:27:08 [INFO    ] services.document_generator: Generando documento para: Hernán José Hernández Vásquez
+2026-03-09 16:27:08 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Hernán_José_Hernández_Vásquez_2026-03-09_16-27-08.docx
+2026-03-09 16:27:08 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:27:08 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-09 16:27:11 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-03-10 16:23:18 [INFO    ] services.course_cache: Cache cargado: 24 cursos
+2026-03-10 16:23:18 [INFO    ] services.excel_reader: Leyendo solicitudes de: ./plantilla_solicitudes.xlsx
+2026-03-10 16:23:18 [INFO    ] services.excel_reader: Encontradas 8 solicitudes pendientes
+2026-03-10 16:23:36 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-03-10 16:23:39 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-03-10 16:23:39 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-03-10 16:23:39 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-03-10 16:23:41 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-03-10 16:23:43 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-03-10 16:23:44 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:23:44 [INFO    ] components.user     : Buscando usuario por email: ivanrl7913@gmail.com
+2026-03-10 16:23:44 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-10 16:24:08 [INFO    ] components.user     : Usuario encontrado: Iván Ramírez López
+2026-03-10 16:24:08 [INFO    ] components.user     : Actualizando contraseña para: ivanrl7913@gmail.com
+2026-03-10 16:24:15 [INFO    ] components.user     : Contraseña actualizada para: iramirez
+2026-03-10 16:24:15 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-03-10 16:24:16 [INFO    ] components.course   : Quizzes encontrados en curso 572: 3
+2026-03-10 16:24:16 [INFO    ] components.quiz     : Eliminando intentos de ivanrl7913@gmail.com en quiz 8333
+2026-03-10 16:24:17 [INFO    ] components.quiz     : No hay intentos de ivanrl7913@gmail.com (Nada que mostrar)
+2026-03-10 16:24:17 [INFO    ] components.quiz     : Eliminando intentos de ivanrl7913@gmail.com en quiz 8356
+2026-03-10 16:24:18 [INFO    ] components.quiz     : No hay intentos de ivanrl7913@gmail.com (Nada que mostrar)
+2026-03-10 16:24:18 [INFO    ] components.quiz     : Eliminando intentos de ivanrl7913@gmail.com en quiz 8359
+2026-03-10 16:24:19 [INFO    ] components.quiz     : No hay intentos de ivanrl7913@gmail.com (Nada que mostrar)
+2026-03-10 16:24:19 [INFO    ] components.enrollment: Iniciando matrícula: ivanrl7913@gmail.com en curso 572
+2026-03-10 16:24:20 [INFO    ] components.enrollment: Aplicando filtro por: ivanrl7913@gmail.com
+2026-03-10 16:24:23 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:24:43 [INFO    ] components.enrollment: Creando nueva matrícula para ivanrl7913@gmail.com
+2026-03-10 16:24:51 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:24:51 [INFO    ] components.enrollment: Usuario ivanrl7913@gmail.com encontrado en lista de participantes
+2026-03-10 16:24:51 [INFO    ] services.document_generator: Generando documento para: Iván Ramírez López
+2026-03-10 16:24:51 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Iván_Ramírez_López_2026-03-10_16-24-51.docx
+2026-03-10 16:24:52 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:24:52 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:24:52 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:24:52 [INFO    ] components.user     : Buscando usuario por email: hhernandez1202@hotmail.com
+2026-03-10 16:24:52 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-10 16:24:53 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-10 16:24:55 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-10 16:24:57 [INFO    ] components.user     : Usuario encontrado: Hernán José Hernández Vásquez
+2026-03-10 16:24:57 [INFO    ] components.user     : Actualizando contraseña para: hhernandez1202@hotmail.com
+2026-03-10 16:25:05 [INFO    ] components.user     : Contraseña actualizada para: hhernandez1
+2026-03-10 16:25:05 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-03-10 16:25:05 [INFO    ] components.course   : Quizzes encontrados en curso 572: 3
+2026-03-10 16:25:05 [INFO    ] components.quiz     : Eliminando intentos de hhernandez1202@hotmail.com en quiz 8333
+2026-03-10 16:25:06 [INFO    ] components.quiz     : No hay intentos de hhernandez1202@hotmail.com (Nada que mostrar)
+2026-03-10 16:25:06 [INFO    ] components.quiz     : Eliminando intentos de hhernandez1202@hotmail.com en quiz 8356
+2026-03-10 16:25:07 [INFO    ] components.quiz     : No hay intentos de hhernandez1202@hotmail.com (Nada que mostrar)
+2026-03-10 16:25:07 [INFO    ] components.quiz     : Eliminando intentos de hhernandez1202@hotmail.com en quiz 8359
+2026-03-10 16:25:07 [INFO    ] components.quiz     : No hay intentos de hhernandez1202@hotmail.com (Nada que mostrar)
+2026-03-10 16:25:07 [INFO    ] components.enrollment: Iniciando matrícula: hhernandez1202@hotmail.com en curso 572
+2026-03-10 16:25:09 [INFO    ] components.enrollment: Aplicando filtro por: hhernandez1202@hotmail.com
+2026-03-10 16:25:11 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:25:31 [INFO    ] components.enrollment: Creando nueva matrícula para hhernandez1202@hotmail.com
+2026-03-10 16:25:39 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:25:39 [INFO    ] components.enrollment: Usuario hhernandez1202@hotmail.com encontrado en lista de participantes
+2026-03-10 16:25:39 [INFO    ] services.document_generator: Generando documento para: Hernán José Hernández Vásquez
+2026-03-10 16:25:39 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Hernán_José_Hernández_Vásquez_2026-03-10_16-25-39.docx
+2026-03-10 16:25:39 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:25:39 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:25:39 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:25:39 [INFO    ] components.user     : Buscando usuario por email: jdjuank4@gmail.com
+2026-03-10 16:25:39 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-10 16:25:40 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-10 16:25:42 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-10 16:25:54 [INFO    ] components.user     : No se encontró usuario con email: jdjuank4@gmail.com
+2026-03-10 16:25:54 [INFO    ] components.user     : Iniciando creación de usuario: Juan Carlos Díaz González
+2026-03-10 16:25:54 [INFO    ] components.user     : Intento 1: Probando username 'jdiaz'
+2026-03-10 16:25:54 [INFO    ] models.user         : Username actualizado a: jdiaz
+2026-03-10 16:25:54 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-10 16:25:58 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260310_162558.png
+2026-03-10 16:25:59 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-03-10 16:25:59 [WARNING ] components.user     : Username 'jdiaz' ya existe, probando siguiente...
+2026-03-10 16:25:59 [INFO    ] components.user     : Intento 2: Probando username 'jdiaz1'
+2026-03-10 16:25:59 [INFO    ] models.user         : Username actualizado a: jdiaz1
+2026-03-10 16:25:59 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-10 16:26:06 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-10 16:26:06 [INFO    ] components.user     : Usuario creado: jdiaz1 (jdjuank4@gmail.com)
+2026-03-10 16:26:06 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-03-10 16:26:07 [INFO    ] components.course   : Quizzes encontrados en curso 572: 3
+2026-03-10 16:26:07 [INFO    ] components.quiz     : Eliminando intentos de jdjuank4@gmail.com en quiz 8333
+2026-03-10 16:26:07 [INFO    ] components.quiz     : No hay intentos de jdjuank4@gmail.com (Nada que mostrar)
+2026-03-10 16:26:07 [INFO    ] components.quiz     : Eliminando intentos de jdjuank4@gmail.com en quiz 8356
+2026-03-10 16:26:08 [INFO    ] components.quiz     : No hay intentos de jdjuank4@gmail.com (Nada que mostrar)
+2026-03-10 16:26:08 [INFO    ] components.quiz     : Eliminando intentos de jdjuank4@gmail.com en quiz 8359
+2026-03-10 16:26:08 [INFO    ] components.quiz     : No hay intentos de jdjuank4@gmail.com (Nada que mostrar)
+2026-03-10 16:26:08 [INFO    ] components.enrollment: Iniciando matrícula: jdjuank4@gmail.com en curso 572
+2026-03-10 16:26:10 [INFO    ] components.enrollment: Aplicando filtro por: jdjuank4@gmail.com
+2026-03-10 16:26:12 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:26:32 [INFO    ] components.enrollment: Creando nueva matrícula para jdjuank4@gmail.com
+2026-03-10 16:26:40 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:26:40 [INFO    ] components.enrollment: Usuario jdjuank4@gmail.com encontrado en lista de participantes
+2026-03-10 16:26:40 [INFO    ] services.document_generator: Generando documento para: Juan Carlos Díaz González
+2026-03-10 16:26:40 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Juan_Carlos_Díaz_González_2026-03-10_16-26-40.docx
+2026-03-10 16:26:40 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:26:40 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:26:40 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:26:40 [INFO    ] components.user     : Buscando usuario por email: abevaldez7@gmail.com
+2026-03-10 16:26:40 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-10 16:26:41 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-10 16:26:43 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-10 16:26:55 [INFO    ] components.user     : No se encontró usuario con email: abevaldez7@gmail.com
+2026-03-10 16:26:55 [INFO    ] components.user     : Iniciando creación de usuario: Abraham Chacón Valdez
+2026-03-10 16:26:55 [INFO    ] components.user     : Intento 1: Probando username 'achacon'
+2026-03-10 16:26:55 [INFO    ] models.user         : Username actualizado a: achacon
+2026-03-10 16:26:55 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-10 16:26:59 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260310_162659.png
+2026-03-10 16:27:02 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-10 16:27:02 [INFO    ] components.user     : Usuario creado: achacon (abevaldez7@gmail.com)
+2026-03-10 16:27:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-03-10 16:27:02 [INFO    ] components.course   : Quizzes encontrados en curso 572: 3
+2026-03-10 16:27:02 [INFO    ] components.quiz     : Eliminando intentos de abevaldez7@gmail.com en quiz 8333
+2026-03-10 16:27:03 [INFO    ] components.quiz     : No hay intentos de abevaldez7@gmail.com (Nada que mostrar)
+2026-03-10 16:27:03 [INFO    ] components.quiz     : Eliminando intentos de abevaldez7@gmail.com en quiz 8356
+2026-03-10 16:27:04 [INFO    ] components.quiz     : No hay intentos de abevaldez7@gmail.com (Nada que mostrar)
+2026-03-10 16:27:04 [INFO    ] components.quiz     : Eliminando intentos de abevaldez7@gmail.com en quiz 8359
+2026-03-10 16:27:04 [INFO    ] components.quiz     : No hay intentos de abevaldez7@gmail.com (Nada que mostrar)
+2026-03-10 16:27:04 [INFO    ] components.enrollment: Iniciando matrícula: abevaldez7@gmail.com en curso 572
+2026-03-10 16:27:05 [INFO    ] components.enrollment: Aplicando filtro por: abevaldez7@gmail.com
+2026-03-10 16:27:08 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:27:28 [INFO    ] components.enrollment: Creando nueva matrícula para abevaldez7@gmail.com
+2026-03-10 16:27:36 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:27:36 [INFO    ] components.enrollment: Usuario abevaldez7@gmail.com encontrado en lista de participantes
+2026-03-10 16:27:36 [INFO    ] services.document_generator: Generando documento para: Abraham Chacón Valdez
+2026-03-10 16:27:36 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Abraham_Chacón_Valdez_2026-03-10_16-27-36.docx
+2026-03-10 16:27:36 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:27:36 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:27:36 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:27:36 [INFO    ] components.user     : Buscando usuario por email: gkevin0729@gmail.com
+2026-03-10 16:27:36 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-10 16:27:37 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-10 16:27:39 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-10 16:27:51 [INFO    ] components.user     : No se encontró usuario con email: gkevin0729@gmail.com
+2026-03-10 16:27:51 [INFO    ] components.user     : Iniciando creación de usuario: Kevin Abdiel González Aizpurua
+2026-03-10 16:27:51 [INFO    ] components.user     : Intento 1: Probando username 'kgonzalez'
+2026-03-10 16:27:51 [INFO    ] models.user         : Username actualizado a: kgonzalez
+2026-03-10 16:27:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-10 16:27:54 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260310_162754.png
+2026-03-10 16:27:56 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-03-10 16:27:56 [WARNING ] components.user     : Username 'kgonzalez' ya existe, probando siguiente...
+2026-03-10 16:27:56 [INFO    ] components.user     : Intento 2: Probando username 'kgonzalez1'
+2026-03-10 16:27:56 [INFO    ] models.user         : Username actualizado a: kgonzalez1
+2026-03-10 16:27:56 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-10 16:28:02 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-10 16:28:02 [INFO    ] components.user     : Usuario creado: kgonzalez1 (gkevin0729@gmail.com)
+2026-03-10 16:28:02 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-03-10 16:28:03 [INFO    ] components.course   : Quizzes encontrados en curso 572: 3
+2026-03-10 16:28:03 [INFO    ] components.quiz     : Eliminando intentos de gkevin0729@gmail.com en quiz 8333
+2026-03-10 16:28:04 [INFO    ] components.quiz     : No hay intentos de gkevin0729@gmail.com (Nada que mostrar)
+2026-03-10 16:28:04 [INFO    ] components.quiz     : Eliminando intentos de gkevin0729@gmail.com en quiz 8356
+2026-03-10 16:28:04 [INFO    ] components.quiz     : No hay intentos de gkevin0729@gmail.com (Nada que mostrar)
+2026-03-10 16:28:04 [INFO    ] components.quiz     : Eliminando intentos de gkevin0729@gmail.com en quiz 8359
+2026-03-10 16:28:05 [INFO    ] components.quiz     : No hay intentos de gkevin0729@gmail.com (Nada que mostrar)
+2026-03-10 16:28:05 [INFO    ] components.enrollment: Iniciando matrícula: gkevin0729@gmail.com en curso 572
+2026-03-10 16:28:06 [INFO    ] components.enrollment: Aplicando filtro por: gkevin0729@gmail.com
+2026-03-10 16:28:09 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:28:29 [INFO    ] components.enrollment: Creando nueva matrícula para gkevin0729@gmail.com
+2026-03-10 16:28:37 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:28:37 [INFO    ] components.enrollment: Usuario gkevin0729@gmail.com encontrado en lista de participantes
+2026-03-10 16:28:37 [INFO    ] services.document_generator: Generando documento para: Kevin Abdiel González Aizpurua
+2026-03-10 16:28:37 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Kevin_Abdiel_González_Aizpurua_2026-03-10_16-28-37.docx
+2026-03-10 16:28:37 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:28:37 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:28:37 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:28:37 [INFO    ] components.user     : Buscando usuario por email: reyhernandezcastrorhc@gmail.com
+2026-03-10 16:28:37 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-10 16:28:38 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-10 16:28:40 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-10 16:28:52 [INFO    ] components.user     : No se encontró usuario con email: reyhernandezcastrorhc@gmail.com
+2026-03-10 16:28:52 [INFO    ] components.user     : Iniciando creación de usuario: Rey Hernández Castro
+2026-03-10 16:28:52 [INFO    ] components.user     : Intento 1: Probando username 'rhernandez'
+2026-03-10 16:28:52 [INFO    ] models.user         : Username actualizado a: rhernandez
+2026-03-10 16:28:52 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-10 16:28:55 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260310_162855.png
+2026-03-10 16:28:57 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-03-10 16:28:57 [WARNING ] components.user     : Username 'rhernandez' ya existe, probando siguiente...
+2026-03-10 16:28:57 [INFO    ] components.user     : Intento 2: Probando username 'rhernandez1'
+2026-03-10 16:28:57 [INFO    ] models.user         : Username actualizado a: rhernandez1
+2026-03-10 16:28:57 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-10 16:29:04 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-10 16:29:04 [INFO    ] components.user     : Usuario creado: rhernandez1 (reyhernandezcastrorhc@gmail.com)
+2026-03-10 16:29:04 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-03-10 16:29:04 [INFO    ] components.course   : Quizzes encontrados en curso 572: 3
+2026-03-10 16:29:04 [INFO    ] components.quiz     : Eliminando intentos de reyhernandezcastrorhc@gmail.com en quiz 8333
+2026-03-10 16:29:05 [INFO    ] components.quiz     : No hay intentos de reyhernandezcastrorhc@gmail.com (Nada que mostrar)
+2026-03-10 16:29:05 [INFO    ] components.quiz     : Eliminando intentos de reyhernandezcastrorhc@gmail.com en quiz 8356
+2026-03-10 16:29:06 [INFO    ] components.quiz     : No hay intentos de reyhernandezcastrorhc@gmail.com (Nada que mostrar)
+2026-03-10 16:29:06 [INFO    ] components.quiz     : Eliminando intentos de reyhernandezcastrorhc@gmail.com en quiz 8359
+2026-03-10 16:29:06 [INFO    ] components.quiz     : No hay intentos de reyhernandezcastrorhc@gmail.com (Nada que mostrar)
+2026-03-10 16:29:06 [INFO    ] components.enrollment: Iniciando matrícula: reyhernandezcastrorhc@gmail.com en curso 572
+2026-03-10 16:29:07 [INFO    ] components.enrollment: Aplicando filtro por: reyhernandezcastrorhc@gmail.com
+2026-03-10 16:29:10 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:29:30 [INFO    ] components.enrollment: Creando nueva matrícula para reyhernandezcastrorhc@gmail.com
+2026-03-10 16:29:38 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:29:38 [INFO    ] components.enrollment: Usuario reyhernandezcastrorhc@gmail.com encontrado en lista de participantes
+2026-03-10 16:29:38 [INFO    ] services.document_generator: Generando documento para: Rey Hernández Castro
+2026-03-10 16:29:38 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Rey_Hernández_Castro_2026-03-10_16-29-38.docx
+2026-03-10 16:29:38 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:29:38 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:29:38 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:29:38 [INFO    ] components.user     : Buscando usuario por email: julian.rojas0913@gmail.com
+2026-03-10 16:29:38 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-10 16:29:39 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-10 16:29:41 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-10 16:29:53 [INFO    ] components.user     : No se encontró usuario con email: julian.rojas0913@gmail.com
+2026-03-10 16:29:53 [INFO    ] components.user     : Iniciando creación de usuario: Julián Camilo Rojas
+2026-03-10 16:29:53 [INFO    ] components.user     : Intento 1: Probando username 'jrojas'
+2026-03-10 16:29:53 [INFO    ] models.user         : Username actualizado a: jrojas
+2026-03-10 16:29:53 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-10 16:29:57 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260310_162957.png
+2026-03-10 16:29:58 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-03-10 16:29:58 [WARNING ] components.user     : Username 'jrojas' ya existe, probando siguiente...
+2026-03-10 16:29:58 [INFO    ] components.user     : Intento 2: Probando username 'jrojas1'
+2026-03-10 16:29:58 [INFO    ] models.user         : Username actualizado a: jrojas1
+2026-03-10 16:29:58 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-10 16:30:05 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-10 16:30:05 [INFO    ] components.user     : Usuario creado: jrojas1 (julian.rojas0913@gmail.com)
+2026-03-10 16:30:05 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-03-10 16:30:06 [INFO    ] components.course   : Quizzes encontrados en curso 572: 3
+2026-03-10 16:30:06 [INFO    ] components.quiz     : Eliminando intentos de julian.rojas0913@gmail.com en quiz 8333
+2026-03-10 16:30:06 [INFO    ] components.quiz     : No hay intentos de julian.rojas0913@gmail.com (Nada que mostrar)
+2026-03-10 16:30:06 [INFO    ] components.quiz     : Eliminando intentos de julian.rojas0913@gmail.com en quiz 8356
+2026-03-10 16:30:07 [INFO    ] components.quiz     : No hay intentos de julian.rojas0913@gmail.com (Nada que mostrar)
+2026-03-10 16:30:07 [INFO    ] components.quiz     : Eliminando intentos de julian.rojas0913@gmail.com en quiz 8359
+2026-03-10 16:30:07 [INFO    ] components.quiz     : No hay intentos de julian.rojas0913@gmail.com (Nada que mostrar)
+2026-03-10 16:30:07 [INFO    ] components.enrollment: Iniciando matrícula: julian.rojas0913@gmail.com en curso 572
+2026-03-10 16:30:09 [INFO    ] components.enrollment: Aplicando filtro por: julian.rojas0913@gmail.com
+2026-03-10 16:30:11 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:30:31 [INFO    ] components.enrollment: Creando nueva matrícula para julian.rojas0913@gmail.com
+2026-03-10 16:30:39 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:30:39 [INFO    ] components.enrollment: Usuario julian.rojas0913@gmail.com encontrado en lista de participantes
+2026-03-10 16:30:39 [INFO    ] services.document_generator: Generando documento para: Julián Camilo Rojas
+2026-03-10 16:30:39 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Julián_Camilo_Rojas_2026-03-10_16-30-39.docx
+2026-03-10 16:30:39 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:30:39 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:30:39 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:30:39 [INFO    ] components.user     : Buscando usuario por email: ⁠alejo.m18@hotmail.com
+2026-03-10 16:30:39 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-10 16:30:41 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-10 16:30:42 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-10 16:30:55 [INFO    ] components.user     : No se encontró usuario con email: ⁠alejo.m18@hotmail.com
+2026-03-10 16:30:55 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:30:57 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-03-10 16:43:06 [INFO    ] services.course_cache: Cache cargado: 24 cursos
+2026-03-10 16:43:06 [INFO    ] services.excel_reader: Leyendo solicitudes de: ./plantilla_solicitudes.xlsx
+2026-03-10 16:43:06 [INFO    ] services.excel_reader: Encontradas 1 solicitudes pendientes
+2026-03-10 16:43:23 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-03-10 16:43:25 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-03-10 16:43:25 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-03-10 16:43:25 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-03-10 16:43:26 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-03-10 16:43:29 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-03-10 16:43:29 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:43:29 [INFO    ] components.user     : Buscando usuario por email: ⁠alejo.m18@hotmail.com
+2026-03-10 16:43:29 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-10 16:44:03 [INFO    ] components.user     : No se encontró usuario con email: ⁠alejo.m18@hotmail.com
+2026-03-10 16:44:04 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:44:06 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-03-10 16:44:43 [INFO    ] services.course_cache: Cache cargado: 24 cursos
+2026-03-10 16:44:43 [INFO    ] services.excel_reader: Leyendo solicitudes de: ./plantilla_solicitudes.xlsx
+2026-03-10 16:44:43 [INFO    ] services.excel_reader: Encontradas 1 solicitudes pendientes
+2026-03-10 16:44:54 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-03-10 16:44:55 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-03-10 16:44:55 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-03-10 16:44:55 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-03-10 16:44:57 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-03-10 16:45:00 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-03-10 16:45:00 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:45:00 [INFO    ] components.user     : Buscando usuario por email: alejo.m18@hotmail.com
+2026-03-10 16:45:00 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-10 16:45:24 [INFO    ] components.user     : Usuario encontrado: Frank Alejandro Ospina Uribe
+2026-03-10 16:45:24 [INFO    ] components.user     : Actualizando contraseña para: alejo.m18@hotmail.com
+2026-03-10 16:45:32 [INFO    ] components.user     : Contraseña actualizada para: faospina
+2026-03-10 16:45:32 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=356
+2026-03-10 16:45:32 [INFO    ] components.course   : Quizzes encontrados en curso 356: 3
+2026-03-10 16:45:32 [INFO    ] components.quiz     : Eliminando intentos de alejo.m18@hotmail.com en quiz 4378
+2026-03-10 16:45:33 [INFO    ] components.quiz     : No hay intentos de alejo.m18@hotmail.com (Nada que mostrar)
+2026-03-10 16:45:33 [INFO    ] components.quiz     : Eliminando intentos de alejo.m18@hotmail.com en quiz 4379
+2026-03-10 16:45:34 [INFO    ] components.quiz     : No hay intentos de alejo.m18@hotmail.com (Nada que mostrar)
+2026-03-10 16:45:34 [INFO    ] components.quiz     : Eliminando intentos de alejo.m18@hotmail.com en quiz 4380
+2026-03-10 16:45:34 [INFO    ] components.quiz     : No hay intentos de alejo.m18@hotmail.com (Nada que mostrar)
+2026-03-10 16:45:34 [INFO    ] components.enrollment: Iniciando matrícula: alejo.m18@hotmail.com en curso 356
+2026-03-10 16:45:36 [INFO    ] components.enrollment: Aplicando filtro por: alejo.m18@hotmail.com
+2026-03-10 16:45:39 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:45:59 [INFO    ] components.enrollment: Creando nueva matrícula para alejo.m18@hotmail.com
+2026-03-10 16:46:07 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-10 16:46:17 [INFO    ] components.enrollment: Usuario alejo.m18@hotmail.com encontrado (búsqueda por texto)
+2026-03-10 16:46:17 [INFO    ] services.document_generator: Generando documento para: Frank Alejandro Ospina Uribe
+2026-03-10 16:46:17 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Frank_Alejandro_Ospina_Uribe_2026-03-10_16-46-17.docx
+2026-03-10 16:46:17 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:46:17 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-10 16:46:19 [INFO    ] core.browser        : Navegador cerrado correctamente

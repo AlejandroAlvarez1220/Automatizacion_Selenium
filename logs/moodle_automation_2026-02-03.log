@@ -1,0 +1,116 @@
+2026-02-03 09:29:36 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-03 09:29:45 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-03 09:29:45 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-02-03 09:29:45 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-03 09:29:48 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-03 09:29:53 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-02-03 09:29:53 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-03 09:30:04 [INFO    ] components.user     : Buscando usuario por email: nico.ruiz931126@gmail.com
+2026-02-03 09:30:04 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-03 09:30:21 [INFO    ] components.user     : No se encontró usuario con email: nico.ruiz931126@gmail.com
+2026-02-03 09:30:46 [INFO    ] components.user     : Iniciando creación de usuario: Nicolas Enrique Ruiz Vega
+2026-02-03 09:30:46 [INFO    ] components.user     : Intento 1: Probando username 'nruiz'
+2026-02-03 09:30:46 [INFO    ] models.user         : Username actualizado a: nruiz
+2026-02-03 09:30:46 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-03 09:30:52 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260203_093052.png
+2026-02-03 09:30:58 [INFO    ] components.user     : Usuario creado exitosamente
+2026-02-03 09:30:58 [INFO    ] components.user     : Usuario creado: nruiz (nico.ruiz931126@gmail.com)
+2026-02-03 09:31:35 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=600
+2026-02-03 09:31:39 [INFO    ] components.course   : Quizzes encontrados en curso 600: 4
+2026-02-03 09:31:39 [INFO    ] components.quiz     : Eliminando intentos de nico.ruiz931126@gmail.com en quiz 8704
+2026-02-03 09:31:40 [INFO    ] components.quiz     : No hay intentos de nico.ruiz931126@gmail.com (Nada que mostrar)
+2026-02-03 09:31:40 [INFO    ] components.quiz     : Eliminando intentos de nico.ruiz931126@gmail.com en quiz 8696
+2026-02-03 09:31:42 [INFO    ] components.quiz     : No hay intentos de nico.ruiz931126@gmail.com (Nada que mostrar)
+2026-02-03 09:31:42 [INFO    ] components.quiz     : Eliminando intentos de nico.ruiz931126@gmail.com en quiz 8697
+2026-02-03 09:31:43 [INFO    ] components.quiz     : No hay intentos de nico.ruiz931126@gmail.com (Nada que mostrar)
+2026-02-03 09:31:43 [INFO    ] components.quiz     : Eliminando intentos de nico.ruiz931126@gmail.com en quiz 8698
+2026-02-03 09:31:45 [INFO    ] components.quiz     : No hay intentos de nico.ruiz931126@gmail.com (Nada que mostrar)
+2026-02-03 09:31:45 [INFO    ] components.enrollment: Iniciando matrícula: nico.ruiz931126@gmail.com en curso 600
+2026-02-03 09:31:47 [INFO    ] components.enrollment: Aplicando filtro por: nico.ruiz931126@gmail.com
+2026-02-03 09:31:50 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-03 09:32:10 [INFO    ] components.enrollment: Creando nueva matrícula para nico.ruiz931126@gmail.com
+2026-02-03 09:32:19 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-03 09:32:19 [INFO    ] components.enrollment: Usuario nico.ruiz931126@gmail.com encontrado en lista de participantes
+2026-02-03 09:32:19 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=604
+2026-02-03 09:32:21 [INFO    ] components.course   : Quizzes encontrados en curso 604: 2
+2026-02-03 09:32:21 [INFO    ] components.quiz     : Eliminando intentos de nico.ruiz931126@gmail.com en quiz 8733
+2026-02-03 09:32:23 [INFO    ] components.quiz     : No hay intentos de nico.ruiz931126@gmail.com (Nada que mostrar)
+2026-02-03 09:32:23 [INFO    ] components.quiz     : Eliminando intentos de nico.ruiz931126@gmail.com en quiz 8732
+2026-02-03 09:32:24 [INFO    ] components.quiz     : No hay intentos de nico.ruiz931126@gmail.com (Nada que mostrar)
+2026-02-03 09:32:24 [INFO    ] components.enrollment: Iniciando matrícula: nico.ruiz931126@gmail.com en curso 604
+2026-02-03 09:32:25 [INFO    ] components.enrollment: Aplicando filtro por: nico.ruiz931126@gmail.com
+2026-02-03 09:32:28 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-03 09:32:48 [INFO    ] components.enrollment: Creando nueva matrícula para nico.ruiz931126@gmail.com
+2026-02-03 09:32:57 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-03 09:32:57 [INFO    ] components.enrollment: Usuario nico.ruiz931126@gmail.com encontrado en lista de participantes
+2026-02-03 09:32:59 [INFO    ] services.document_generator: Generando documento para: Nicolas Enrique Ruiz Vega
+2026-02-03 09:33:00 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Nicolas_Enrique_Ruiz_Vega_2026-02-03_09-33-00.docx
+2026-02-03 09:33:18 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-02-03 11:04:13 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-03 11:04:15 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-03 11:04:15 [INFO    ] components.auth     : Iniciando sesión para usuario: ADMINCRISTIAN
+2026-02-03 11:04:15 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-03 11:04:17 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-03 11:04:21 [INFO    ] components.auth     : Login exitoso para: ADMINCRISTIAN
+2026-02-03 11:04:21 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-03 11:04:34 [INFO    ] components.user     : Buscando usuario por email: augustopelis14@gmail.com
+2026-02-03 11:04:34 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-03 11:04:50 [INFO    ] components.user     : No se encontró usuario con email: augustopelis14@gmail.com
+2026-02-03 11:05:16 [INFO    ] components.user     : Iniciando creación de usuario: Augusto Rafael Araujo Vega
+2026-02-03 11:05:16 [INFO    ] components.user     : Intento 1: Probando username 'aaraujo'
+2026-02-03 11:05:16 [INFO    ] models.user         : Username actualizado a: aaraujo
+2026-02-03 11:05:16 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-03 11:05:22 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260203_110522.png
+2026-02-03 11:05:26 [INFO    ] components.user     : Usuario creado exitosamente
+2026-02-03 11:05:26 [INFO    ] components.user     : Usuario creado: aaraujo (augustopelis14@gmail.com)
+2026-02-03 11:05:55 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=604
+2026-02-03 11:05:56 [INFO    ] components.course   : Quizzes encontrados en curso 604: 2
+2026-02-03 11:05:56 [INFO    ] components.quiz     : Eliminando intentos de augustopelis14@gmail.com en quiz 8733
+2026-02-03 11:06:08 [INFO    ] components.quiz     : No se encontraron intentos de augustopelis14@gmail.com
+2026-02-03 11:06:08 [INFO    ] components.quiz     : Eliminando intentos de augustopelis14@gmail.com en quiz 8732
+2026-02-03 11:06:20 [INFO    ] components.quiz     : No se encontraron intentos de augustopelis14@gmail.com
+2026-02-03 11:06:20 [INFO    ] components.enrollment: Iniciando matrícula: augustopelis14@gmail.com en curso 604
+2026-02-03 11:06:22 [INFO    ] components.enrollment: Aplicando filtro por: augustopelis14@gmail.com
+2026-02-03 11:06:25 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-03 11:06:45 [INFO    ] components.enrollment: Creando nueva matrícula para augustopelis14@gmail.com
+2026-02-03 11:06:53 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-03 11:06:53 [INFO    ] components.enrollment: Usuario augustopelis14@gmail.com encontrado en lista de participantes
+2026-02-03 11:06:53 [INFO    ] services.document_generator: Generando documento para: Augusto Rafael Araujo Vega
+2026-02-03 11:06:53 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Augusto_Rafael_Araujo_Vega_2026-02-03_11-06-53.docx
+2026-02-03 11:07:10 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-02-03 11:08:41 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-03 11:08:43 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-03 11:08:43 [INFO    ] components.auth     : Iniciando sesión para usuario: admincristian
+2026-02-03 11:08:43 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-03 11:08:45 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-03 11:08:49 [INFO    ] components.auth     : Login exitoso para: admincristian
+2026-02-03 11:08:49 [INFO    ] services.course_cache: Cache cargado: 29 cursos
+2026-02-03 11:10:03 [INFO    ] components.user     : Buscando usuario por email: pabloandresvillegas1@gmail.com
+2026-02-03 11:10:03 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-03 11:10:19 [INFO    ] components.user     : No se encontró usuario con email: pabloandresvillegas1@gmail.com
+2026-02-03 11:10:57 [INFO    ] components.user     : Iniciando creación de usuario: Pablo Andres Villegas Morales
+2026-02-03 11:10:57 [INFO    ] components.user     : Intento 1: Probando username 'pvillegas'
+2026-02-03 11:10:57 [INFO    ] models.user         : Username actualizado a: pvillegas
+2026-02-03 11:10:57 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-02-03 11:11:02 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260203_111102.png
+2026-02-03 11:11:05 [INFO    ] components.user     : Usuario creado exitosamente
+2026-02-03 11:11:05 [INFO    ] components.user     : Usuario creado: pvillegas (pabloandresvillegas1@gmail.com)
+2026-02-03 11:12:29 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=612
+2026-02-03 11:12:31 [INFO    ] components.course   : Quizzes encontrados en curso 612: 4
+2026-02-03 11:12:31 [INFO    ] components.quiz     : Eliminando intentos de pabloandresvillegas1@gmail.com en quiz 8788
+2026-02-03 11:12:32 [INFO    ] components.quiz     : No hay intentos de pabloandresvillegas1@gmail.com (Nada que mostrar)
+2026-02-03 11:12:32 [INFO    ] components.quiz     : Eliminando intentos de pabloandresvillegas1@gmail.com en quiz 8784
+2026-02-03 11:12:33 [INFO    ] components.quiz     : No hay intentos de pabloandresvillegas1@gmail.com (Nada que mostrar)
+2026-02-03 11:12:33 [INFO    ] components.quiz     : Eliminando intentos de pabloandresvillegas1@gmail.com en quiz 8785
+2026-02-03 11:12:34 [INFO    ] components.quiz     : No hay intentos de pabloandresvillegas1@gmail.com (Nada que mostrar)
+2026-02-03 11:12:34 [INFO    ] components.quiz     : Eliminando intentos de pabloandresvillegas1@gmail.com en quiz 8786
+2026-02-03 11:12:35 [INFO    ] components.quiz     : No hay intentos de pabloandresvillegas1@gmail.com (Nada que mostrar)
+2026-02-03 11:12:35 [INFO    ] components.enrollment: Iniciando matrícula: pabloandresvillegas1@gmail.com en curso 612
+2026-02-03 11:12:35 [INFO    ] components.enrollment: Aplicando filtro por: pabloandresvillegas1@gmail.com
+2026-02-03 11:12:39 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-03 11:12:59 [INFO    ] components.enrollment: Creando nueva matrícula para pabloandresvillegas1@gmail.com
+2026-02-03 11:13:07 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-03 11:13:07 [INFO    ] components.enrollment: Usuario pabloandresvillegas1@gmail.com encontrado en lista de participantes
+2026-02-03 11:13:07 [INFO    ] services.document_generator: Generando documento para: Pablo Andres Villegas Morales
+2026-02-03 11:13:07 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Pablo_Andres_Villegas_Morales_2026-02-03_11-13-07.docx
+2026-02-03 11:13:47 [INFO    ] core.browser        : Navegador cerrado correctamente

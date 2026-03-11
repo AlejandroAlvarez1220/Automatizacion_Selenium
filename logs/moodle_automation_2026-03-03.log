@@ -1,0 +1,128 @@
+2026-03-03 16:38:50 [INFO    ] services.course_cache: Cache cargado: 24 cursos
+2026-03-03 16:38:50 [INFO    ] services.excel_reader: Leyendo solicitudes de: ./plantilla_solicitudes.xlsx
+2026-03-03 16:38:50 [INFO    ] services.excel_reader: Encontradas 4 solicitudes pendientes
+2026-03-03 16:39:09 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-03-03 16:39:12 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-03-03 16:39:12 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-03-03 16:39:12 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-03-03 16:39:14 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-03-03 16:39:17 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-03-03 16:39:17 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-03 16:39:17 [INFO    ] components.user     : Buscando usuario por email: jesusvm@unicauca.edu.co
+2026-03-03 16:39:17 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-03 16:39:51 [INFO    ] components.user     : No se encontró usuario con email: jesusvm@unicauca.edu.co
+2026-03-03 16:39:51 [INFO    ] components.user     : Iniciando creación de usuario: Jesus Andres Velasco Hurtado
+2026-03-03 16:39:51 [INFO    ] components.user     : Intento 1: Probando username 'jvelasco'
+2026-03-03 16:39:51 [INFO    ] models.user         : Username actualizado a: jvelasco
+2026-03-03 16:39:51 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-03 16:39:55 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260303_163955.png
+2026-03-03 16:39:57 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-03-03 16:39:57 [WARNING ] components.user     : Username 'jvelasco' ya existe, probando siguiente...
+2026-03-03 16:39:57 [INFO    ] components.user     : Intento 2: Probando username 'jvelasco1'
+2026-03-03 16:39:57 [INFO    ] models.user         : Username actualizado a: jvelasco1
+2026-03-03 16:39:57 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-03 16:40:03 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-03 16:40:03 [INFO    ] components.user     : Usuario creado: jvelasco1 (jesusvm@unicauca.edu.co)
+2026-03-03 16:40:03 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=370
+2026-03-03 16:40:04 [INFO    ] components.course   : Quizzes encontrados en curso 370: 1
+2026-03-03 16:40:04 [INFO    ] components.quiz     : Eliminando intentos de jesusvm@unicauca.edu.co en quiz 4940
+2026-03-03 16:40:15 [INFO    ] components.quiz     : No se encontraron intentos de jesusvm@unicauca.edu.co
+2026-03-03 16:40:15 [INFO    ] components.enrollment: Iniciando matrícula: jesusvm@unicauca.edu.co en curso 370
+2026-03-03 16:40:17 [INFO    ] components.enrollment: Aplicando filtro por: jesusvm@unicauca.edu.co
+2026-03-03 16:40:20 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-03 16:40:40 [INFO    ] components.enrollment: Creando nueva matrícula para jesusvm@unicauca.edu.co
+2026-03-03 16:40:48 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-03 16:40:48 [INFO    ] components.enrollment: Usuario jesusvm@unicauca.edu.co encontrado en lista de participantes
+2026-03-03 16:40:48 [INFO    ] services.document_generator: Generando documento para: Jesus Andres Velasco Hurtado
+2026-03-03 16:40:48 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Jesus_Andres_Velasco_Hurtado_2026-03-03_16-40-48.docx
+2026-03-03 16:40:48 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-03 16:40:48 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-03 16:40:48 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-03 16:40:48 [INFO    ] components.user     : Buscando usuario por email: roos.gira@gmail.com
+2026-03-03 16:40:48 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-03 16:40:50 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-03 16:40:51 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-03 16:41:04 [INFO    ] components.user     : No se encontró usuario con email: roos.gira@gmail.com
+2026-03-03 16:41:04 [INFO    ] components.user     : Iniciando creación de usuario: Rodrigo Alonso Ospina Giraldo
+2026-03-03 16:41:04 [INFO    ] components.user     : Intento 1: Probando username 'rospina'
+2026-03-03 16:41:04 [INFO    ] models.user         : Username actualizado a: rospina
+2026-03-03 16:41:04 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-03 16:41:07 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260303_164107.png
+2026-03-03 16:41:11 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-03 16:41:11 [INFO    ] components.user     : Usuario creado: rospina (roos.gira@gmail.com)
+2026-03-03 16:41:11 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=315
+2026-03-03 16:41:12 [INFO    ] components.course   : Quizzes encontrados en curso 315: 1
+2026-03-03 16:41:12 [INFO    ] components.quiz     : Eliminando intentos de roos.gira@gmail.com en quiz 3636
+2026-03-03 16:41:13 [INFO    ] components.quiz     : No hay intentos de roos.gira@gmail.com (Nada que mostrar)
+2026-03-03 16:41:13 [INFO    ] components.enrollment: Iniciando matrícula: roos.gira@gmail.com en curso 315
+2026-03-03 16:41:14 [INFO    ] components.enrollment: Aplicando filtro por: roos.gira@gmail.com
+2026-03-03 16:41:17 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-03 16:41:37 [INFO    ] components.enrollment: Creando nueva matrícula para roos.gira@gmail.com
+2026-03-03 16:41:45 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-03 16:41:45 [INFO    ] components.enrollment: Usuario roos.gira@gmail.com encontrado en lista de participantes
+2026-03-03 16:41:45 [INFO    ] services.document_generator: Generando documento para: Rodrigo Alonso Ospina Giraldo
+2026-03-03 16:41:45 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Rodrigo_Alonso_Ospina_Giraldo_2026-03-03_16-41-45.docx
+2026-03-03 16:41:45 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-03 16:41:45 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-03 16:41:45 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-03 16:41:45 [INFO    ] components.user     : Buscando usuario por email: andreakaterincruz@hotmail.com
+2026-03-03 16:41:45 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-03 16:41:46 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-03 16:41:48 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-03 16:42:00 [INFO    ] components.user     : No se encontró usuario con email: andreakaterincruz@hotmail.com
+2026-03-03 16:42:00 [INFO    ] components.user     : Iniciando creación de usuario: Andrea Katerin Cruz Padilla
+2026-03-03 16:42:00 [INFO    ] components.user     : Intento 1: Probando username 'acruz'
+2026-03-03 16:42:00 [INFO    ] models.user         : Username actualizado a: acruz
+2026-03-03 16:42:00 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-03 16:42:04 [INFO    ] core.browser        : Screenshot guardada: screenshots\user_form_filled_20260303_164204.png
+2026-03-03 16:42:06 [ERROR   ] components.user     : Errores en formulario: Este nombre de usuario ya existe. Por favor, seleccione otro.
+2026-03-03 16:42:06 [WARNING ] components.user     : Username 'acruz' ya existe, probando siguiente...
+2026-03-03 16:42:06 [INFO    ] components.user     : Intento 2: Probando username 'acruz1'
+2026-03-03 16:42:06 [INFO    ] models.user         : Username actualizado a: acruz1
+2026-03-03 16:42:06 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/user/editadvanced.php?id=-1
+2026-03-03 16:42:13 [INFO    ] components.user     : Usuario creado exitosamente
+2026-03-03 16:42:13 [INFO    ] components.user     : Usuario creado: acruz1 (andreakaterincruz@hotmail.com)
+2026-03-03 16:42:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=315
+2026-03-03 16:42:13 [INFO    ] components.course   : Quizzes encontrados en curso 315: 1
+2026-03-03 16:42:13 [INFO    ] components.quiz     : Eliminando intentos de andreakaterincruz@hotmail.com en quiz 3636
+2026-03-03 16:42:14 [INFO    ] components.quiz     : No hay intentos de andreakaterincruz@hotmail.com (Nada que mostrar)
+2026-03-03 16:42:14 [INFO    ] components.enrollment: Iniciando matrícula: andreakaterincruz@hotmail.com en curso 315
+2026-03-03 16:42:15 [INFO    ] components.enrollment: Aplicando filtro por: andreakaterincruz@hotmail.com
+2026-03-03 16:42:18 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-03 16:42:38 [INFO    ] components.enrollment: Creando nueva matrícula para andreakaterincruz@hotmail.com
+2026-03-03 16:42:45 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-03 16:42:45 [INFO    ] components.enrollment: Usuario andreakaterincruz@hotmail.com encontrado en lista de participantes
+2026-03-03 16:42:46 [INFO    ] services.document_generator: Generando documento para: Andrea Katerin Cruz Padilla
+2026-03-03 16:42:46 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Andrea_Katerin_Cruz_Padilla_2026-03-03_16-42-46.docx
+2026-03-03 16:42:46 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-03 16:42:46 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-03 16:42:46 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-03 16:42:46 [INFO    ] components.user     : Buscando usuario por email: rrchica@gmail.com
+2026-03-03 16:42:46 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-03-03 16:42:47 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-03-03 16:42:49 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-03-03 16:42:51 [INFO    ] components.user     : Usuario encontrado: Rafael Antonio Chica Pretelt
+2026-03-03 16:42:51 [INFO    ] components.user     : Actualizando contraseña para: rrchica@gmail.com
+2026-03-03 16:42:59 [INFO    ] components.user     : Contraseña actualizada para: rchica
+2026-03-03 16:42:59 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=182
+2026-03-03 16:42:59 [INFO    ] components.course   : Quizzes encontrados en curso 182: 2
+2026-03-03 16:42:59 [INFO    ] components.quiz     : Eliminando intentos de rrchica@gmail.com en quiz 4403
+2026-03-03 16:43:01 [INFO    ] components.quiz     : Total checkboxes seleccionados: 1
+2026-03-03 16:43:01 [INFO    ] components.quiz     : Seleccionados 1 intentos, procediendo a eliminar...
+2026-03-03 16:43:03 [INFO    ] components.quiz     : ✓ Eliminados 1 intentos de rrchica@gmail.com
+2026-03-03 16:43:03 [INFO    ] components.quiz     : Eliminando intentos de rrchica@gmail.com en quiz 3838
+2026-03-03 16:43:04 [INFO    ] components.quiz     : No hay intentos de rrchica@gmail.com (Nada que mostrar)
+2026-03-03 16:43:04 [INFO    ] components.enrollment: Iniciando matrícula: rrchica@gmail.com en curso 182
+2026-03-03 16:43:05 [INFO    ] components.enrollment: Aplicando filtro por: rrchica@gmail.com
+2026-03-03 16:43:08 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-03 16:43:08 [INFO    ] components.enrollment: Usuario rrchica@gmail.com encontrado en lista de participantes
+2026-03-03 16:43:08 [INFO    ] components.enrollment: Usuario ya matriculado, estado: No activo
+2026-03-03 16:43:08 [INFO    ] components.enrollment: Actualizando matrícula (estado y fechas)...
+2026-03-03 16:43:08 [INFO    ] components.enrollment: Reactivando matrícula para rrchica@gmail.com
+2026-03-03 16:43:14 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-03-03 16:43:14 [INFO    ] components.enrollment: Usuario rrchica@gmail.com encontrado en lista de participantes
+2026-03-03 16:43:14 [INFO    ] services.document_generator: Generando documento para: Rafael Antonio Chica Pretelt
+2026-03-03 16:43:14 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Rafael_Antonio_Chica_Pretelt_2026-03-03_16-43-14.docx
+2026-03-03 16:43:14 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-03 16:43:14 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-03 16:43:16 [INFO    ] core.browser        : Navegador cerrado correctamente

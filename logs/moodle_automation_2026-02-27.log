@@ -1,0 +1,188 @@
+2026-02-27 16:38:44 [INFO    ] services.course_cache: Cache cargado: 47 cursos
+2026-02-27 16:38:44 [INFO    ] services.excel_reader: Leyendo solicitudes de: ./plantilla_solicitudes.xlsx
+2026-02-27 16:38:44 [INFO    ] services.excel_reader: Encontradas 3 solicitudes pendientes
+2026-02-27 16:38:56 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-02-27 16:39:00 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-02-27 16:39:00 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-02-27 16:39:00 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-02-27 16:39:02 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-02-27 16:39:04 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-02-27 16:39:04 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-27 16:39:04 [INFO    ] components.user     : Buscando usuario por email: cazzambrano1974@gmail.com
+2026-02-27 16:39:04 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-27 16:39:29 [INFO    ] components.user     : Usuario encontrado: Ivan Alexander Lopez Garcia
+2026-02-27 16:39:29 [INFO    ] components.user     : Actualizando contraseña para: cazzambrano1974@gmail.com
+2026-02-27 16:39:36 [INFO    ] components.user     : Contraseña actualizada para: ivallopez
+2026-02-27 16:39:36 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=182
+2026-02-27 16:39:38 [INFO    ] components.course   : Quizzes encontrados en curso 182: 2
+2026-02-27 16:39:38 [INFO    ] components.quiz     : Eliminando intentos de cazzambrano1974@gmail.com en quiz 4403
+2026-02-27 16:39:39 [INFO    ] components.quiz     : No hay intentos de cazzambrano1974@gmail.com (Nada que mostrar)
+2026-02-27 16:39:39 [INFO    ] components.quiz     : Eliminando intentos de cazzambrano1974@gmail.com en quiz 3838
+2026-02-27 16:39:40 [INFO    ] components.quiz     : No hay intentos de cazzambrano1974@gmail.com (Nada que mostrar)
+2026-02-27 16:39:40 [INFO    ] components.enrollment: Iniciando matrícula: cazzambrano1974@gmail.com en curso 182
+2026-02-27 16:39:41 [INFO    ] components.enrollment: Aplicando filtro por: cazzambrano1974@gmail.com
+2026-02-27 16:39:44 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-27 16:40:04 [INFO    ] components.enrollment: Creando nueva matrícula para cazzambrano1974@gmail.com
+2026-02-27 16:40:12 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-27 16:40:12 [INFO    ] components.enrollment: Usuario cazzambrano1974@gmail.com encontrado en lista de participantes
+2026-02-27 16:40:13 [INFO    ] services.document_generator: Generando documento para: Ivan Alexander Lopez Garcia
+2026-02-27 16:40:13 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Ivan_Alexander_Lopez_Garcia_2026-02-27_16-40-13.docx
+2026-02-27 16:40:13 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-27 16:40:13 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-27 16:40:13 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-27 16:40:13 [INFO    ] components.user     : Buscando usuario por email: jpablortega777@gmail.com
+2026-02-27 16:40:13 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-27 16:40:14 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-02-27 16:40:16 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-02-27 16:40:19 [INFO    ] components.user     : Usuario encontrado: Juan Pablo Ortega Cristancho
+2026-02-27 16:40:19 [INFO    ] components.user     : Actualizando contraseña para: jpablortega777@gmail.com
+2026-02-27 16:40:26 [INFO    ] components.user     : Contraseña actualizada para: jortega1
+2026-02-27 16:40:26 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=579
+2026-02-27 16:40:27 [INFO    ] components.course   : Quizzes encontrados en curso 579: 4
+2026-02-27 16:40:27 [INFO    ] components.quiz     : Eliminando intentos de jpablortega777@gmail.com en quiz 8461
+2026-02-27 16:40:28 [INFO    ] components.quiz     : No hay intentos de jpablortega777@gmail.com (Nada que mostrar)
+2026-02-27 16:40:28 [INFO    ] components.quiz     : Eliminando intentos de jpablortega777@gmail.com en quiz 8456
+2026-02-27 16:40:29 [INFO    ] components.quiz     : No hay intentos de jpablortega777@gmail.com (Nada que mostrar)
+2026-02-27 16:40:29 [INFO    ] components.quiz     : Eliminando intentos de jpablortega777@gmail.com en quiz 8457
+2026-02-27 16:40:30 [INFO    ] components.quiz     : No hay intentos de jpablortega777@gmail.com (Nada que mostrar)
+2026-02-27 16:40:30 [INFO    ] components.quiz     : Eliminando intentos de jpablortega777@gmail.com en quiz 8458
+2026-02-27 16:40:31 [INFO    ] components.quiz     : No hay intentos de jpablortega777@gmail.com (Nada que mostrar)
+2026-02-27 16:40:31 [INFO    ] components.enrollment: Iniciando matrícula: jpablortega777@gmail.com en curso 579
+2026-02-27 16:40:32 [INFO    ] components.enrollment: Aplicando filtro por: jpablortega777@gmail.com
+2026-02-27 16:40:35 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-27 16:40:55 [INFO    ] components.enrollment: Creando nueva matrícula para jpablortega777@gmail.com
+2026-02-27 16:41:02 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-27 16:41:02 [INFO    ] components.enrollment: Usuario jpablortega777@gmail.com encontrado en lista de participantes
+2026-02-27 16:41:02 [INFO    ] services.document_generator: Generando documento para: Juan Pablo Ortega Cristancho
+2026-02-27 16:41:02 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Juan_Pablo_Ortega_Cristancho_2026-02-27_16-41-02.docx
+2026-02-27 16:41:03 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-27 16:41:03 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-27 16:41:03 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-27 16:41:03 [INFO    ] components.user     : Buscando usuario por email: davidsotelo1506@gmail.com
+2026-02-27 16:41:03 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/admin/user.php
+2026-02-27 16:41:04 [INFO    ] components.user     : Limpiando filtros de búsqueda anteriores...
+2026-02-27 16:41:06 [INFO    ] components.user     : Filtros limpiados correctamente
+2026-02-27 16:41:08 [INFO    ] components.user     : Usuario encontrado: Hernan David Sotelo Rosales
+2026-02-27 16:41:08 [INFO    ] components.user     : Actualizando contraseña para: davidsotelo1506@gmail.com
+2026-02-27 16:41:16 [INFO    ] components.user     : Contraseña actualizada para: hsotelo
+2026-02-27 16:41:16 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=579
+2026-02-27 16:41:17 [INFO    ] components.course   : Quizzes encontrados en curso 579: 4
+2026-02-27 16:41:17 [INFO    ] components.quiz     : Eliminando intentos de davidsotelo1506@gmail.com en quiz 8461
+2026-02-27 16:41:17 [INFO    ] components.quiz     : No hay intentos de davidsotelo1506@gmail.com (Nada que mostrar)
+2026-02-27 16:41:17 [INFO    ] components.quiz     : Eliminando intentos de davidsotelo1506@gmail.com en quiz 8456
+2026-02-27 16:41:18 [INFO    ] components.quiz     : No hay intentos de davidsotelo1506@gmail.com (Nada que mostrar)
+2026-02-27 16:41:18 [INFO    ] components.quiz     : Eliminando intentos de davidsotelo1506@gmail.com en quiz 8457
+2026-02-27 16:41:19 [INFO    ] components.quiz     : No hay intentos de davidsotelo1506@gmail.com (Nada que mostrar)
+2026-02-27 16:41:19 [INFO    ] components.quiz     : Eliminando intentos de davidsotelo1506@gmail.com en quiz 8458
+2026-02-27 16:41:20 [INFO    ] components.quiz     : No hay intentos de davidsotelo1506@gmail.com (Nada que mostrar)
+2026-02-27 16:41:20 [INFO    ] components.enrollment: Iniciando matrícula: davidsotelo1506@gmail.com en curso 579
+2026-02-27 16:41:21 [INFO    ] components.enrollment: Aplicando filtro por: davidsotelo1506@gmail.com
+2026-02-27 16:41:24 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-27 16:41:44 [INFO    ] components.enrollment: Creando nueva matrícula para davidsotelo1506@gmail.com
+2026-02-27 16:41:52 [INFO    ] components.enrollment: Filtro aplicado correctamente
+2026-02-27 16:41:52 [INFO    ] components.enrollment: Usuario davidsotelo1506@gmail.com encontrado en lista de participantes
+2026-02-27 16:41:52 [INFO    ] services.document_generator: Generando documento para: Hernan David Sotelo Rosales
+2026-02-27 16:41:52 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Hernan_David_Sotelo_Rosales_2026-02-27_16-41-52.docx
+2026-02-27 16:41:52 [ERROR   ] services.excel_reader: Error actualizando estado: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-27 16:41:52 [ERROR   ] services.excel_reader: Error agregando a Procesados: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-02-27 16:41:55 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-03-02 09:16:01 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-03-02 09:16:05 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-03-02 09:16:05 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-03-02 09:16:05 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-03-02 09:16:07 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-03-02 09:16:10 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-03-02 09:16:10 [INFO    ] services.course_cache: Cache cargado: 47 cursos
+2026-03-02 09:16:10 [INFO    ] components.course   : Iniciando sincronización de 2 categoría(s)
+2026-03-02 09:16:10 [INFO    ] components.course   : Sincronizando: Pruebas Diagnósticas
+2026-03-02 09:16:10 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/management.php?categoryid=35&perpage=999
+2026-03-02 09:16:14 [INFO    ] components.course   : Encontrados 17 cursos en Pruebas Diagnósticas
+2026-03-02 09:16:14 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=585
+2026-03-02 09:16:16 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=356
+2026-03-02 09:16:17 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=371
+2026-03-02 09:16:18 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=194
+2026-03-02 09:16:19 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=235
+2026-03-02 09:16:21 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=271
+2026-03-02 09:16:22 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=269
+2026-03-02 09:16:23 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=325
+2026-03-02 09:16:24 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=326
+2026-03-02 09:16:25 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=324
+2026-03-02 09:16:27 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=336
+2026-03-02 09:16:28 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=346
+2026-03-02 09:16:29 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=344
+2026-03-02 09:16:30 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=467
+2026-03-02 09:16:31 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-03-02 09:16:33 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=586
+2026-03-02 09:16:34 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=577
+2026-03-02 09:16:35 [INFO    ] components.course   :   → 17 cursos extraídos
+2026-03-02 09:16:35 [INFO    ] components.course   : Sincronizando: Pruebas Técnicas
+2026-03-02 09:16:35 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/management.php?categoryid=50&perpage=999
+2026-03-02 09:16:37 [INFO    ] components.course   : Encontrados 7 cursos en Pruebas Técnicas
+2026-03-02 09:16:37 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=378
+2026-03-02 09:16:38 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=403
+2026-03-02 09:16:40 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=456
+2026-03-02 09:16:41 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=223
+2026-03-02 09:16:42 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=315
+2026-03-02 09:16:43 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=182
+2026-03-02 09:16:44 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=370
+2026-03-02 09:16:47 [INFO    ] components.course   :   → 7 cursos extraídos
+2026-03-02 09:16:47 [INFO    ] services.course_cache: Cache guardado: 48 cursos
+2026-03-02 09:16:47 [INFO    ] components.course   : Sincronización completa: 24 cursos
+2026-03-02 09:16:50 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-03-02 09:16:50 [INFO    ] utils.excel_template: Actualizando catálogo en: ./plantilla_solicitudes.xlsx
+2026-03-02 09:16:50 [INFO    ] utils.excel_template: Catálogo actualizado con 48 pruebas
+2026-03-02 09:16:50 [ERROR   ] utils.excel_template: Error actualizando catálogo: [Errno 13] Permission denied: './plantilla_solicitudes.xlsx'
+2026-03-02 09:45:03 [INFO    ] core.browser        : Iniciando navegador Chrome...
+2026-03-02 09:45:05 [INFO    ] core.browser        : Navegador iniciado correctamente
+2026-03-02 09:45:05 [INFO    ] components.auth     : Iniciando sesión para usuario: adminalejandro
+2026-03-02 09:45:05 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/login/index.php
+2026-03-02 09:45:07 [INFO    ] core.browser        : Banner de cookies cerrado
+2026-03-02 09:45:12 [INFO    ] components.auth     : Login exitoso para: adminalejandro
+2026-03-02 09:45:12 [ERROR   ] services.course_cache: Error cargando cache: Expecting value: line 1 column 1 (char 0)
+2026-03-02 09:45:12 [INFO    ] services.course_cache: Creando catálogo vacío
+2026-03-02 09:45:12 [INFO    ] components.course   : Iniciando sincronización de 2 categoría(s)
+2026-03-02 09:45:12 [INFO    ] components.course   : Sincronizando: Pruebas Diagnósticas
+2026-03-02 09:45:12 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/management.php?categoryid=35&perpage=999
+2026-03-02 09:45:16 [INFO    ] components.course   : Encontrados 17 cursos en Pruebas Diagnósticas
+2026-03-02 09:45:16 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=585
+2026-03-02 09:45:17 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=356
+2026-03-02 09:45:18 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=371
+2026-03-02 09:45:19 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=194
+2026-03-02 09:45:20 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=235
+2026-03-02 09:45:21 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=271
+2026-03-02 09:45:22 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=269
+2026-03-02 09:45:24 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=325
+2026-03-02 09:45:25 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=326
+2026-03-02 09:45:25 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=324
+2026-03-02 09:45:26 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=336
+2026-03-02 09:45:27 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=346
+2026-03-02 09:45:29 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=344
+2026-03-02 09:45:30 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=467
+2026-03-02 09:45:31 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=572
+2026-03-02 09:45:32 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=586
+2026-03-02 09:45:34 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=577
+2026-03-02 09:45:35 [INFO    ] components.course   :   → 17 cursos extraídos
+2026-03-02 09:45:35 [INFO    ] components.course   : Sincronizando: Pruebas Técnicas
+2026-03-02 09:45:35 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/management.php?categoryid=50&perpage=999
+2026-03-02 09:45:37 [INFO    ] components.course   : Encontrados 7 cursos en Pruebas Técnicas
+2026-03-02 09:45:37 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=378
+2026-03-02 09:45:38 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=403
+2026-03-02 09:45:39 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=456
+2026-03-02 09:45:40 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=223
+2026-03-02 09:45:40 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=315
+2026-03-02 09:45:41 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=182
+2026-03-02 09:45:42 [INFO    ] core.browser        : Navegando a: https://campusvirtual.izyacademy.com/course/view.php?id=370
+2026-03-02 09:45:43 [INFO    ] components.course   :   → 7 cursos extraídos
+2026-03-02 09:45:44 [INFO    ] services.course_cache: Cache guardado: 24 cursos
+2026-03-02 09:45:44 [INFO    ] components.course   : Sincronización completa: 24 cursos
+2026-03-02 09:45:46 [INFO    ] core.browser        : Navegador cerrado correctamente
+2026-03-02 09:45:46 [INFO    ] utils.excel_template: Creando plantilla Excel: ./plantilla_solicitudes.xlsx
+2026-03-02 09:45:46 [INFO    ] utils.excel_template: Catálogo actualizado con 24 pruebas
+2026-03-02 09:45:46 [INFO    ] utils.excel_template: Plantilla creada exitosamente: ./plantilla_solicitudes.xlsx
+2026-03-02 09:45:54 [INFO    ] services.course_cache: Cache cargado: 24 cursos
+2026-03-02 09:46:03 [INFO    ] services.document_generator: Generando documento para: Candidato de Prueba
+2026-03-02 09:46:03 [INFO    ] services.document_generator: Documento generado: output\Asignacion_Pruebas_Candidato_de_Prueba_2026-03-02_09-46-03.docx
+2026-03-02 09:46:20 [INFO    ] services.course_cache: Cache cargado: 24 cursos
+2026-03-02 09:46:22 [INFO    ] utils.excel_template: Actualizando catálogo en: ./plantilla_solicitudes.xlsx
+2026-03-02 09:46:22 [INFO    ] utils.excel_template: Catálogo actualizado con 24 pruebas
+2026-03-02 09:46:22 [INFO    ] utils.excel_template: Catálogo actualizado
